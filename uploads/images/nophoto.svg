@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5482 1635 165 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #dedede;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #b5b5b5;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #b5b5b5;
+      }
+
+      .cls-5 {
+        fill: #707070;
+        font-size: 12px;
+        font-family: MuseoSansCyrl-700, Museo Sans Cyrl;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_337" data-name="Group 337" transform="translate(4973 719)">
+    <g id="Group_336" data-name="Group 336">
+      <g id="Group_331" data-name="Group 331">
+        <g id="Group_330" data-name="Group 330">
+          <g id="Group_335" data-name="Group 335">
+            <g id="Rectangle_389" data-name="Rectangle 389" class="cls-1" transform="translate(509 916)">
+              <rect class="cls-6" width="165" height="120" rx="10"/>
+              <rect class="cls-4" x="0.5" y="0.5" width="164" height="119" rx="9.5"/>
+            </g>
+          </g>
+          <g id="Group_171" data-name="Group 171" transform="translate(97 -4)">
+            <line id="Line_100" data-name="Line 100" class="cls-2" y2="76.444" transform="translate(521.499 945.973) rotate(45)"/>
+            <g id="ic_camera_alt_black_24px" transform="translate(463 941)">
+              <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-3" cx="8.533" cy="8.533" r="8.533" transform="translate(23.467 23.467)"/>
+              <path id="Path_2304" data-name="Path 2304" class="cls-3" d="M20.667,2l-4.88,5.333H7.333A5.349,5.349,0,0,0,2,12.667v32A5.349,5.349,0,0,0,7.333,50H50a5.349,5.349,0,0,0,5.333-5.333v-32A5.349,5.349,0,0,0,50,7.333H41.547L36.667,2Zm8,40A13.333,13.333,0,1,1,42,28.667,13.338,13.338,0,0,1,28.667,42Z" transform="translate(3.333 3.333)"/>
+              <path id="Path_2305" data-name="Path 2305" class="cls-4" d="M0,0H64V64H0Z"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_334" data-name="Group 334">
+          <text id="NO_PHOTO" data-name="NO PHOTO" class="cls-5" transform="translate(592 1016)"><tspan x="-32.46" y="0">NO PHOTO</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

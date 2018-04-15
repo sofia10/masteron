@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5650 1788 160 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #d8d8d8;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #555;
+        font-family: HelveticaNeueLTGEO-55Roman, Helvetica Neue LT GEO;
+      }
+
+      .cls-2 {
+        font-size: 11px;
+      }
+
+      .cls-3 {
+        font-size: 9px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_333" data-name="Group 333" transform="translate(4986 5)">
+    <g id="Group_264" data-name="Group 264" transform="translate(163.396 673)">
+      <g id="Rectangle_172" data-name="Rectangle 172" class="cls-1" transform="translate(500.604 1110)">
+        <rect class="cls-4" width="160" height="100" rx="10"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="159" height="99" rx="9.5"/>
+      </g>
+      <text id="რეკლამის_ადგილი" data-name="რეკლამის
+ადგილი" class="cls-2" transform="translate(580.604 1149)"><tspan x="-27.258" y="0">რეკლამის</tspan><tspan x="-21.582" y="14">ადგილი</tspan></text>
+      <text id="_160_x_100" data-name="160 x 100" class="cls-3" transform="translate(560.604 1197)"><tspan x="0" y="0">160 x 100</tspan></text>
+    </g>
+  </g>
+</svg>

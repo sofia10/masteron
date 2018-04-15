@@ -1,0 +1,14 @@
+@import "../commons/default";
+@import "../fonts/scss/fonts-en";
+body, html {
+  font-size: 14px;
+  font-family: $primary-font;
+  background: $body-color;
+  color: $text;
+}
+
+#content-wrapper{
+  header{}
+  main{}
+  footer{}
+}
