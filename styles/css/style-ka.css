@@ -928,13 +928,13 @@ h5 {
           .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu {
             visibility: hidden;
             opacity: 0;
-            width: 800px;
+            width: 265px;
             position: absolute;
             top: 0;
             left: 100%;
             padding-left: 12px; }
             .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list {
-              /*max-width: 750px;*/
+              max-width: 750px;
               overflow: hidden;
               background-color: #FFF;
               border: 2px solid #b5b5b5;
@@ -968,8 +968,6 @@ h5 {
                   color: #EC1C24; }
                   .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list .dropdown-item_link:hover span {
                     color: #EC1C24; }
-              .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list .dropdown-item_list1, .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list .dropdown-item_list2, .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list .dropdown-item_list3 {
-                width: 250px; }
         .site__header .sub-header .search-form-elem .dropdown-menu div.dropdown-item {
           cursor: pointer; }
           .site__header .sub-header .search-form-elem .dropdown-menu div.dropdown-item:hover:after {
@@ -3306,6 +3304,9 @@ h5 {
     .registration-block .login-form .regis-title {
       margin-bottom: 40px;
       color: #555555; }
+      @media (max-width: 575px) {
+        .registration-block .login-form .regis-title {
+          margin-bottom: 20px; } }
     .registration-block .login-form .steps {
       position: absolute;
       bottom: 0;
@@ -3415,6 +3416,27 @@ h5 {
   @media (max-width: 767px) {
     .registration-block {
       width: 100% !important; } }
+
+.error-registration .login-item {
+  margin-top: 40px !important;
+  border: 1px solid #ec1c24;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  border-radius: 5px !important; }
+  .error-registration .login-item label, .error-registration .login-item input {
+    border: none !important; }
+  .error-registration .login-item label {
+    border-right: 1px solid #e4e4e4 !important; }
+  .error-registration .login-item .error {
+    position: absolute;
+    color: #ec1c24;
+    transition: .5s;
+    bottom: -21px;
+    font-size: 12px; }
+  @media (max-width: 575px) {
+    .error-registration .login-item {
+      margin-bottom: 10px; } }
 
 .add-block .login-form {
   -webkit-border-top-left-radius: 6px !important;
