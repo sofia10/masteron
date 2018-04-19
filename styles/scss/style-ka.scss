@@ -537,6 +537,9 @@ h5{
                     color: $red;
                   }
                 }
+                .option{
+                  @include truncate(180px);
+                }
               }
             }
           }
@@ -982,6 +985,10 @@ h5{
             font-size: 11px;
           }
         }
+        .politics-menu__link.first.active{
+          @include border-top-right(10px);
+          @include border-top-left(10px);
+        }
         .politics-menu__link.active{
           background-color: #F6F6F6;
           color: $red;
@@ -1270,6 +1277,7 @@ h5{
             border: 2px solid #b5b5b5;
             @include border-shadow;
             .dropdown-item_link{
+              @include truncate(200px);
               float: left;
               width: 250px;
               margin-left: 15px;
@@ -4018,3 +4026,26 @@ td{
     margin-right: 8px;
   }
 }
+.dropdown-scroll{
+  max-height: 100vh;
+  overflow: scroll;
+}
+.dropdown-item .dropdown-item_menu{
+    width: unset;
+}
+.dropdown-item_list{
+    display: block !important;
+    max-width: unset !important;
+}
+.dropdown-item_link{
+    margin: 0 10px;
+}
+.header-menu-left{
+  @include display-flex;
+  @include align-items(center);
+  .option-item{
+    @include truncate(170px);
+  }
+}
+
+

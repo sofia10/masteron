@@ -14,14 +14,28 @@ $(document).ready(function () {
     var length = $('.dropdown-item_list').length;
     for(var i = 0; i < length; i++){
         var myLength = $('.dropdown-item_list').eq(i).find('.dropdown-item_link');
-        if(myLength.length == 1){
+        if(myLength.length <= 4){
             myLength.closest('.dropdown-item_menu').css('width', '265px');
         }
-        else if(myLength.length <= 4){
-            myLength.closest('.dropdown-item_menu').css('width', '265px');
-            $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'none');
+        else if(myLength.length <= 8){
+            myLength.closest('.dropdown-item_menu').css('width', '560px');
+            $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
+        }
+        else{
+            var width = $(window).width();
+            var listWidth = 870;
+            if(width <= 1200){
+                listWidth = 590;
+            }
+            myLength.closest('.dropdown-item_menu').css('width', listWidth+'px');
+            $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
         }
     }
+
+
+
+
+
 
     // $('.search-btn').click(function (){
     //     $('.search-nav').addClass('active');
