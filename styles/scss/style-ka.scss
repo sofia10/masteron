@@ -6,6 +6,13 @@ body{
   background: $body-color;
   color: $text;
 }
+.container{
+  padding: 0;
+  @media (max-width: 575px){
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
 .btn-secondary{
   border: none;
   @include box-shadow-none();
@@ -19,9 +26,37 @@ p{
 h5{
   @include font-style($bold-font, 14px, #060606);
 }
+.advert-slider{
+  @media (max-width: 1199px){
+    display: none;
+  }
+}
+.banners-slider{
+  .swiper-button-prev, .swiper-button-next{
+    background-image: initial;
+    display: none;
+  }
+}
+.visible-block-vip{
+  display: none!important;
+  @media (max-width: 1199px){
+    display: flex!important;
+  }
+}
 .dropdown-item{
   &:active{
     background-color: initial;
+  }
+}
+.vip-section{
+  .vip-section-content{
+    position: relative;
+  }
+}
+.arrows{
+  position: relative;
+  @media (max-width: 1199px){
+    display: none!important;
   }
 }
 .site__header{
@@ -305,6 +340,8 @@ h5{
             }
             .inner-menu.active{
               right: 0;
+              height: 100%;
+              overflow: scroll;
             }
           }
         }
@@ -690,7 +727,7 @@ h5{
           @include border-radius(6px);
         }
       }
-      @media (max-width: 991px){
+      @media (max-width: 1199px){
         display: none;
       }
     }
@@ -803,6 +840,34 @@ h5{
               opacity: 0.7;
             }
           }
+          .slider-seemore{
+            display: none;
+            @media (max-width: 1199px){
+              display: block;
+            }
+          }
+          .swiper-button-next, .swiper-button-prev{
+            background-image: initial;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #FFF;
+            border: 1px solid #DEDEDE;
+            @include border-radius(6px);
+            margin-top: -15px;
+            &:hover{
+              border-color: #000;
+            }
+          }
+          .swiper-button-next{
+            right: 0;
+          }
+          .swiper-button-prev{
+            left: initial;
+            right: 50px;
+          }
         }
         .vip-block{
           margin-top: 20px;
@@ -811,7 +876,6 @@ h5{
               img{
                 object-fit: cover;
                 object-position: center;
-                width: 100%;
                 height: auto;
                 @include border-radius(10px);
               }
@@ -840,11 +904,12 @@ h5{
           opacity: .8;
           transition: .6s;
         }
-        @media (max-width: 991px){
+        @media (max-width: 1199px){
           display: none;
         }
       }
       .lit-banners{
+        margin: 0;
         margin-top: 30px;
         .lit-banner-item{
           transition: .8s;
@@ -3779,13 +3844,18 @@ label.add-balance{
     }
   }
 }
+.slider-vips{
+  padding: 0 10px;
+}
 .vip-block-items{
+  @include justify-content(space-between);
   @include flex-wrap(wrap);
-  @media (max-width: 991px){
+  @media (max-width: 1199px){
     overflow-y: scroll;
     @include flex-wrap(nowrap);
   }
   .vip-item{
+    margin: 0 10px;
     @media (max-width: 530px){
       max-width: 50%!important;
       width: 50%!important;
@@ -3793,6 +3863,9 @@ label.add-balance{
   }
   &::-webkit-scrollbar {
     display:none;
+  }
+  .col-lg-2{
+    padding: 0;
   }
 }
 .politics{

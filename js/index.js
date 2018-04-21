@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.advert-slider', {
         slidesPerView: 6,
         spaceBetween: 30,
         loop: true,
@@ -9,17 +9,13 @@ $(document).ready(function () {
             clickable: true,
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.vip-section .swiper-button-next',
+            prevEl: '.vip-section .swiper-button-prev',
         },
         breakpoints: {
-            1200: {
+            1199: {
                 slidesPerView: 5,
                 spaceBetween: 10,
-            },
-            991: {
-                slidesPerView: 4,
-                spaceBetween: 20,
             },
             767: {
                 slidesPerView: 3,
@@ -38,6 +34,24 @@ $(document).ready(function () {
     // $('.dropdown-item').mouseover(function(){
     //     $('.dropdown-item_menu').addClass('active');
     // });
+
+
+    var swiper = new Swiper('.banners-slider', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 
 });
 
