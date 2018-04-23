@@ -742,7 +742,7 @@
                                 <input type="checkbox">
                                 <span class="checkmark"></span>
                             </label>
-                            <a href="#!" class="recovery d-flex align-items-center">ახალი SMS გამოგზავნა
+                            <a href="#!" class="recovery d-flex align-items-center"  data-toggle="modal" data-target="#exampleModalLong">ახალი SMS გამოგზავნა
                                 <img src="images/sync.svg" alt="">
                             </a>
                         </div>
@@ -755,6 +755,22 @@
                             <div class="step step3"></div>
                         </div>
                     </form>
+                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content captcha-popup">
+                            <div class="login-item edit-add ng-scope" ng-if="user.showCaptcha">
+                                <div class="d-flex justify-content-center">
+                                    <label for="personal-captcha-2" class="captcha">
+                                        <img src="https://masteron.ge/captcha/simple?EXltNd1b"><span>*</span>
+                                    </label>
+                                    <input type="text" id="personal-captcha-2" placeholder="უსაფრთხოების კოდი" ng-model="user.captcha" class="ng-pristine ng-valid ng-touched">
+                                </div>
+                                <span class="incorrect">კოდი არასწორია</span>
+                                <button class="sent">გაგზავნა</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
                     <form action="" class="login-form step3-form hidden-form">
                         <h3 class="login-title regis-title">შესვლის პარამეტრები</h3>
                         <div class="login-item edit-add d-flex">
