@@ -468,6 +468,14 @@ h5 {
   .advert-slider {
     display: none; } }
 
+.advert-block1 {
+  position: relative; }
+
+.cat-sidebar-content {
+  position: absolute;
+  top: 0;
+  left: 15px; }
+
 .asd1-photo {
   width: 160px !important;
   height: 100px !important; }

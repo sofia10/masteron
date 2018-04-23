@@ -1011,7 +1011,7 @@
                     </form>
                 </div>
                 <div class="col-xl-7 col-lg-9 politicts-content">
-                    <div class="content-title d-flex align-items-center justify-content-between">
+                    <div class="content-title row align-items-center justify-content-between">
                         <div class="cat-title-menu d-flex align-items-center">
                             <a href="#!" class="content-title-link">
                                 <h6>მშენებლობა</h6>
@@ -1374,24 +1374,26 @@
                     </ul>
                 </div>
                 <div class="col-xl-2 text-right advert-block1">
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/2x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/3x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
-                    <a href="#!" class="advert1-blog-link">
-                        <img src="uploads/images/4x-ad@2x.png" alt="" class="asd-photo">
-                    </a>
+                    <div class="cat-sidebar-content">
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/1x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/2x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/3x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                        <a href="#!" class="advert1-blog-link">
+                            <img src="uploads/images/4x-ad@2x.png" alt="" class="asd-photo">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1472,5 +1474,23 @@
 <script src="minJs/about.min.js"></script>
 <!--categories.js-->
 <script src="minJs/categories.min.js"></script>
+<script type="text/javascript">
+    function fixedSidebar(){
+        var screenWidth = window.innerWidth;
+        if(screenWidth >= 1200){
+            run();
+        }
+        function run(){
+            window.onscroll = function(){
+                var height = $(window).scrollTop() - 290;
+                if(height > 0)
+                    $('.advert-block1').css('margin-top', height+'px');
+            };
+        }
+    }
+    fixedSidebar();
+
+
+</script>
 </body>
 </html>
