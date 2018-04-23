@@ -31,6 +31,25 @@ h5{
     display: none;
   }
 }
+.asd1-photo{
+  width: 160px!important;
+  height: 100px!important;
+}
+.asd2-photo{
+  width: 330px!important;
+  height: 100px!important;
+}
+.asd3-photo{
+  width: 500px!important;
+  height: 100px!important;
+}
+.asd4-photo{
+  width: 670px!important;
+  height: 100px!important;
+}
+.swiper-button-next, .swiper-button-prev{
+  z-index: 2;
+}
 .banners-slider{
   .swiper-button-prev, .swiper-button-next{
     background-image: initial;
@@ -558,6 +577,7 @@ h5{
               @include border-shadow;
               @include display-flex;
               @include justify-content(space-between);
+              @include border-radius(10px);
               .dropdown-item_link{
                 float: left;
                 width: 250px;
@@ -806,9 +826,9 @@ h5{
           right: 0;
         }
       }
-      .advert-banner{
+      .advert1-banner{
         margin-top: 30px;
-        .advert-banner-item{
+        .advert1-banner-item{
           @media (max-width: 991px){
             max-height: 150px;
             padding: 5px 0;
@@ -895,7 +915,7 @@ h5{
           }
         }
       }
-      .large-advert{
+      .large-advert1{
         margin-top: 30px;
         width: 100%;
         display: inline-block;
@@ -1345,6 +1365,7 @@ h5{
             background-color: #FFF;
             border: 2px solid #b5b5b5;
             @include border-shadow;
+            @include border-radius(10px);
             .dropdown-item_link{
               @include truncate(200px);
               float: left;
@@ -2016,9 +2037,9 @@ h5{
           }
         }
       }
-      .adverts-block{
+      .adverts1-block{
         margin-top: 30px;
-        .adverts-block-item{
+        .adverts1-block-item{
           display: block;
           transition: 0.8s;
           img{
@@ -2033,7 +2054,7 @@ h5{
           }
         }
         @media (max-width: 1199px){
-          display: none;
+          display: none!important;
         }
       }
       .details-ads{
@@ -2106,7 +2127,7 @@ h5{
       }
     }
     .advert-block1{
-      .advert-blog-link{
+      .advert1-blog-link{
         display: inline-block;
         margin-bottom: 10px;
         transition: 0.8s;
@@ -3833,8 +3854,24 @@ label.add-balance{
   width: 165px!important;
   height: 120px!important;
 }
-.asd-photo{
+/*.asd-photo{
   width: 160px!important;
+  height: 100px!important;
+}*/
+.asd1-photo{
+  width: 160px!important;
+  height: 100px!important;
+}
+.asd2-photo{
+  width: 330px!important;
+  height: 100px!important;
+}
+.asd3-photo{
+  width: 500px!important;
+  height: 100px!important;
+}
+.asd4-photo{
+  width: 670px!important;
   height: 100px!important;
 }
 .hidden-menu{
@@ -4104,7 +4141,7 @@ td{
   }
 }
 .dropdown-scroll{
-  max-height: 100vh;
+  max-height: 500px;
   overflow: scroll;
 }
 .dropdown-item .dropdown-item_menu{
@@ -4131,7 +4168,9 @@ td{
   display: block!important;
 }
 
-
+body{
+  height: auto;
+}
 
 
 

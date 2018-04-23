@@ -468,6 +468,25 @@ h5 {
   .advert-slider {
     display: none; } }
 
+.asd1-photo {
+  width: 160px !important;
+  height: 100px !important; }
+
+.asd2-photo {
+  width: 330px !important;
+  height: 100px !important; }
+
+.asd3-photo {
+  width: 500px !important;
+  height: 100px !important; }
+
+.asd4-photo {
+  width: 670px !important;
+  height: 100px !important; }
+
+.swiper-button-next, .swiper-button-prev {
+  z-index: 2; }
+
 .banners-slider .swiper-button-prev, .banners-slider .swiper-button-next {
   background-image: initial;
   display: none; }
@@ -982,7 +1001,11 @@ h5 {
               -moz-box-pack: space-between;
               -ms-flex-pack: space-between;
               -webkit-justify-content: space-between;
-              justify-content: space-between; }
+              justify-content: space-between;
+              -webkit-border-radius: 10px !important;
+              -moz-border-radius: 10px !important;
+              -ms-border-radius: 10px !important;
+              border-radius: 10px !important; }
               .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu .dropdown-item_list .dropdown-item_link {
                 float: left;
                 width: 250px;
@@ -1247,27 +1270,27 @@ h5 {
           right: 40px; }
         .site__content .content .content-supervip .content-supervip-slider .swiper-button-next {
           right: 0; }
-      .site__content .content .content-supervip .advert-banner {
+      .site__content .content .content-supervip .advert1-banner {
         margin-top: 30px; }
         @media (max-width: 991px) {
-          .site__content .content .content-supervip .advert-banner .advert-banner-item {
+          .site__content .content .content-supervip .advert1-banner .advert1-banner-item {
             max-height: 150px;
             padding: 5px 0;
             display: inline-block;
             transition: 0.4s; } }
-        .site__content .content .content-supervip .advert-banner .advert-banner-item img {
+        .site__content .content .content-supervip .advert1-banner .advert1-banner-item img {
           -webkit-border-radius: 10px !important;
           -moz-border-radius: 10px !important;
           -ms-border-radius: 10px !important;
           border-radius: 10px !important;
           max-width: 100%;
           height: 100%; }
-        .site__content .content .content-supervip .advert-banner .advert-banner-item:hover {
+        .site__content .content .content-supervip .advert1-banner .advert1-banner-item:hover {
           opacity: 0.8; }
-        .site__content .content .content-supervip .advert-banner .row {
+        .site__content .content .content-supervip .advert1-banner .row {
           margin: 0; }
         @media (max-width: 991px) {
-          .site__content .content .content-supervip .advert-banner {
+          .site__content .content .content-supervip .advert1-banner {
             display: none; } }
       .site__content .content .content-supervip .vip-section {
         margin-top: 30px; }
@@ -1324,22 +1347,22 @@ h5 {
             margin-bottom: 20px; }
           .site__content .content .content-supervip .vip-section .vip-block .vip-item:hover {
             opacity: .8; }
-      .site__content .content .content-supervip .large-advert {
+      .site__content .content .content-supervip .large-advert1 {
         margin-top: 30px;
         width: 100%;
         display: inline-block; }
-        .site__content .content .content-supervip .large-advert img {
+        .site__content .content .content-supervip .large-advert1 img {
           width: 100%;
           height: 100%;
           -webkit-border-radius: 10px !important;
           -moz-border-radius: 10px !important;
           -ms-border-radius: 10px !important;
           border-radius: 10px !important; }
-        .site__content .content .content-supervip .large-advert:hover {
+        .site__content .content .content-supervip .large-advert1:hover {
           opacity: .8;
           transition: .6s; }
         @media (max-width: 1199px) {
-          .site__content .content .content-supervip .large-advert {
+          .site__content .content .content-supervip .large-advert1 {
             display: none; } }
       .site__content .content .content-supervip .lit-banners {
         margin: 0;
@@ -1756,7 +1779,11 @@ h5 {
           border: 2px solid #b5b5b5;
           -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
           -moz-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15); }
+          box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+          -webkit-border-radius: 10px !important;
+          -moz-border-radius: 10px !important;
+          -ms-border-radius: 10px !important;
+          border-radius: 10px !important; }
           .site__content .politics .cattegories-menu .cattegories .dropdown-item_menu .dropdown-item_list .dropdown-item_link {
             max-width: 200px;
             white-space: nowrap;
@@ -2424,12 +2451,12 @@ h5 {
         @media (max-width: 600px) {
           .site__content .politics .politicts-content .item-details .item-details-desc {
             padding: 0 10px; } }
-    .site__content .politics .politicts-content .adverts-block {
+    .site__content .politics .politicts-content .adverts1-block {
       margin-top: 30px; }
-      .site__content .politics .politicts-content .adverts-block .adverts-block-item {
+      .site__content .politics .politicts-content .adverts1-block .adverts1-block-item {
         display: block;
         transition: 0.8s; }
-        .site__content .politics .politicts-content .adverts-block .adverts-block-item img {
+        .site__content .politics .politicts-content .adverts1-block .adverts1-block-item img {
           width: 100%;
           height: 100%;
           object-fit: cover;
@@ -2438,11 +2465,11 @@ h5 {
           -moz-border-radius: 10px !important;
           -ms-border-radius: 10px !important;
           border-radius: 10px !important; }
-        .site__content .politics .politicts-content .adverts-block .adverts-block-item:hover {
+        .site__content .politics .politicts-content .adverts1-block .adverts1-block-item:hover {
           opacity: 0.7; }
       @media (max-width: 1199px) {
-        .site__content .politics .politicts-content .adverts-block {
-          display: none; } }
+        .site__content .politics .politicts-content .adverts1-block {
+          display: none !important; } }
     .site__content .politics .politicts-content .details-ads {
       margin-top: 0; }
     .site__content .politics .politicts-content .more-ads {
@@ -2506,18 +2533,18 @@ h5 {
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-next {
           right: -30px;
           top: 35%; }
-    .site__content .politics .advert-block1 .advert-blog-link {
+    .site__content .politics .advert-block1 .advert1-blog-link {
       display: inline-block;
       margin-bottom: 10px;
       transition: 0.8s; }
-      .site__content .politics .advert-block1 .advert-blog-link img {
+      .site__content .politics .advert-block1 .advert1-blog-link img {
         width: 100%;
         height: 100%;
         -webkit-border-radius: 10px !important;
         -moz-border-radius: 10px !important;
         -ms-border-radius: 10px !important;
         border-radius: 10px !important; }
-      .site__content .politics .advert-block1 .advert-blog-link:hover {
+      .site__content .politics .advert-block1 .advert1-blog-link:hover {
         opacity: 0.7; }
     @media (max-width: 1199px) {
       .site__content .politics .advert-block1 {
@@ -4311,8 +4338,24 @@ h5 {
   width: 165px !important;
   height: 120px !important; }
 
-.asd-photo {
+/*.asd-photo{
+  width: 160px!important;
+  height: 100px!important;
+}*/
+.asd1-photo {
   width: 160px !important;
+  height: 100px !important; }
+
+.asd2-photo {
+  width: 330px !important;
+  height: 100px !important; }
+
+.asd3-photo {
+  width: 500px !important;
+  height: 100px !important; }
+
+.asd4-photo {
+  width: 670px !important;
   height: 100px !important; }
 
 @media (max-width: 991px) {
@@ -4575,7 +4618,7 @@ td {
     margin-right: 8px; } }
 
 .dropdown-scroll {
-  max-height: 100vh;
+  max-height: 500px;
   overflow: scroll; }
 
 .dropdown-item .dropdown-item_menu {
@@ -4610,3 +4653,6 @@ td {
 
 .material-btn:hover .material-menu {
   display: block !important; }
+
+body {
+  height: auto; }
