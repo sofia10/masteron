@@ -1011,17 +1011,13 @@ h5 {
             content: "";
             display: block;
             position: absolute;
-            content: "";
-            display: block;
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-top: 8px solid transparent;
-            border-bottom: 8px solid transparent;
-            border-left: 8px solid #FFF;
-            margin-right: -8px;
-            right: 0;
-            top: 12px; }
+            background-image: url(../../images/path@2x.png);
+            background-size: 100%;
+            background-position: center;
+            right: -10px;
+            top: 14px;
+            width: 10px;
+            height: 13px; }
           .site__header .sub-header .search-form-elem .dropdown-menu div.dropdown-item:hover .dropdown-item_menu {
             visibility: visible;
             opacity: 1;
@@ -4608,3 +4604,9 @@ td {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; }
+
+.worker-btn:hover .worker-btn-hover {
+  display: block !important; }
+
+.material-btn:hover .material-menu {
+  display: block !important; }
