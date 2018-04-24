@@ -4657,6 +4657,7 @@ td {
     text-overflow: ellipsis; }
 
 .worker-btn:hover .worker-btn-hover {
+  margin-top: 0;
   display: block !important; }
 
 .material-btn:hover .material-menu {
@@ -4853,3 +4854,9 @@ label.captcha {
   .x4-banner img {
     max-width: 100%;
     max-height: 100%; }
+
+.worker-btn {
+  padding-bottom: 5px; }
+
+.worker-btn-hover, .material-menu {
+  margin: 0; }
