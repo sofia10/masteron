@@ -4825,3 +4825,31 @@ label.captcha {
   font-family: helvetica-bold;
   font-size: 12px;
   color: #fff; }
+
+.x1-banner {
+  width: 160px;
+  height: 100px; }
+  .x1-banner img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.x2-banner {
+  width: 160px;
+  height: 210px; }
+  .x2-banner img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.x3-banner {
+  width: 160px;
+  height: 320px; }
+  .x3-banner img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.x4-banner {
+  width: 160px;
+  height: 430px; }
+  .x4-banner img {
+    max-width: 100%;
+    max-height: 100%; }
