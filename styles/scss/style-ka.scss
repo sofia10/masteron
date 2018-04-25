@@ -3089,8 +3089,7 @@ h5{
     width: 100%!important;
   }
 }
-.error-registration{
-  .login-item{
+  .login-item.error-registration{
     margin-top: 40px!important;
     border: 1px solid #ec1c24;
     @include border-radius(5px);
@@ -3101,6 +3100,7 @@ h5{
       border-right: 1px solid #e4e4e4!important;
     }
     .error{
+      display: block;
       position: absolute;
       color: #ec1c24;
       transition: .5s;
@@ -3111,7 +3111,11 @@ h5{
       margin-bottom: 10px;
     }
   }
-}
+  .login-item{
+    .error{
+      display: none;
+    }
+  }
 .add-block{
   .login-form{
     @include border-top-left(6px);
