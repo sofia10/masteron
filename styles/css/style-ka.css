@@ -1706,8 +1706,8 @@ h5 {
       .site__content .politics .politics-menu .vip-filter .filter-item input:checked ~ .checkmark:after {
         display: block; }
       .site__content .politics .politics-menu .vip-filter .filter-item .checkmark:after {
-        left: 7px;
-        top: 3px;
+        left: 5px;
+        top: 1px;
         width: 5px;
         height: 10px;
         border: solid #000;
@@ -2687,8 +2687,8 @@ h5 {
         .site__content .login-block .login-form .pass-forgot .check input:checked ~ .checkmark:after {
           display: block; }
         .site__content .login-block .login-form .pass-forgot .check .checkmark:after {
-          left: 7px;
-          top: 3px;
+          left: 5px;
+          top: 1px;
           width: 5px;
           height: 10px;
           border: solid #000;
@@ -4541,8 +4541,8 @@ h5 {
   display: block; }
 
 .checkall .check .checkmark:after {
-  left: 7px;
-  top: 3px;
+  left: 5px;
+  top: 1px;
   width: 5px;
   height: 10px;
   border: solid #000;
