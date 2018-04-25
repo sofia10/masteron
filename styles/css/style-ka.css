@@ -3522,26 +3522,27 @@ h5 {
     .registration-block {
       width: 100% !important; } }
 
-.login-item.error-registration {
+.error-registration {
+  margin-bottom: 20px !important;
   margin-top: 40px !important;
   border: 1px solid #ec1c24;
   -webkit-border-radius: 5px !important;
   -moz-border-radius: 5px !important;
   -ms-border-radius: 5px !important;
   border-radius: 5px !important; }
-  .login-item.error-registration label, .login-item.error-registration input {
+  .error-registration label, .error-registration input {
     border: none !important; }
-  .login-item.error-registration label {
+  .error-registration label {
     border-right: 1px solid #e4e4e4 !important; }
-  .login-item.error-registration .error {
-    display: block;
+  .error-registration .error {
+    display: block !important;
     position: absolute;
     color: #ec1c24;
     transition: .5s;
     bottom: -21px;
     font-size: 12px; }
   @media (max-width: 575px) {
-    .login-item.error-registration {
+    .error-registration {
       margin-bottom: 10px; } }
 
 .login-item .error {
