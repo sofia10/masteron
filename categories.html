@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
     <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="plugins/animatecss/animate.css" rel="stylesheet">
+    <link href="plugins/swiperSlider/css/swiper.min.css"  rel="stylesheet">
     <link rel="stylesheet" href="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
     <!--Custom Css-->
     <link href="styles/minCss/style-ka.min.css" rel="stylesheet">
@@ -686,7 +687,22 @@
     <div class="content">
         <div class="container">
             <div class="content-banner">
-                <img src="uploads/images/banner.png" alt="">
+                <div class="swiper-container banners-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="uploads/images/banner.png" alt=""></div>
+                        <div class="swiper-slide"><img src="uploads/images/banner.png" alt=""></div>
+                        <div class="swiper-slide"><img src="uploads/images/banner.png" alt=""></div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="arrows d-flex">
+                        <div class="swiper-button-next">
+                            <i class="fa fa-chevron-right"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="politics row">
                 <div class="col-xl-3 col-lg-3 politics-menu cattegories-menu hidden-menu">
@@ -1467,6 +1483,7 @@
 <script src="plugins/jquery/jquery-3.3.1.min.js"></script>
 <script src="plugins/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="plugins/popper/js/popper.min.js"></script>
+<script src="plugins/swiperSlider/js/swiper.min.js"></script>
 <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <!--Custom Scripts-->
 <script src="minJs/default.min.js"></script>
