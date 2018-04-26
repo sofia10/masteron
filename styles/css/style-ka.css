@@ -2704,7 +2704,10 @@ h5 {
             opacity: 0.7; }
         @media (max-width: 480px) {
           .site__content .login-block .login-form .pass-forgot {
+            flex-direction: column-reverse;
             width: 100%; }
+            .site__content .login-block .login-form .pass-forgot label {
+              margin-top: 10px; }
             .site__content .login-block .login-form .pass-forgot .check {
               padding-top: 0;
               font-size: 11px;
@@ -3523,28 +3526,42 @@ h5 {
       width: 100% !important; } }
 
 .error-registration {
-  margin-bottom: 40px !important;
-  margin-top: 40px !important;
-  border: 1px solid #ec1c24;
-  -webkit-border-radius: 5px !important;
-  -moz-border-radius: 5px !important;
-  -ms-border-radius: 5px !important;
-  border-radius: 5px !important; }
+  width: 400px; }
+  .error-registration .login-item {
+    border: 1px solid #ec1c24;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    border-radius: 5px !important; }
   .error-registration label, .error-registration input {
     border: none !important; }
   .error-registration label {
     border-right: 1px solid #e4e4e4 !important; }
   .error-registration .error {
     display: block !important;
-    position: absolute;
     color: #ec1c24;
     transition: .5s;
-    top: 45px;
-    left: 0;
-    font-size: 12px; }
-  @media (max-width: 575px) {
+    font-size: 12px;
+    text-align: left; }
+  @media (max-width: 440px) {
     .error-registration {
-      margin-bottom: 10px; } }
+      width: 280px; } }
+
+@media (max-width: 767px) {
+  .login-error {
+    margin-top: 30px; } }
+
+@media (max-width: 440px) {
+  .login-error {
+    width: 400px; } }
+
+@media (max-width: 420px) {
+  .login-error {
+    width: 350px; } }
+
+@media (max-width: 370px) {
+  .login-error {
+    width: 300px; } }
 
 .login-item .error {
   display: none; }

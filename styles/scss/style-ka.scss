@@ -2284,7 +2284,11 @@ h5{
           }
         }
         @media (max-width: 480px){
+          flex-direction: column-reverse;
           width: 100%;
+          label{
+            margin-top: 10px;
+          }
           .check{
             padding-top: 0;
             font-size: 11px;
@@ -3090,10 +3094,11 @@ h5{
   }
 }
    .error-registration{
-    margin-bottom: 40px!important;
-    margin-top: 40px!important;
-    border: 1px solid #ec1c24;
-    @include border-radius(5px);
+    width: 400px;
+    .login-item{
+      border: 1px solid #ec1c24;
+      @include border-radius(5px);
+    }
     label,input{
       border: none!important;
     }
@@ -3102,15 +3107,27 @@ h5{
     }
     .error{
       display: block!important;
-      position: absolute;
       color: #ec1c24;
       transition: .5s;
-      top: 45px;
-      left: 0;
       font-size: 12px;
+      text-align: left;
     }
-    @media (max-width: 575px){
-      margin-bottom: 10px;
+    @media (max-width: 440px){
+      width: 280px;
+    }
+  }
+  .login-error{
+    @media (max-width: 767px){
+      margin-top: 30px;
+    }
+    @media (max-width: 440px){
+      width: 400px;
+    }
+    @media (max-width: 420px){
+      width: 350px;
+    }
+    @media (max-width: 370px){
+      width: 300px;
     }
   }
   .login-item{
