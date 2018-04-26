@@ -3523,7 +3523,7 @@ h5 {
       width: 100% !important; } }
 
 .error-registration {
-  margin-bottom: 20px !important;
+  margin-bottom: 40px !important;
   margin-top: 40px !important;
   border: 1px solid #ec1c24;
   -webkit-border-radius: 5px !important;
@@ -3539,7 +3539,7 @@ h5 {
     position: absolute;
     color: #ec1c24;
     transition: .5s;
-    bottom: -21px;
+    top: 45px;
     left: 0;
     font-size: 12px; }
   @media (max-width: 575px) {
