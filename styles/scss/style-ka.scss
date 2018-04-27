@@ -4434,7 +4434,7 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button{
     top: 20px;
   }
   @media (max-width: 420px){
-    width: 150px;
+    width: 150px!important;
   }
 }
 body > header > div > div > div.sub-header > form > input[type="submit"]:nth-child(6){
