@@ -1638,6 +1638,7 @@ h5{
         -webkit-transform: rotate(0deg);
       }
       .content-title{
+        flex-wrap: wrap;
         .content-title-link{
           h6{
             margin-bottom: 0;
@@ -4431,6 +4432,9 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button{
     position: absolute;
     right: 10px;
     top: 20px;
+  }
+  @media (max-width: 420px){
+    width: 150px;
   }
 }
 body > header > div > div > div.sub-header > form > input[type="submit"]:nth-child(6){
