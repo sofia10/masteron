@@ -664,6 +664,7 @@ h5{
     .search-form{
       .search-form-input{
         width: 380px;
+        height: 39px;
         padding: 0.600rem .75rem;
         border: 1px solid $border-color;
         margin-right: 5px;
@@ -4390,8 +4391,39 @@ label.captcha{
 .worker-btn-hover, .material-menu{
   margin: 0;
 }
-
-
+body > header > div > div > div.sub-header > form > div:nth-child(4) > button{
+  width: 230px;
+  height: 39px;
+  padding: 0!important;
+  span{
+    @include truncate(180px);
+    display: block;
+  }
+  &:after{
+    margin-right: 0;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+}
+body > header > div > div > div.sub-header > form > div:nth-child(5) > button{
+  width: 190px;
+  height: 39px;
+  padding: 0!important;
+  span{
+    @include truncate(150px);
+    display: block;
+  }
+  &:after{
+    margin-right: 0;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+}
+body > header > div > div > div.sub-header > form > input[type="submit"]:nth-child(6){
+  height: 39px;
+}
 
 
 
