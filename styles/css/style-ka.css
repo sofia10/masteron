@@ -3563,6 +3563,18 @@ h5 {
   .login-error {
     width: 300px; } }
 
+.user-error {
+  width: 500px; }
+  @media (max-width: 767px) {
+    .user-error {
+      width: 400px; } }
+  @media (max-width: 500px) {
+    .user-error {
+      width: 300px; } }
+  @media (max-width: 400px) {
+    .user-error {
+      width: 270px; } }
+
 .login-item .error {
   display: none; }
 

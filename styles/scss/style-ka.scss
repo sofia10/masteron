@@ -3131,6 +3131,18 @@ h5{
       width: 300px;
     }
   }
+  .user-error{
+    width: 500px;
+    @media (max-width: 767px){
+      width: 400px;
+    }
+    @media (max-width: 500px){
+      width: 300px;
+    }
+    @media (max-width: 400px){
+      width: 270px;
+    }
+  }
   .login-item{
     .error{
       display: none;
