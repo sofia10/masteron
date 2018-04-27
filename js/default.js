@@ -15,7 +15,7 @@ $(document).ready(function () {
     for(var i = 0; i < length; i++){
         var myLength = $('.dropdown-item_list').eq(i).find('.dropdown-item_link');
         if(myLength.length <= 4){
-            myLength.closest('.dropdown-item_menu').css('width', '265px');
+            myLength.closest('.dropdown-item_menu').css('width', '285px');
         }
         else if(myLength.length <= 8){
             myLength.closest('.dropdown-item_menu').css('width', '560px');
@@ -23,7 +23,7 @@ $(document).ready(function () {
         }
         else{
             var width = $(window).width();
-            var listWidth = 870;
+            var listWidth = 830;
             if(width <= 1200){
                 listWidth = 590;
             }

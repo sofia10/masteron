@@ -1706,8 +1706,8 @@ h5 {
       .site__content .politics .politics-menu .vip-filter .filter-item input:checked ~ .checkmark:after {
         display: block; }
       .site__content .politics .politics-menu .vip-filter .filter-item .checkmark:after {
-        left: 5px;
-        top: 1px;
+        left: 7px;
+        top: 3px;
         width: 5px;
         height: 10px;
         border: solid #000;
@@ -1793,13 +1793,8 @@ h5 {
           -ms-border-radius: 10px !important;
           border-radius: 10px !important; }
           .site__content .politics .cattegories-menu .cattegories .dropdown-item_menu .dropdown-item_list .dropdown-item_link {
-            max-width: 200px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
             float: left;
             width: 250px;
-            margin-left: 15px;
             padding: 15px 20px;
             border-bottom: 1px solid #E4E4E4;
             font-family: "helvetica-roman";
@@ -1814,6 +1809,11 @@ h5 {
               color: #EC1C24; }
               .site__content .politics .cattegories-menu .cattegories .dropdown-item_menu .dropdown-item_list .dropdown-item_link:hover span {
                 color: #EC1C24; }
+            .site__content .politics .cattegories-menu .cattegories .dropdown-item_menu .dropdown-item_list .dropdown-item_link .option {
+              max-width: 180px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis; }
       .site__content .politics .cattegories-menu .cattegories:hover:after {
         content: " ";
         position: absolute;

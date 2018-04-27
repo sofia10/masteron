@@ -1285,8 +1285,8 @@ h5{
           display: block;
         }
         .filter-item .checkmark:after {
-          left: 5px;
-          top: 1px;
+          left: 7px;
+          top: 3px;
           width: 5px;
           height: 10px;
           border: solid #000;
@@ -1375,10 +1375,8 @@ h5{
             @include border-shadow;
             @include border-radius(10px);
             .dropdown-item_link{
-              @include truncate(200px);
               float: left;
               width: 250px;
-              margin-left: 15px;
               padding: 15px 20px;
               border-bottom: 1px solid $border-color;
               @include font-style($primary-font, 11px, #000);
@@ -1391,6 +1389,9 @@ h5{
                 span{
                   color: $red;
                 }
+              }
+              .option{
+                @include truncate(180px);
               }
             }
           }
