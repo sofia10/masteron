@@ -914,6 +914,9 @@ h5 {
           border-bottom: 1px solid #EEEEEE; }
         .site__header .sup-header .header-registration .acc-dropdown .dropdown .dropdown-menu .dropdown-item:hover {
           color: #EC1C24; }
+    @media (max-width: 991px) {
+      .site__header .sup-header .header-registration .acc-dropdown {
+        display: none !important; } }
   .site__header .sup-header .header-registration .header-registration-button {
     padding: 12px;
     font-family: "helvetica-roman";
@@ -3938,7 +3941,8 @@ h5 {
 
 .dropzone-block {
   position: relative;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  z-index: 1; }
   .dropzone-block .edit-icon {
     background-color: transparent;
     width: initial;
