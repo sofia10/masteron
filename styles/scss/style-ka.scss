@@ -663,16 +663,12 @@ h5{
     }
     .search-form{
       .search-form-input{
-        width: 380px;
+        width: 370px;
         height: 39px;
         padding: 0.600rem .75rem;
         border: 1px solid $border-color;
         margin-right: 5px;
         @include border-radius(6px);
-        background-image: url('../../images/zoom.svg');
-        background-repeat: no-repeat;
-        background-position: 95%;
-        background-size: 15px;
         &:after{
           content: "\f002";
           position: absolute;
@@ -1041,7 +1037,7 @@ h5{
     margin-top: 30px;
     padding-bottom: 50px;
     h6{
-      @include font-style($bold-font, 18px, #060606);
+      @include font-style($bold-font, 16px, #060606);
       margin-bottom: 25px;
       @media (max-width: 480px){
         font-size: 15px;
@@ -1673,6 +1669,7 @@ h5{
           .choose{
             @include font-style($bold-font,12px,#555555);
             margin-right: 10px;
+            display: none;
           }
           .fa-sort{
             @media (min-width: 992px){
@@ -1713,12 +1710,29 @@ h5{
               }
             }
           }
+          .dropdown{
+            .btn-secondary.dropdown-toggle{
+              font-size: 11px;
+              padding-left: 5px;
+              background-image: url("../../images/sort.png");
+              background-repeat: no-repeat;
+              background-size: 14px;
+              background-position: 94%;
+              width: 140px;
+            }
+            .dropdown-menu{
+              z-index: 2;
+            }
+          }
         }
         @media (max-width: 767px){
           flex-direction: column;
           .sort{
             margin-top: 15px;
           }
+        }
+        .cat-title-menu{
+          width: calc(100% - 160px);
         }
       }
       .search-list-block{
@@ -4440,7 +4454,35 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button{
 body > header > div > div > div.sub-header > form > input[type="submit"]:nth-child(6){
   height: 39px;
 }
-
+.header-search{
+  position: relative;
+  .search-form-input{
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid $border-color;
+    @include border-radius(6px);
+    @include font-style($primary-font,12px,#1A1A1A);
+  }
+  .zoom-btn{
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: none;
+    img{
+      width: 15px;
+    }
+  }
+  @media (max-width: 575px) and (min-width: 350px){
+    width: 100%;
+    .search-form-input{
+      width: 95%!important;
+    }
+  }
+}
 
 
 
