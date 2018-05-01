@@ -2244,10 +2244,17 @@ h5 {
         @media (max-width: 575px) {
           .site__content .politics .politicts-content .search-list-block .search-list-item {
             justify-content: center; } }
+        .site__content .politics .politicts-content .search-list-block .search-list-item .distance {
+          color: #b5b5b5;
+          margin-left: 5px; }
       .site__content .politics .politicts-content .search-list-block .search-list-item.s-vip i {
         color: #EC1C24 !important; }
+      .site__content .politics .politicts-content .search-list-block .search-list-item.s-vip .distance {
+        color: #EC1C24; }
       .site__content .politics .politicts-content .search-list-block .search-list-item.vip i {
         color: #000 !important; }
+      .site__content .politics .politicts-content .search-list-block .search-list-item.vip .distance {
+        color: #000; }
     .site__content .politics .politicts-content .pagination {
       margin-top: 30px; }
       .site__content .politics .politicts-content .pagination li {

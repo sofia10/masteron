@@ -1836,15 +1836,25 @@ h5{
           @media (max-width: 575px){
             justify-content: center;
           }
+          .distance{
+            color: #b5b5b5;
+            margin-left: 5px;
+          }
         }
         .search-list-item.s-vip{
           i{
             color: $red!important;
           }
+          .distance{
+            color: $red;
+          }
         }
         .search-list-item.vip{
           i{
             color: #000!important;
+          }
+          .distance{
+            color: #000;
           }
         }
       }
