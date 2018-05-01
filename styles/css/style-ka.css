@@ -1460,7 +1460,6 @@ h5 {
       .site__content .content .content-supervip .info-section .info-section-block .block-title {
         font-size: 12px !important; } }
   .site__content .politics {
-    overflow: hidden;
     margin-top: 30px;
     padding-bottom: 50px; }
     .site__content .politics h6 {
@@ -2550,10 +2549,10 @@ h5 {
             .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-next, .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-prev {
               display: none !important; } }
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-prev {
-          left: -30px;
+          left: -25px;
           top: 35%; }
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-next {
-          right: -30px;
+          right: -25px;
           top: 35%; }
     .site__content .politics .advert-block1 .advert1-blog-link {
       display: inline-block;
