@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46fe610b-607d-487e-b134-2c5430ef1259" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
       <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
       <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="1840" column="29" lean-forward="false" selection-start-line="1840" selection-start-column="29" selection-end-line="1840" selection-end-column="29" />
+            <state relative-caret-position="548">
+              <caret line="4544" column="0" lean-forward="true" selection-start-line="4544" selection-start-column="0" selection-end-line="4544" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,6 +66,8 @@
       <find>text-in</find>
       <find>swiper-button-prev</find>
       <find>search-list-text</find>
+      <find>s-vip</find>
+      <find>login-user</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,12 +240,12 @@
       <workItem from="1524827099946" duration="2004000" />
       <workItem from="1524851168247" duration="555000" />
       <workItem from="1525076020068" duration="4760000" />
-      <workItem from="1525157080721" duration="3305000" />
+      <workItem from="1525157080721" duration="4118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17337000" />
+    <option name="totallyTimeSpent" value="18150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -484,8 +485,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="1840" column="29" lean-forward="false" selection-start-line="1840" selection-start-column="29" selection-end-line="1840" selection-end-column="29" />
+        <state relative-caret-position="548">
+          <caret line="4544" column="0" lean-forward="true" selection-start-line="4544" selection-start-column="0" selection-end-line="4544" selection-end-column="0" />
           <folding />
         </state>
       </provider>

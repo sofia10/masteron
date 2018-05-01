@@ -5038,3 +5038,6 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
 @media (max-width: 991px) {
   .location-popup .modal-body {
     padding: 30px 20px !important; } }
+
+a.user-btn.login-user i {
+  color: #EC1C24; }
