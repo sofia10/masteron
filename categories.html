@@ -1047,7 +1047,7 @@
                                     <a class="dropdown-item" href="#">თარიღით</a>
                                     <a class="dropdown-item" href="#">ფასის კლებით</a>
                                     <a class="dropdown-item" href="#">ფასის ზრდით</a>
-                                    <a class="dropdown-item" href="#">მდებარეობით</a>
+                                    <a class="dropdown-item choose-loc" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">მდებარეობით</a>
                                     <a class="dropdown-item" href="#">რეკომენდაციებით</a>
                                     <a class="dropdown-item" href="#">ნახვების მიხედვით </a>
                                 </div>
@@ -1056,6 +1056,29 @@
                             <i class="fa fa-filter filters-btn"></i>
                         </div>
                     </div>
+                    <!--modal-->
+                    <form action="" class="location-popup">
+                        <div class="modal fade bd-example-modal-lg show" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <div class="modal-body">
+                                        <div class="modal-title d-flex align-items-center">
+                                            მდებარეობის არჩევა
+                                        </div>
+                                        <div id="map" class="popup-map"></div>
+                                        <div class="d-flex choose-loc">
+                                            <input type="text" placeholder="თბილისი, კუკიას 4." class="text-input">
+                                            <input type="submit" value="ავტომატური არჩევა" class="btn-map">
+                                        </div>
+                                        <a href="#!" class="pay">სორტირება</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                     <div class="search-list-block">
                         <div class="search-list-item row">
                             <a href="#!" class="col-md-3 d-flex align-items-center justify-content-end search-img">
@@ -1192,20 +1215,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="adverts-block row justify-content-between">
-                        <a href="#!" class="adverts-block-item">
-                            <img src="uploads/images/asd.svg" alt="" class="asd-photo">
-                        </a>
-                        <a href="#!" class="adverts-block-item">
-                            <img src="uploads/images/asd.svg" alt="" class="asd-photo">
-                        </a>
-                        <a href="#!" class="adverts-block-item">
-                            <img src="uploads/images/asd.svg" alt="" class="asd-photo">
-                        </a>
-                        <a href="#!" class="adverts-block-item">
-                            <img src="uploads/images/asd.svg" alt="" class="asd-photo">
-                        </a>
-                    </div>
+                    <!--<div class="adverts-block row justify-content-between">-->
+                        <!--<a href="#!" class="adverts-block-item">-->
+                            <!--<img src="uploads/images/asd.svg" alt="" class="asd-photo">-->
+                        <!--</a>-->
+                        <!--<a href="#!" class="adverts-block-item">-->
+                            <!--<img src="uploads/images/asd.svg" alt="" class="asd-photo">-->
+                        <!--</a>-->
+                        <!--<a href="#!" class="adverts-block-item">-->
+                            <!--<img src="uploads/images/asd.svg" alt="" class="asd-photo">-->
+                        <!--</a>-->
+                        <!--<a href="#!" class="adverts-block-item">-->
+                            <!--<img src="uploads/images/asd.svg" alt="" class="asd-photo">-->
+                        <!--</a>-->
+                    <!--</div>-->
                     <div class="search-list-block">
                         <div class="search-list-item row">
                             <a href="#!" class="col-md-3 d-flex align-items-center justify-content-end search-img">
@@ -1507,6 +1530,24 @@
     }
     fixedSidebar();
 
+</script>
+<script>
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 41.73283, lng: 44.770535},
+            zoom: 15
+        });
+        var marker=new google.maps.Marker({
+            position:{lat: 41.73283, lng: 44.770535},
+            icon:'images/marker.png'
+        });
+
+        marker.setMap(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsoF1yBpQMNBQy8DpwIJkhFnYTJBTG2_Y&callback=initMap"
+        async defer>
 
 </script>
 </body>
