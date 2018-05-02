@@ -4543,4 +4543,11 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
 a.user-btn.login-user i{
   color: #ec1c24!important;
 }
+#BodyController > main > div > div.container > div > form > div.pass-forgot > label > .checkmark:after{
+  left: 7px;
+  top: 3px;
+}
+.search-list-id{
+  display: block!important;
+}
 
