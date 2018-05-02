@@ -5048,4 +5048,7 @@ a.user-btn.login-user i {
   top: 3px; }
 
 .search-list-id {
-  display: block !important; }
+  display: block !important;
+  font-family: helvetica-bold;
+  font-size: 14px;
+  color: #000; }
