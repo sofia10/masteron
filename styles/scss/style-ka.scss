@@ -1354,7 +1354,7 @@ h5{
           }
         }
         .dropdown-item_menu{
-          z-index: 3;
+          z-index: 2;
           visibility: hidden;
           opacity: 0;
           width: 560px;
@@ -2163,6 +2163,7 @@ h5{
       }
     }
     .advert-block1{
+      overflow: hidden;
       .advert1-blog-link{
         display: inline-block;
         margin-bottom: 10px;
