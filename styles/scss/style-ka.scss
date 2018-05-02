@@ -897,7 +897,7 @@ h5{
           }
           .swiper-button-prev{
             left: initial;
-            right: 50px;
+            right: 40px;
           }
         }
         .vip-block{
@@ -3976,6 +3976,9 @@ label.add-balance{
     }
     &:nth-child(6n+6){
       margin-right: 0;
+      @media (max-width: 1199px){
+        margin-right: 35px;
+      }
     }
   }
   &::-webkit-scrollbar {

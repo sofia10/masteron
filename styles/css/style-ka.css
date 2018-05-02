@@ -1335,7 +1335,7 @@ h5 {
           right: 0; }
         .site__content .content .content-supervip .vip-section .vip-section-content .swiper-button-prev {
           left: initial;
-          right: 50px; }
+          right: 40px; }
         .site__content .content .content-supervip .vip-section .vip-block {
           margin-top: 20px; }
           .site__content .content .content-supervip .vip-section .vip-block .vip-item .vip-item-img img {
@@ -4452,6 +4452,9 @@ h5 {
         width: 50% !important; } }
     .vip-block-items .vip-item:nth-child(6n+6) {
       margin-right: 0; }
+      @media (max-width: 1199px) {
+        .vip-block-items .vip-item:nth-child(6n+6) {
+          margin-right: 35px; } }
   .vip-block-items::-webkit-scrollbar {
     display: none; }
   .vip-block-items .col-lg-2 {
