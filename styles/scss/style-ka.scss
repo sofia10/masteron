@@ -4445,6 +4445,8 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button{
   span{
     @include truncate(180px);
     display: block;
+    text-align: left;
+    padding-left: 10px;
   }
   &:after{
     margin-right: 0;
@@ -4460,6 +4462,8 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button{
   span{
     @include truncate(150px);
     display: block;
+    text-align: left;
+    padding-left: 10px;
   }
   &:after{
     margin-right: 0;

@@ -4929,7 +4929,9 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: block; }
+    display: block;
+    text-align: left;
+    padding-left: 10px; }
   body > header > div > div > div.sub-header > form > div:nth-child(4) > button:after {
     margin-right: 0;
     position: absolute;
@@ -4945,7 +4947,9 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: block; }
+    display: block;
+    text-align: left;
+    padding-left: 10px; }
   body > header > div > div > div.sub-header > form > div:nth-child(5) > button:after {
     margin-right: 0;
     position: absolute;
