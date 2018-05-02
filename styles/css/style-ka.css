@@ -1339,9 +1339,9 @@ h5 {
         .site__content .content .content-supervip .vip-section .vip-block {
           margin-top: 20px; }
           .site__content .content .content-supervip .vip-section .vip-block .vip-item .vip-item-img img {
+            max-width: 100%;
             object-fit: cover;
             object-position: center;
-            height: auto;
             -webkit-border-radius: 10px !important;
             -moz-border-radius: 10px !important;
             -ms-border-radius: 10px !important;
@@ -4436,11 +4436,6 @@ h5 {
   padding: 0 10px; }
 
 .vip-block-items {
-  -webkit-box-pack: space-between;
-  -moz-box-pack: space-between;
-  -ms-flex-pack: space-between;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap; }
   @media (max-width: 1199px) {
@@ -4449,11 +4444,14 @@ h5 {
       -webkit-flex-wrap: nowrap;
       flex-wrap: nowrap; } }
   .vip-block-items .vip-item {
-    margin: 0 10px; }
+    width: 160px;
+    margin-right: 35px; }
     @media (max-width: 530px) {
       .vip-block-items .vip-item {
         max-width: 50% !important;
         width: 50% !important; } }
+    .vip-block-items .vip-item:nth-child(6n+6) {
+      margin-right: 0; }
   .vip-block-items::-webkit-scrollbar {
     display: none; }
   .vip-block-items .col-lg-2 {
@@ -5052,3 +5050,7 @@ a.user-btn.login-user i {
   font-family: helvetica-bold;
   font-size: 14px;
   color: #000; }
+
+.vip-block-items .vip-item img {
+  width: 160px;
+  height: 120px; }

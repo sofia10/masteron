@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var swiper = new Swiper('.advert-slider', {
         slidesPerView: 6,
-        spaceBetween: 30,
+        spaceBetween: 35,
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {

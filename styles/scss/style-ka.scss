@@ -905,9 +905,9 @@ h5{
           .vip-item{
             .vip-item-img{
               img{
+                max-width: 100%;
                 object-fit: cover;
                 object-position: center;
-                height: auto;
                 @include border-radius(10px);
               }
             }
@@ -3962,17 +3962,20 @@ label.add-balance{
   padding: 0 10px;
 }
 .vip-block-items{
-  @include justify-content(space-between);
   @include flex-wrap(wrap);
   @media (max-width: 1199px){
     overflow-y: scroll;
     @include flex-wrap(nowrap);
   }
   .vip-item{
-    margin: 0 10px;
+    width: 160px;
+    margin-right: 35px;
     @media (max-width: 530px){
       max-width: 50%!important;
       width: 50%!important;
+    }
+    &:nth-child(6n+6){
+      margin-right: 0;
     }
   }
   &::-webkit-scrollbar {
@@ -4553,4 +4556,11 @@ a.user-btn.login-user i{
   font-size: 14px;
   color: #000;
 }
-
+.vip-block-items{
+  .vip-item{
+    img{
+      width: 160px;
+      height: 120px;
+    }
+  }
+}
