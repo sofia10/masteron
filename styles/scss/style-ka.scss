@@ -671,6 +671,7 @@ h5{
         padding: 0.600rem .75rem;
         border: 1px solid $border-color;
         margin-right: 5px;
+        padding-right: 35px;
         @include border-radius(6px);
         &:after{
           content: "\f002";
@@ -834,6 +835,7 @@ h5{
         }
       }
       .advert1-banner{
+        padding: 0;
         margin-top: 30px;
         .advert1-banner-item{
           @media (max-width: 991px){
@@ -1225,6 +1227,7 @@ h5{
         @media (max-width: 420px){
           width: 280px;
           padding: 20px 10px;
+          overflow: scroll;
         }
       }
       .filters-title{
@@ -4484,7 +4487,6 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
   .search-form-input{
     width: 98%!important;
     margin: 0 auto;
-    padding: 15px;
     margin-bottom: 10px;
     border: 1px solid $border-color;
     @include border-radius(6px);
@@ -4570,4 +4572,25 @@ a.user-btn.login-user i{
       height: 120px;
     }
   }
+}
+.dropzone .dz-preview.dz-image-preview{
+  background-color: transparent!important;
+}
+.dropzone .dz-preview .dz-remove{
+  text-align: left;
+  padding-left: 15px;
+  text-decoration: none!important;
+  @include font-style($bold-font,14px,$red);
+  &:after{
+    content: '\f00d';
+    position: absolute;
+    font-family: fontAwesome;
+    margin-left: 8px;
+  }
+  &:hover{
+    opacity: 0.7;
+  }
+}
+.dropzone .dz-preview:hover .dz-details {
+  opacity: 0;
 }

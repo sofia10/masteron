@@ -1081,6 +1081,7 @@ h5 {
       padding: 0.600rem .75rem;
       border: 1px solid #E4E4E4;
       margin-right: 5px;
+      padding-right: 35px;
       -webkit-border-radius: 6px !important;
       -moz-border-radius: 6px !important;
       -ms-border-radius: 6px !important;
@@ -1278,6 +1279,7 @@ h5 {
         .site__content .content .content-supervip .content-supervip-slider .swiper-button-next {
           right: 0; }
       .site__content .content .content-supervip .advert1-banner {
+        padding: 0;
         margin-top: 30px; }
         @media (max-width: 991px) {
           .site__content .content .content-supervip .advert1-banner .advert1-banner-item {
@@ -1637,7 +1639,8 @@ h5 {
       @media (max-width: 420px) {
         .site__content .politics .politics-menu .navigation-filter {
           width: 280px;
-          padding: 20px 10px; } }
+          padding: 20px 10px;
+          overflow: scroll; } }
     .site__content .politics .politics-menu .filters-title {
       margin-top: 25px; }
     .site__content .politics .politics-menu .vip-filter {
@@ -4968,7 +4971,6 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
   .header-search .search-form-input {
     width: 98% !important;
     margin: 0 auto;
-    padding: 15px;
     margin-bottom: 10px;
     border: 1px solid #E4E4E4;
     -webkit-border-radius: 6px !important;
@@ -5061,3 +5063,24 @@ a.user-btn.login-user i {
 .vip-block-items .vip-item img {
   width: 160px;
   height: 120px; }
+
+.dropzone .dz-preview.dz-image-preview {
+  background-color: transparent !important; }
+
+.dropzone .dz-preview .dz-remove {
+  text-align: left;
+  padding-left: 15px;
+  text-decoration: none !important;
+  font-family: "helvetica-bold";
+  font-size: 14px;
+  color: #EC1C24; }
+  .dropzone .dz-preview .dz-remove:after {
+    content: '\f00d';
+    position: absolute;
+    font-family: fontAwesome;
+    margin-left: 8px; }
+  .dropzone .dz-preview .dz-remove:hover {
+    opacity: 0.7; }
+
+.dropzone .dz-preview:hover .dz-details {
+  opacity: 0; }
