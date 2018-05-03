@@ -1737,7 +1737,7 @@ h5{
           }
         }
         .cat-title-menu{
-          width: calc(100% - 160px);
+          width: calc(100% - 180px);
         }
       }
       .search-list-block{
@@ -4612,5 +4612,7 @@ a.user-btn.login-user i{
     top: 40%;
     left: 50%;
     transform: translate3d(-50%,-50%,0);
+    width: 40px;
+    height: 40px;
   }
 }

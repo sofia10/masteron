@@ -2137,7 +2137,7 @@ h5 {
           .site__content .politics .politicts-content .content-title .sort {
             margin-top: 15px; } }
       .site__content .politics .politicts-content .content-title .cat-title-menu {
-        width: calc(100% - 160px); }
+        width: calc(100% - 180px); }
     .site__content .politics .politicts-content .search-list-block {
       margin-top: 15px; }
       .site__content .politics .politicts-content .search-list-block .search-list-item {
@@ -5095,4 +5095,6 @@ a.user-btn.login-user i {
   border-radius: 50%;
   top: 40%;
   left: 50%;
-  transform: translate3d(-50%, -50%, 0); }
+  transform: translate3d(-50%, -50%, 0);
+  width: 40px;
+  height: 40px; }
