@@ -1752,7 +1752,8 @@ h5{
               @include border-radius(10px);
               max-width: 100%;
               @media (max-width: 767px){
-                width: 280px;
+                width: 295px!important;
+                height: auto!important;
               }
             }
             .svip-ban{
@@ -1760,7 +1761,7 @@ h5{
               width: 55px;
               height: 25px;
               background-color: #ec1c24;
-              bottom: 30px;
+              top: 50%;
               right: 0;
               @include font-style($primary-font,12px,#FFF);
               @include border-top-left(6px);
@@ -1775,6 +1776,8 @@ h5{
               padding-bottom: 20px;
               .svip-ban{
                 right: 24%;
+                bottom: 40px;
+                top: initial;
                 @media (max-width: 575px){
                   right: 0;
                 }
@@ -2024,6 +2027,7 @@ h5{
             @include font-style($primary-font,18px,#000);
             span{
               color: $red;
+              font-family: $bold-font;
             }
           }
           .item-num{
@@ -2035,7 +2039,7 @@ h5{
           }
           .details-item{
             margin-left: 5px;
-            @include font-style($primary-font,10px, #000);
+            @include font-style($primary-font,11px, #000);
             &:not(:last-child){
               margin-right: 30px;
             }
@@ -2064,10 +2068,10 @@ h5{
                 }
               }
               .user-name{
-                @include font-style($primary-font,10px,#000);
+                @include font-style($primary-font,11px,#000);
               }
               a{
-                @include font-style($primary-font,10px,$red);
+                @include font-style($primary-font,11px,$red);
               }
             }
           }
@@ -2142,7 +2146,6 @@ h5{
             width: 16px;
             height: 16px;
             z-index: 1;
-            background-color: #FFF;
             @include border-radius(50%);
             i{
               font-size: 18px;
@@ -2156,11 +2159,11 @@ h5{
           }
           .swiper-button-prev{
             left: -25px;
-            top: 35%;
+            top: 48%;
           }
           .swiper-button-next{
             right: -25px;
-            top: 35%;
+            top: 48%;
           }
         }
       }
@@ -4564,6 +4567,9 @@ a.user-btn.login-user i{
   font-family: helvetica-bold;
   font-size: 14px;
   color: #000;
+  @media (max-width: 767px){
+    display: none!important;
+  }
 }
 .vip-block-items{
   .vip-item{
@@ -4582,7 +4588,6 @@ a.user-btn.login-user i{
   text-decoration: none!important;
   @include font-style($bold-font,14px,$red);
   &:after{
-    content: '\f00d';
     position: absolute;
     font-family: fontAwesome;
     margin-left: 8px;
@@ -4591,6 +4596,21 @@ a.user-btn.login-user i{
     opacity: 0.7;
   }
 }
-.dropzone .dz-preview:hover .dz-details {
-  opacity: 0;
+.sw-det{
+  .swiper-wrapper{
+    .swiper-slide{
+      img{
+        width: 160px!important;
+        height: 120px!important;
+      }
+    }
+  }
+}
+.dz-image-preview{
+  .main-img{
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+  }
 }

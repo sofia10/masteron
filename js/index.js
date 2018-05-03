@@ -69,7 +69,7 @@ function rowLimiter(selector, lineLimit) {
         var rows = height / line_height;
         rows = Math.round(rows);
         var length = $(this).text().length;
-        var newLength = Math.floor(length / rows * lineLimit - 5);
+        var newLength = Math.floor(length / rows * lineLimit - 15);
         if(rows > lineLimit)
             $(this).text($(this).text().substr(0,newLength)+'...');
     })

@@ -2154,13 +2154,14 @@ h5 {
             max-width: 100%; }
             @media (max-width: 767px) {
               .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .search-list-img {
-                width: 280px; } }
+                width: 295px !important;
+                height: auto !important; } }
           .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .svip-ban {
             position: absolute !important;
             width: 55px;
             height: 25px;
             background-color: #ec1c24;
-            bottom: 30px;
+            top: 50%;
             right: 0;
             font-family: "helvetica-roman";
             font-size: 12px;
@@ -2179,7 +2180,9 @@ h5 {
               justify-content: center !important;
               padding-bottom: 20px; }
               .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .svip-ban {
-                right: 24%; } }
+                right: 24%;
+                bottom: 40px;
+                top: initial; } }
     @media (max-width: 767px) and (max-width: 575px) {
       .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .svip-ban {
         right: 0; } }
@@ -2437,7 +2440,8 @@ h5 {
           font-size: 18px;
           color: #000; }
           .site__content .politics .politicts-content .item-details .item-details-desc .price span {
-            color: #EC1C24; }
+            color: #EC1C24;
+            font-family: "helvetica-bold"; }
         .site__content .politics .politicts-content .item-details .item-details-desc .item-num {
           padding: 10px 0;
           font-family: "helvetica-bold";
@@ -2448,7 +2452,7 @@ h5 {
         .site__content .politics .politicts-content .item-details .item-details-desc .details-item {
           margin-left: 5px;
           font-family: "helvetica-roman";
-          font-size: 10px;
+          font-size: 11px;
           color: #000; }
           .site__content .politics .politicts-content .item-details .item-details-desc .details-item:not(:last-child) {
             margin-right: 30px; }
@@ -2473,11 +2477,11 @@ h5 {
                 height: 17px; }
             .site__content .politics .politicts-content .item-details .item-details-desc .user-info .user-info-item .user-name {
               font-family: "helvetica-roman";
-              font-size: 10px;
+              font-size: 11px;
               color: #000; }
             .site__content .politics .politicts-content .item-details .item-details-desc .user-info .user-info-item a {
               font-family: "helvetica-roman";
-              font-size: 10px;
+              font-size: 11px;
               color: #EC1C24; }
         @media (max-width: 600px) {
           .site__content .politics .politicts-content .item-details .item-details-desc {
@@ -2546,7 +2550,6 @@ h5 {
           width: 16px;
           height: 16px;
           z-index: 1;
-          background-color: #FFF;
           -webkit-border-radius: 50% !important;
           -moz-border-radius: 50% !important;
           -ms-border-radius: 50% !important;
@@ -2560,10 +2563,10 @@ h5 {
               display: none !important; } }
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-prev {
           left: -25px;
-          top: 35%; }
+          top: 48%; }
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-next {
           right: -25px;
-          top: 35%; }
+          top: 48%; }
     .site__content .politics .advert-block1 {
       overflow: hidden; }
       .site__content .politics .advert-block1 .advert1-blog-link {
@@ -5059,6 +5062,9 @@ a.user-btn.login-user i {
   font-family: helvetica-bold;
   font-size: 14px;
   color: #000; }
+  @media (max-width: 767px) {
+    .search-list-id {
+      display: none !important; } }
 
 .vip-block-items .vip-item img {
   width: 160px;
@@ -5075,12 +5081,18 @@ a.user-btn.login-user i {
   font-size: 14px;
   color: #EC1C24; }
   .dropzone .dz-preview .dz-remove:after {
-    content: '\f00d';
     position: absolute;
     font-family: fontAwesome;
     margin-left: 8px; }
   .dropzone .dz-preview .dz-remove:hover {
     opacity: 0.7; }
 
-.dropzone .dz-preview:hover .dz-details {
-  opacity: 0; }
+.sw-det .swiper-wrapper .swiper-slide img {
+  width: 160px !important;
+  height: 120px !important; }
+
+.dz-image-preview .main-img {
+  border-radius: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0); }

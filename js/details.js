@@ -18,7 +18,7 @@ $(document).ready(function () {
     //swiper-slider
     var swiper = new Swiper('.sw-det', {
         slidesPerView: 4,
-        spaceBetween: 30,
+        spaceBetween: 5,
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {
@@ -30,19 +30,22 @@ $(document).ready(function () {
             prevEl: '.swiper-button-prev',
         },
         breakpoints: {
-            991: {
+            1199: {
                 slidesPerView: 4,
-                spaceBetween: 20,
+                spaceBetween: 25,
             },
             767: {
                 slidesPerView: 3,
-                spaceBetween: 10,
+                spaceBetween: 20,
             },
             530: {
                 slidesPerView: 2,
                 spaceBetween: 10,
+            },
+            359: {
+                slidesPerView: 1,
+                spaceBetween: 10,
             }
-
         }
     });
 
