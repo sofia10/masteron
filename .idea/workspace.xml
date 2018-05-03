@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fe610b-607d-487e-b134-2c5430ef1259" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
-      <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1739" column="31" lean-forward="false" selection-start-line="1739" selection-start-column="31" selection-end-line="1739" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="1802" column="29" lean-forward="false" selection-start-line="1802" selection-start-column="13" selection-end-line="1802" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -90,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
       <find>input</find>
       <find>search-form-input</find>
       <find>search-form</find>
@@ -120,6 +116,7 @@
       <find>search-list-img</find>
       <find>.price</find>
       <find>user-name</find>
+      <find>search-list-desc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -292,12 +289,12 @@
       <workItem from="1525243837519" duration="458000" />
       <workItem from="1525244795357" duration="4539000" />
       <workItem from="1525334941271" duration="4081000" />
-      <workItem from="1525347977781" duration="3053000" />
+      <workItem from="1525347977781" duration="3138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31047000" />
+    <option name="totallyTimeSpent" value="31132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -651,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1739" column="31" lean-forward="false" selection-start-line="1739" selection-start-column="31" selection-end-line="1739" selection-end-column="31" />
+        <state relative-caret-position="195">
+          <caret line="1802" column="29" lean-forward="false" selection-start-line="1802" selection-start-column="13" selection-end-line="1802" selection-end-column="29" />
           <folding />
         </state>
       </provider>

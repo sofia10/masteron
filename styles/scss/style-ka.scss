@@ -1802,6 +1802,9 @@ h5{
             }
             .search-list-desc {
               color: #555555;
+              max-height: 80px;
+              overflow: hidden;
+              line-height: 16px;
             }
             .search-list-info {
               margin-top: 20px;

@@ -2206,7 +2206,10 @@ h5 {
           color: #EC1C24;
           margin: 15px 0; }
         .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-desc {
-          color: #555555; }
+          color: #555555;
+          max-height: 80px;
+          overflow: hidden;
+          line-height: 16px; }
         .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
           margin-top: 20px; }
           .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item img {
