@@ -4,6 +4,10 @@ $(document).ready(function () {
         spaceBetween: 35,
         loop: true,
         loopFillGroupWithBlank: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
@@ -40,7 +44,7 @@ $(document).ready(function () {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 2000,
         disableOnInteraction: false,
       },
       pagination: {
