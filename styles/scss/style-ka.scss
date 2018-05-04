@@ -4706,7 +4706,8 @@ a.user-btn.login-user i{
 .tooltip-inner{
   background-color: #FFF;
   color: #555;
-
+  font-family: helvetica-roman;
+  font-size: 12px;
 }
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before{
   border-top-color: #FFF;
