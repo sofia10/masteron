@@ -4708,6 +4708,8 @@ a.user-btn.login-user i{
   color: #555;
   font-family: helvetica-roman;
   font-size: 12px;
+  padding: 6px 12px;
+  @include border-radius(10px);
 }
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before{
   border-top-color: #FFF;

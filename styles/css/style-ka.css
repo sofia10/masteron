@@ -5207,7 +5207,12 @@ a.user-btn.login-user i {
   background-color: #FFF;
   color: #555;
   font-family: helvetica-roman;
-  font-size: 12px; }
+  font-size: 12px;
+  padding: 6px 12px;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  border-radius: 10px !important; }
 
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
   border-top-color: #FFF; }
