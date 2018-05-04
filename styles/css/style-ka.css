@@ -5207,8 +5207,5 @@ a.user-btn.login-user i {
   background-color: #FFF;
   color: #555; }
 
-.tooltip {
-  border: 1px solid #555; }
-
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
-  border-top-color: #555; }
+  border-top-color: #FFF; }
