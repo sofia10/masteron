@@ -5203,8 +5203,12 @@ a.user-btn.login-user i {
     -moz-border-radius-topleft: 6px !important;
     border-top-left-radius: 6px !important; }
 
-.main-img + .tooltip > .tooltip-inner {
-  background-color: #f00; }
+.tooltip-inner {
+  background-color: #FFF;
+  color: #555; }
 
-.main-img + .tooltip > .tooltip-arrow {
-  border-bottom-color: #f00; }
+.tooltip {
+  border: 1px solid #555; }
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #555; }

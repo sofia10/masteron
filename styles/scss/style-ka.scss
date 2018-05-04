@@ -4703,5 +4703,13 @@ a.user-btn.login-user i{
     @include border-top-left(6px);
   }
 }
-.main-img + .tooltip > .tooltip-inner {background-color: #f00;}
-.main-img + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
+.tooltip-inner{
+  background-color: #FFF;
+  color: #555;
+}
+.tooltip{
+  border: 1px solid #555;
+}
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before{
+  border-top-color: #555;
+}

@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
       <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
-      <change beforePath="$PROJECT_DIR$/user-profile3.html" afterPath="$PROJECT_DIR$/user-profile3.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="4703" column="3" lean-forward="true" selection-start-line="4703" selection-start-column="3" selection-end-line="4703" selection-end-column="3" />
+            <state relative-caret-position="497">
+              <caret line="4712" column="59" lean-forward="true" selection-start-line="4712" selection-start-column="59" selection-end-line="4712" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -257,12 +256,12 @@
       <workItem from="1525347977781" duration="3560000" />
       <workItem from="1525419874243" duration="2430000" />
       <workItem from="1525425904085" duration="320000" />
-      <workItem from="1525431072527" duration="1239000" />
+      <workItem from="1525431072527" duration="2026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35543000" />
+    <option name="totallyTimeSpent" value="36330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -696,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="4703" column="3" lean-forward="true" selection-start-line="4703" selection-start-column="3" selection-end-line="4703" selection-end-column="3" />
+        <state relative-caret-position="497">
+          <caret line="4712" column="59" lean-forward="true" selection-start-line="4712" selection-start-column="59" selection-end-line="4712" selection-end-column="59" />
           <folding />
         </state>
       </provider>
