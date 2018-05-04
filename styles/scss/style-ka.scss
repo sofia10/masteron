@@ -4672,3 +4672,36 @@ a.user-btn.login-user i{
     @include border-top-left(6px);
   }
 }
+.table-photo{
+  position: relative;
+  .svip-ban{
+    position: absolute!important;
+    width: 45px;
+    height: 20px;
+    background-color: $red;
+    top: 50%;
+    right: 0;
+    font-family: helvetica-roman;
+    font-size: 11px;
+    color: #fff;
+    @include font-style($primary-font,12px,#FFF);
+    @include border-bottom-left(6px);
+    @include border-top-left(6px);
+  }
+  .vip-ban{
+    position: absolute!important;
+    width: 45px;
+    height: 20px;
+    background-color: $yellow;
+    top: 50%;
+    right: 0;
+    font-family: helvetica-roman;
+    font-size: 11px;
+    color: #fff;
+    @include font-style($primary-font,12px,#000);
+    @include border-bottom-left(6px);
+    @include border-top-left(6px);
+  }
+}
+.main-img + .tooltip > .tooltip-inner {background-color: #f00;}
+.main-img + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }

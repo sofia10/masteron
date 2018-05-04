@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="46fe610b-607d-487e-b134-2c5430ef1259" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
       <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
+      <change beforePath="$PROJECT_DIR$/user-profile3.html" afterPath="$PROJECT_DIR$/user-profile3.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,18 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="4244" column="0" lean-forward="false" selection-start-line="4244" selection-start-column="0" selection-end-line="4244" selection-end-column="0" />
+            <state relative-caret-position="508">
+              <caret line="4703" column="3" lean-forward="true" selection-start-line="4703" selection-start-column="3" selection-end-line="4703" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-profile3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-profile3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="1088" column="36" lean-forward="false" selection-start-line="1088" selection-start-column="36" selection-end-line="1088" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -30,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18060">
-              <caret line="1204" column="42" lean-forward="false" selection-start-line="1204" selection-start-column="42" selection-end-line="1204" selection-end-column="42" />
+            <state relative-caret-position="80">
+              <caret line="1203" column="36" lean-forward="false" selection-start-line="1203" selection-start-column="36" selection-end-line="1204" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -41,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>მდებარეობ</find>
-      <find>asd</find>
       <find>map</find>
       <find>text-in</find>
       <find>search-list-text</find>
@@ -71,6 +79,8 @@
       <find>politics</find>
       <find>advert-block1</find>
       <find>.politics</find>
+      <find>table-ph</find>
+      <find>mobile-tran</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,6 +95,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/details.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/user-profile3.html" />
         <option value="$PROJECT_DIR$/styles/scss/style-ka.scss" />
       </list>
     </option>
@@ -175,8 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +207,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,19 +256,20 @@
       <workItem from="1525334941271" duration="4081000" />
       <workItem from="1525347977781" duration="3560000" />
       <workItem from="1525419874243" duration="2430000" />
-      <workItem from="1525425904085" duration="150000" />
+      <workItem from="1525425904085" duration="320000" />
+      <workItem from="1525431072527" duration="1239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34134000" />
+    <option name="totallyTimeSpent" value="35543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30615166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -309,6 +321,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18060">
+          <caret line="1204" column="42" lean-forward="false" selection-start-line="1204" selection-start-column="42" selection-end-line="1204" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -593,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-profile3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5309">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/edit-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -659,16 +680,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18060">
-          <caret line="1204" column="42" lean-forward="false" selection-start-line="1204" selection-start-column="42" selection-end-line="1204" selection-end-column="42" />
+        <state relative-caret-position="80">
+          <caret line="1203" column="36" lean-forward="false" selection-start-line="1203" selection-start-column="36" selection-end-line="1204" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-profile3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="1088" column="36" lean-forward="false" selection-start-line="1088" selection-start-column="36" selection-end-line="1088" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="4244" column="0" lean-forward="false" selection-start-line="4244" selection-start-column="0" selection-end-line="4244" selection-end-column="0" />
+        <state relative-caret-position="508">
+          <caret line="4703" column="3" lean-forward="true" selection-start-line="4703" selection-start-column="3" selection-end-line="4703" selection-end-column="3" />
           <folding />
         </state>
       </provider>
