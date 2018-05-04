@@ -1463,7 +1463,7 @@ h5 {
         font-size: 12px !important; } }
   .site__content .politics {
     margin-top: 30px;
-    padding-bottom: 50px; }
+    padding-bottom: 100px; }
     .site__content .politics h6 {
       font-family: "helvetica-bold";
       font-size: 16px;
@@ -2570,24 +2570,22 @@ h5 {
         .site__content .politics .politicts-content .more-ads .content-supervip-slider .swiper-button-next {
           right: -25px;
           top: 48%; }
-    .site__content .politics .advert-block1 {
-      overflow: hidden; }
-      .site__content .politics .advert-block1 .advert1-blog-link {
-        display: inline-block;
-        margin-bottom: 10px;
-        transition: 0.8s; }
-        .site__content .politics .advert-block1 .advert1-blog-link img {
-          width: 100%;
-          height: 100%;
-          -webkit-border-radius: 10px !important;
-          -moz-border-radius: 10px !important;
-          -ms-border-radius: 10px !important;
-          border-radius: 10px !important; }
-        .site__content .politics .advert-block1 .advert1-blog-link:hover {
-          opacity: 0.7; }
-      @media (max-width: 1199px) {
-        .site__content .politics .advert-block1 {
-          display: none; } }
+    .site__content .politics .advert-block1 .advert1-blog-link {
+      display: inline-block;
+      margin-bottom: 10px;
+      transition: 0.8s; }
+      .site__content .politics .advert-block1 .advert1-blog-link img {
+        width: 100%;
+        height: 100%;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        border-radius: 10px !important; }
+      .site__content .politics .advert-block1 .advert1-blog-link:hover {
+        opacity: 0.7; }
+    @media (max-width: 1199px) {
+      .site__content .politics .advert-block1 {
+        display: none; } }
     @media (max-width: 991px) {
       .site__content .politics {
         margin-top: 0; } }
@@ -3848,7 +3846,7 @@ h5 {
       margin-bottom: 10px; }
 
 .site__footer {
-  padding: 20px 0; }
+  padding: 10px 0; }
   .site__footer .sup-footer .footer-logo img {
     width: 100%;
     max-width: 160px; }
@@ -3908,7 +3906,7 @@ h5 {
         justify-content: center !important;
         margin-top: 15px; } }
   .site__footer .mid-footer {
-    margin-top: 25px; }
+    margin-top: 10px; }
     .site__footer .mid-footer .footer-social-link {
       position: relative;
       margin: 5px; }
@@ -4410,7 +4408,7 @@ h5 {
     color: #000; }
 
 .no-photo {
-  width: 165px !important;
+  width: 160px !important;
   height: 120px !important; }
 
 /*.asd-photo{
@@ -4695,7 +4693,20 @@ td {
 
 .dropdown-scroll {
   max-height: 500px;
-  overflow: scroll; }
+  overflow: scroll;
+  overflow-x: hidden; }
+
+.dropdown-scroll::-webkit-scrollbar {
+  width: 5px; }
+
+.dropdown-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1; }
+
+.dropdown-scroll::-webkit-scrollbar-thumb {
+  background: #888; }
+
+.dropdown-scroll::-webkit-scrollbar-thumb:hover {
+  background: #555; }
 
 .dropdown-item .dropdown-item_menu {
   width: unset; }
@@ -5109,3 +5120,44 @@ a.user-btn.login-user i {
   -webkit-border-top-left-radius: 10px !important;
   -moz-border-radius-topleft: 10px !important;
   border-top-left-radius: 10px !important; }
+
+.vip-item-img {
+  position: relative; }
+  .vip-item-img .svip-ban {
+    position: absolute !important;
+    width: 55px;
+    height: 25px;
+    background-color: #EC1C24;
+    top: 50%;
+    right: 0;
+    font-family: helvetica-roman;
+    font-size: 12px;
+    color: #fff;
+    font-family: "helvetica-roman";
+    font-size: 12px;
+    color: #FFF;
+    -webkit-border-bottom-left-radius: 6px !important;
+    -moz-border-radius-bottomleft: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    -webkit-border-top-left-radius: 6px !important;
+    -moz-border-radius-topleft: 6px !important;
+    border-top-left-radius: 6px !important; }
+  .vip-item-img .vip-ban {
+    position: absolute !important;
+    width: 55px;
+    height: 25px;
+    background-color: #FFF100;
+    top: 50%;
+    right: 0;
+    font-family: helvetica-roman;
+    font-size: 12px;
+    color: #fff;
+    font-family: "helvetica-roman";
+    font-size: 12px;
+    color: #000;
+    -webkit-border-bottom-left-radius: 6px !important;
+    -moz-border-radius-bottomleft: 6px !important;
+    border-bottom-left-radius: 6px !important;
+    -webkit-border-top-left-radius: 6px !important;
+    -moz-border-radius-topleft: 6px !important;
+    border-top-left-radius: 6px !important; }
