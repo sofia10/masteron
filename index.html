@@ -52,9 +52,15 @@
                         <div class="search-nav">
                             <i class="fa fa-times"></i>
                             <form action="" class="search-form d-flex flex-column align-items-start">
-                                <div class="header-search">
-                                    <input type="text" class="search-form-input" placeholder="საძიებო ტექსტი">
+                                <div class="header-search  ui-widget searchi-b">
+                                    <input type="text" autocomplete="off" name="keyword" class="search-form-input form-control s og-symbols" id="tags" placeholder="საძიებო ტექსტი">
                                     <button class="zoom-btn"><img src="images/zoom.svg" alt=""></button>
+                                    <div class="flags active">
+                                        <ul class="flags-l" style="margin-left: -20px;">
+                                            <li class="f-item uk"></li>
+                                            <li class="f-item ka"></li>
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="dropdown search-form-elem">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -627,9 +633,15 @@
                             <a class="dropdown-item" href="#">მასალები</a>
                         </div>
                     </div>
-                    <div class="header-search">
-                        <input type="text" class="search-form-input" placeholder="საძიებო ტექსტი">
+                    <div class="header-search ui-widget searchi-b ui-widget searchi-b">
+                        <input type="text" autocomplete="off" name="keyword" class="search-form-input form-control s og-symbols" id="tags" placeholder="საძიებო ტექსტი">
                         <button class="zoom-btn"><img src="images/zoom.svg" alt=""></button>
+                        <div class="flags active">
+                            <ul class="flags-l" style="margin-left: -20px;">
+                                <li class="f-item uk"></li>
+                                <li class="f-item ka"></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="dropdown search-form-elem hidden-drop">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -1476,6 +1488,10 @@
 <script src="minJs/default.min.js"></script>
 <!--index.js-->
 <script src="minJs/index.min.js"></script>
+
+<!--search keyword-->
+<script src="plugins/symbols/custom.js"></script>
+<script src="plugins/symbols/jquery.caret.js"></script>
 
 </body>
 </html>

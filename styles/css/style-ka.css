@@ -471,6 +471,14 @@ h5 {
 .advert-block1 {
   position: relative; }
 
+.form-control {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important; }
+
 .cat-sidebar-content {
   position: absolute;
   top: 0;
@@ -1078,8 +1086,8 @@ h5 {
     .site__header .sub-header .search-form .search-form-input {
       width: 370px;
       height: 39px;
-      padding: 0.600rem .75rem;
       border: 1px solid #E4E4E4;
+      padding-left: 35px;
       margin-right: 5px;
       padding-right: 35px;
       -webkit-border-radius: 6px !important;
@@ -5022,6 +5030,27 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
   @media (max-width: 575px) and (min-width: 350px) {
     .header-search .search-form-input {
       width: 95% !important; } }
+  .header-search .flags {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    left: 10px;
+    top: 10px;
+    cursor: pointer; }
+    .header-search .flags .flags-l {
+      width: 40px;
+      height: 20px; }
+      .header-search .flags .flags-l .f-item {
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        float: left; }
+      .header-search .flags .flags-l .f-item.uk {
+        background-image: url("../../images/uk-flag.png"); }
+      .header-search .flags .flags-l .f-item.ka {
+        background-image: url("../../images/ka-flag.png"); }
 
 .location-popup .popup-map {
   height: 250px !important; }
