@@ -4787,8 +4787,8 @@ a.user-btn.login-user i{
   @include border-bottom-right(6px);
 }
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
-  font-weight: bold;
-  color: #333;
-  border: none;
-  background: initial;
+  font-weight: bold!important;
+  color: #333!important;
+  border: none!important;
+  background: initial!important;
 }
