@@ -146,6 +146,8 @@ h5{
             border: 1px solid $border-color;
             @include border-radius(6px);
             @include font-style($primary-font,12px,#1A1A1A);
+            background-image: url("../../images/search_kb.png");
+            background-size: 14px;
           }
           .search-form-elem{
             width: 95%;
@@ -672,9 +674,13 @@ h5{
         width: 370px;
         height: 39px;
         border: 1px solid $border-color;
-        padding-left: 35px;
+        padding-left: 50px;
         margin-right: 5px;
         padding-right: 35px;
+        background-image: url("../../images/search_kb.png");
+        background-size: 16px;
+        background-position: 5px;
+        background-repeat: no-repeat;
         @include border-radius(6px);
         &:after{
           content: "\f002";
@@ -682,11 +688,6 @@ h5{
           font-family: 'FontAwesome';
           top: 0;
           left: 10px;
-        }
-        @media (max-width: 991px){
-          direction: ltr;
-          background-position: 95%;
-          padding-right: 40px;
         }
         @media (max-width: 350px){
           width: 150px;
@@ -4556,25 +4557,24 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
     width: 20px;
     height: 20px;
     overflow: hidden;
-    left: 10px;
-    top: 10px;
+    left: 28px;
+    top: 11px;
     cursor: pointer;
+    border-right: 1px solid #bbb;
     .flags-l{
       width: 40px;
       height: 20px;
       .f-item{
         width: 20px;
         height: 20px;
-        background-repeat: no-repeat;
-        background-size: 20px 20px;
+        font-size: 12px;
+        color: #333;
         float: left;
+        text-transform: uppercase;
       }
-      .f-item.uk{
-        background-image: url("../../images/uk-flag.png");
-      }
-      .f-item.ka{
-        background-image: url("../../images/ka-flag.png");
-      }
+    }
+    @media (max-width: 575px){
+      left: 30px;
     }
   }
 }

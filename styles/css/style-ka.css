@@ -600,7 +600,9 @@ h5 {
         border-radius: 6px !important;
         font-family: "helvetica-roman";
         font-size: 12px;
-        color: #1A1A1A; }
+        color: #1A1A1A;
+        background-image: url("../../images/search_kb.png");
+        background-size: 14px; }
       .site__header .sup-header .search .search-nav form .search-form-elem {
         width: 95%;
         margin: 0 auto;
@@ -1087,9 +1089,13 @@ h5 {
       width: 370px;
       height: 39px;
       border: 1px solid #E4E4E4;
-      padding-left: 35px;
+      padding-left: 50px;
       margin-right: 5px;
       padding-right: 35px;
+      background-image: url("../../images/search_kb.png");
+      background-size: 16px;
+      background-position: 5px;
+      background-repeat: no-repeat;
       -webkit-border-radius: 6px !important;
       -moz-border-radius: 6px !important;
       -ms-border-radius: 6px !important;
@@ -1100,11 +1106,6 @@ h5 {
         font-family: 'FontAwesome';
         top: 0;
         left: 10px; }
-      @media (max-width: 991px) {
-        .site__header .sub-header .search-form .search-form-input {
-          direction: ltr;
-          background-position: 95%;
-          padding-right: 40px; } }
       @media (max-width: 350px) {
         .site__header .sub-header .search-form .search-form-input {
           width: 150px;
@@ -5035,22 +5036,23 @@ body > header > div > div > div.sub-header > form > input[type="submit"]:nth-chi
     width: 20px;
     height: 20px;
     overflow: hidden;
-    left: 10px;
-    top: 10px;
-    cursor: pointer; }
+    left: 28px;
+    top: 11px;
+    cursor: pointer;
+    border-right: 1px solid #bbb; }
     .header-search .flags .flags-l {
       width: 40px;
       height: 20px; }
       .header-search .flags .flags-l .f-item {
         width: 20px;
         height: 20px;
-        background-repeat: no-repeat;
-        background-size: 20px 20px;
-        float: left; }
-      .header-search .flags .flags-l .f-item.uk {
-        background-image: url("../../images/uk-flag.png"); }
-      .header-search .flags .flags-l .f-item.ka {
-        background-image: url("../../images/ka-flag.png"); }
+        font-size: 12px;
+        color: #333;
+        float: left;
+        text-transform: uppercase; }
+    @media (max-width: 575px) {
+      .header-search .flags {
+        left: 30px; } }
 
 .location-popup .popup-map {
   height: 250px !important; }
