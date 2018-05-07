@@ -5292,3 +5292,11 @@ a.user-btn.login-user i {
   border: none !important;
   background: initial !important;
   margin: 0 !important; }
+
+.pac-container {
+  width: 350px !important; }
+  .pac-container .pac-item {
+    font-family: "helvetica-roman"; }
+  @media (max-width: 767px) {
+    .pac-container {
+      width: 150px !important; } }

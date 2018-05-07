@@ -4793,3 +4793,12 @@ a.user-btn.login-user i{
   background: initial!important;
   margin: 0!important;
 }
+.pac-container{
+  width: 350px!important;
+  .pac-item{
+    font-family: $primary-font;
+  }
+  @media (max-width: 767px){
+    width: 150px!important;
+  }
+}
