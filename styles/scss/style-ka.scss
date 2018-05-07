@@ -4763,3 +4763,32 @@ a.user-btn.login-user i{
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before{
   border-top-color: #FFF;
 }
+.mobile-transaction .item > div{
+  width: 100%;
+  .image{
+    width: 50%;
+  }
+  .right-sw{
+    width: 50%;
+  }
+  .share-li{
+    &:last-child{
+      @include flex-direction(column);
+    }
+  }
+}
+.ui-menu .ui-menu-item{
+  font-size: 14px;
+  @include font-style($primary-font,14px,#555);
+}
+.ui-widget-content{
+  margin-top: -4px;
+  @include border-bottom-left(6px);
+  @include border-bottom-right(6px);
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+  font-weight: bold;
+  color: #333;
+  border: none;
+  background: initial;
+}

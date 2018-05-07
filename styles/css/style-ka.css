@@ -5260,3 +5260,34 @@ a.user-btn.login-user i {
 
 .tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
   border-top-color: #FFF; }
+
+.mobile-transaction .item > div {
+  width: 100%; }
+  .mobile-transaction .item > div .image {
+    width: 50%; }
+  .mobile-transaction .item > div .right-sw {
+    width: 50%; }
+  .mobile-transaction .item > div .share-li:last-child {
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+
+.ui-menu .ui-menu-item {
+  font-size: 14px;
+  font-family: "helvetica-roman";
+  font-size: 14px;
+  color: #555; }
+
+.ui-widget-content {
+  margin-top: -4px;
+  -webkit-border-bottom-left-radius: 6px !important;
+  -moz-border-radius-bottomleft: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  -webkit-border-bottom-right-radius: 6px !important;
+  -moz-border-radius-bottomright: 6px !important;
+  border-bottom-right-radius: 6px !important; }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  font-weight: bold;
+  color: #333;
+  border: none;
+  background: initial; }
