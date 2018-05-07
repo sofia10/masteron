@@ -5290,4 +5290,5 @@ a.user-btn.login-user i {
   font-weight: bold !important;
   color: #333 !important;
   border: none !important;
-  background: initial !important; }
+  background: initial !important;
+  margin: 0 !important; }
