@@ -2170,9 +2170,9 @@ h5 {
             width: 55px;
             height: 25px;
             background-color: #ec1c24;
-            top: 50%;
+            top: 68%;
             right: 0;
-            font-family: "helvetica-roman";
+            font-family: "helvetica-bold";
             font-size: 12px;
             color: #FFF;
             -webkit-border-top-left-radius: 6px !important;
@@ -4963,11 +4963,11 @@ label.captcha {
   margin: 0; }
 
 body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
-  width: 230px;
+  width: 160px;
   height: 39px;
   padding: 0 !important; }
   body > header > div > div > div.sub-header > form > div:nth-child(4) > button span {
-    max-width: 180px;
+    max-width: 135px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -4981,11 +4981,11 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
     top: 20px; }
 
 body > header > div > div > div.sub-header > form > div:nth-child(5) > button {
-  width: 190px;
+  width: 160px;
   height: 39px;
   padding: 0 !important; }
   body > header > div > div > div.sub-header > form > div:nth-child(5) > button span {
-    max-width: 150px;
+    max-width: 135px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -4999,7 +4999,12 @@ body > header > div > div > div.sub-header > form > div:nth-child(5) > button {
     top: 20px; }
   @media (max-width: 420px) {
     body > header > div > div > div.sub-header > form > div:nth-child(5) > button {
-      width: 150px !important; } }
+      width: 130px !important; }
+      body > header > div > div > div.sub-header > form > div:nth-child(5) > button span {
+        max-width: 110px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; } }
 
 body > header > div > div > div.sub-header > form > input[type="submit"]:nth-child(6) {
   height: 39px; }
@@ -5172,12 +5177,11 @@ a.user-btn.login-user i {
     width: 55px;
     height: 25px;
     background-color: #EC1C24;
-    top: 50%;
+    top: 68%;
     right: 0;
-    font-family: helvetica-roman;
     font-size: 12px;
     color: #fff;
-    font-family: "helvetica-roman";
+    font-family: "helvetica-bold";
     font-size: 12px;
     color: #FFF;
     -webkit-border-bottom-left-radius: 6px !important;
@@ -5191,12 +5195,11 @@ a.user-btn.login-user i {
     width: 55px;
     height: 25px;
     background-color: #FFF100;
-    top: 50%;
+    top: 68%;
     right: 0;
-    font-family: helvetica-roman;
     font-size: 12px;
     color: #fff;
-    font-family: "helvetica-roman";
+    font-family: "helvetica-bold";
     font-size: 12px;
     color: #000;
     -webkit-border-bottom-left-radius: 6px !important;
@@ -5213,9 +5216,9 @@ a.user-btn.login-user i {
     width: 45px;
     height: 20px;
     background-color: #EC1C24;
-    top: 50%;
+    top: 68%;
     right: 0;
-    font-family: helvetica-roman;
+    font-family: "helvetica-bold";
     font-size: 11px;
     color: #fff;
     font-family: "helvetica-roman";
@@ -5232,9 +5235,9 @@ a.user-btn.login-user i {
     width: 45px;
     height: 20px;
     background-color: #FFF100;
-    top: 50%;
+    top: 68%;
     right: 0;
-    font-family: helvetica-roman;
+    font-family: "helvetica-bold";
     font-size: 11px;
     color: #fff;
     font-family: "helvetica-roman";
