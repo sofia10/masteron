@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
       <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
+      <change beforePath="$PROJECT_DIR$/user-profile3.html" afterPath="$PROJECT_DIR$/user-profile3.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="4523" column="27" lean-forward="false" selection-start-line="4523" selection-start-column="27" selection-end-line="4523" selection-end-column="27" />
+            <state relative-caret-position="-8296">
+              <caret line="3939" column="13" lean-forward="true" selection-start-line="3939" selection-start-column="13" selection-end-line="3939" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -30,28 +31,12 @@
         <entry file="file://$PROJECT_DIR$/user-profile3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="1026" column="22" lean-forward="false" selection-start-line="1026" selection-start-column="22" selection-end-line="1026" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categories.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/categories.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/default.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-              <folding />
+              <caret line="1160" column="0" lean-forward="false" selection-start-line="1160" selection-start-column="0" selection-end-line="1160" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,9 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>svip-ban</find>
-      <find>search-list-id</find>
-      <find>search-list-img</find>
       <find>.price</find>
       <find>user-name</find>
       <find>search-list-desc</find>
@@ -89,7 +71,10 @@
       <find>ნახვები</find>
       <find>top: 50%</find>
       <find>top: 70%</find>
+      <find>share-li</find>
       <find>vip-ban</find>
+      <find>myswiper</find>
+      <find>my-swiper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,8 +90,8 @@
         <option value="$PROJECT_DIR$/js/details.js" />
         <option value="$PROJECT_DIR$/ads1.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/user-profile3.html" />
         <option value="$PROJECT_DIR$/styles/scss/style-ka.scss" />
+        <option value="$PROJECT_DIR$/user-profile3.html" />
       </list>
     </option>
   </component>
@@ -271,12 +256,12 @@
       <workItem from="1525626405997" duration="3422000" />
       <workItem from="1525675932600" duration="4689000" />
       <workItem from="1525700158968" duration="676000" />
-      <workItem from="1525763933884" duration="2529000" />
+      <workItem from="1525763933884" duration="3537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48628000" />
+    <option name="totallyTimeSpent" value="49636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -680,10 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-profile3.html">
+    <entry file="file://$PROJECT_DIR$/js/default.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1026" column="22" lean-forward="false" selection-start-line="1026" selection-start-column="22" selection-end-line="1026" selection-end-column="22" />
+        <state relative-caret-position="346">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -696,18 +681,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/default.js">
+    <entry file="file://$PROJECT_DIR$/user-profile3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="1160" column="0" lean-forward="false" selection-start-line="1160" selection-start-column="0" selection-end-line="1160" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="4523" column="27" lean-forward="false" selection-start-line="4523" selection-start-column="27" selection-end-line="4523" selection-end-column="27" />
+        <state relative-caret-position="-8296">
+          <caret line="3939" column="13" lean-forward="true" selection-start-line="3939" selection-start-column="13" selection-end-line="3939" selection-end-column="13" />
           <folding />
         </state>
       </provider>

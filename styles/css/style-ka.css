@@ -4414,6 +4414,14 @@ h5 {
   width: 100%;
   margin-top: 15px;
   border-bottom: 1px solid #E4E4E4; }
+  .mobile-transaction .my-swiper i {
+    color: #b5b5b5; }
+
+.mobile-transaction .my-swiper.svip i {
+  color: #EC1C24; }
+
+.mobile-transaction .my-swiper.vip i {
+  color: #000; }
 
 .mobile-transaction .mobile-transaction {
   padding: 0px 15px; }
@@ -5218,10 +5226,9 @@ a.user-btn.login-user i {
     background-color: #EC1C24;
     top: 68%;
     right: 0;
-    font-family: "helvetica-bold";
     font-size: 11px;
     color: #fff;
-    font-family: "helvetica-roman";
+    font-family: "helvetica-bold";
     font-size: 12px;
     color: #FFF;
     -webkit-border-bottom-left-radius: 6px !important;
@@ -5237,10 +5244,9 @@ a.user-btn.login-user i {
     background-color: #FFF100;
     top: 68%;
     right: 0;
-    font-family: "helvetica-bold";
     font-size: 11px;
     color: #fff;
-    font-family: "helvetica-roman";
+    font-family: "helvetica-bold";
     font-size: 12px;
     color: #000;
     -webkit-border-bottom-left-radius: 6px !important;
@@ -5270,9 +5276,6 @@ a.user-btn.login-user i {
     width: 50%; }
   .mobile-transaction .item > div .right-sw {
     width: 50%; }
-  .mobile-transaction .item > div .share-li:last-child {
-    -webkit-flex-direction: column;
-    flex-direction: column; }
 
 .ui-menu .ui-menu-item {
   font-size: 14px;

@@ -3936,6 +3936,19 @@ label.add-balance{
     width: 100%;
     margin-top: 15px;
     border-bottom: 1px solid $border-color;
+    i{
+      color: #b5b5b5;
+    }
+  }
+  .my-swiper.svip{
+    i{
+      color: $red;
+    }
+  }
+  .my-swiper.vip{
+    i{
+      color: #000;
+    }
   }
   .mobile-transaction{
     padding: 0px 15px;
@@ -4731,10 +4744,9 @@ a.user-btn.login-user i{
     background-color: $red;
     top: 68%;
     right: 0;
-    font-family: $bold-font;
     font-size: 11px;
     color: #fff;
-    @include font-style($primary-font,12px,#FFF);
+    @include font-style($bold-font,12px,#FFF);
     @include border-bottom-left(6px);
     @include border-top-left(6px);
   }
@@ -4745,10 +4757,9 @@ a.user-btn.login-user i{
     background-color: $yellow;
     top: 68%;
     right: 0;
-    font-family: $bold-font;
     font-size: 11px;
     color: #fff;
-    @include font-style($primary-font,12px,#000);
+    @include font-style($bold-font,12px,#000);
     @include border-bottom-left(6px);
     @include border-top-left(6px);
   }
@@ -4771,11 +4782,6 @@ a.user-btn.login-user i{
   }
   .right-sw{
     width: 50%;
-  }
-  .share-li{
-    &:last-child{
-      @include flex-direction(column);
-    }
   }
 }
 .ui-menu .ui-menu-item{
