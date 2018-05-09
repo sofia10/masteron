@@ -41,6 +41,7 @@ h5{
   position: absolute;
   top: 0;
   left: 15px;
+  z-index: 1;
 }
 .asd1-photo{
   width: 160px!important;
@@ -3923,7 +3924,7 @@ label.add-balance{
     left: 0;
     top: 0;
     width: 100%;
-    height: 170px;
+    height: 130px;
     overflow: hidden;
   }
   .active{
@@ -3932,7 +3933,7 @@ label.add-balance{
   .my-swiper{
     position: relative;
     overflow: hidden;
-    height: 170px;
+    height: 130px;
     width: 100%;
     margin-top: 15px;
     border-bottom: 1px solid $border-color;
@@ -4646,9 +4647,9 @@ a.user-btn.login-user i{
 }
 .search-list-id{
   display: block!important;
-  font-family: helvetica-bold;
+  font-family: $primary-font;
   font-size: 14px;
-  color: #000;
+  color: #555;
   @media (max-width: 767px){
     display: none!important;
   }

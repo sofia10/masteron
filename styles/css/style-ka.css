@@ -482,7 +482,8 @@ h5 {
 .cat-sidebar-content {
   position: absolute;
   top: 0;
-  left: 15px; }
+  left: 15px;
+  z-index: 1; }
 
 .asd1-photo {
   width: 160px !important;
@@ -4401,7 +4402,7 @@ h5 {
   left: 0;
   top: 0;
   width: 100%;
-  height: 170px;
+  height: 130px;
   overflow: hidden; }
 
 .mobile-transaction .active {
@@ -4410,7 +4411,7 @@ h5 {
 .mobile-transaction .my-swiper {
   position: relative;
   overflow: hidden;
-  height: 170px;
+  height: 130px;
   width: 100%;
   margin-top: 15px;
   border-bottom: 1px solid #E4E4E4; }
@@ -5130,9 +5131,9 @@ a.user-btn.login-user i {
 
 .search-list-id {
   display: block !important;
-  font-family: helvetica-bold;
+  font-family: "helvetica-roman";
   font-size: 14px;
-  color: #000; }
+  color: #555; }
   @media (max-width: 767px) {
     .search-list-id {
       display: none !important; } }
