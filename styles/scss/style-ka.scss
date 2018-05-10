@@ -1670,6 +1670,9 @@ h5{
               color: #555555;
             }
           }
+          @media (max-width: 767px){
+            display: none!important;
+          }
         }
         .sort{
           .choose{
@@ -1739,6 +1742,9 @@ h5{
         }
         .cat-title-menu{
           width: calc(100% - 180px);
+          @media (max-width: 767px){
+            width: initial;
+          }
         }
       }
       .search-list-block{
@@ -1759,14 +1765,19 @@ h5{
             }
             .svip-ban{
               position: absolute!important;
-              width: 55px;
-              height: 25px;
+              width: 40px;
+              height: 22px;
               background-color: #ec1c24;
               top: 68%;
               right: 0;
-              @include font-style($bold-font,12px,#FFF);
+              @include font-style($bold-font,11px,#FFF);
               @include border-top-left(6px);
               @include border-bottom-left(6px);
+              @media (max-width: 575px){
+                width:60px;
+                height: 35px;
+                font-size: 14px;
+              }
             }
             .vip-ban{
               background-color: $yellow;
@@ -1785,7 +1796,10 @@ h5{
               }
             }
             @media (max-width: 575px){
-              width: 280px;
+              width: 90%;
+              img{
+                width: 100%!important;
+              }
             }
           }
           .search-desc{
@@ -4707,27 +4721,23 @@ a.user-btn.login-user i{
   position: relative;
   .svip-ban{
     position: absolute!important;
-    width: 55px;
-    height: 25px;
+    width: 40px;
+    height: 22px;
     background-color: $red;
     top: 68%;
     right: 0;
-    font-size: 12px;
-    color: #fff;
-    @include font-style($bold-font,12px,#FFF);
+    @include font-style($bold-font,11px,#FFF);
     @include border-bottom-left(6px);
     @include border-top-left(6px);
   }
   .vip-ban{
     position: absolute!important;
-    width: 55px;
-    height: 25px;
+    width: 40px;
+    height: 22px;
     background-color: $yellow;
     top: 68%;
     right: 0;
-    font-size: 12px;
-    color: #fff;
-    @include font-style($bold-font,12px,#000);
+    @include font-style($bold-font,11px,#000);
     @include border-bottom-left(6px);
     @include border-top-left(6px);
   }
@@ -4805,4 +4815,75 @@ a.user-btn.login-user i{
   @media (max-width: 767px){
     width: 150px!important;
   }
+}
+.qty-state{
+  @include font-style($primary-font,12px,$red);
+  margin-left: -15px;
+  margin-top: 5px;
+  @media (max-width: 767px){
+    text-align: center;
+    margin-left: 0;
+  }
+}
+.search-img{
+  @media (max-width: 575px){
+    width: 90%;
+    img{
+      width: 100%!important;
+    }
+  }
+}
+.site__content .politics .politicts-content .search-list-block .search-list-item .search-img .search-list-img{
+  @media (max-width: 575px){
+    width: 100%!important;
+  }
+}
+.item-details-desc{
+  .share-btn{
+    border: 1px solid #555;
+    background-color: #555;
+    -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    -ms-border-radius: 50%!important;
+    border-radius: 50%!important;
+    width: 26px;
+    height: 26px;
+    color: #FFF;
+  }
+  .share-title{
+    @include font-style($primary-font,12px,#555);
+    margin-left: 5px;
+  }
+  .share-block-res{
+    margin-bottom: 10px;
+    @media (min-width: 768px){
+      display: none!important;
+    }
+  }
+}
+.details-title > div {
+  @media (max-width: 575px){
+    width: 100%;
+    @include justify-content(center);
+    @include align-items(center);
+    flex-direction: column!important;
+    i{
+      display: none;
+    }
+    .content-title-link{
+      h6{
+        font-size: 14px;
+      }
+    }
+    .content-title-link:nth-child(3){
+      margin-top: 10px;
+      h6{
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.header-search .flags .flags-l{
+  width: 60px;
 }

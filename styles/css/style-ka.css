@@ -2090,6 +2090,9 @@ h5 {
           background-color: #FFF; }
           .site__content .politics .politicts-content .content-title .share-btn:hover i {
             color: #555555; }
+        @media (max-width: 767px) {
+          .site__content .politics .politicts-content .content-title .share-btn {
+            display: none !important; } }
       .site__content .politics .politicts-content .content-title .sort .choose {
         font-family: "helvetica-bold";
         font-size: 12px;
@@ -2148,6 +2151,9 @@ h5 {
             margin-top: 15px; } }
       .site__content .politics .politicts-content .content-title .cat-title-menu {
         width: calc(100% - 180px); }
+        @media (max-width: 767px) {
+          .site__content .politics .politicts-content .content-title .cat-title-menu {
+            width: initial; } }
     .site__content .politics .politicts-content .search-list-block {
       margin-top: 15px; }
       .site__content .politics .politicts-content .search-list-block .search-list-item {
@@ -2168,13 +2174,13 @@ h5 {
                 height: auto !important; } }
           .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .svip-ban {
             position: absolute !important;
-            width: 55px;
-            height: 25px;
+            width: 40px;
+            height: 22px;
             background-color: #ec1c24;
             top: 68%;
             right: 0;
             font-family: "helvetica-bold";
-            font-size: 12px;
+            font-size: 11px;
             color: #FFF;
             -webkit-border-top-left-radius: 6px !important;
             -moz-border-radius-topleft: 6px !important;
@@ -2182,6 +2188,11 @@ h5 {
             -webkit-border-bottom-left-radius: 6px !important;
             -moz-border-radius-bottomleft: 6px !important;
             border-bottom-left-radius: 6px !important; }
+            @media (max-width: 575px) {
+              .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .svip-ban {
+                width: 60px;
+                height: 35px;
+                font-size: 14px; } }
           .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .vip-ban {
             background-color: #FFF100;
             color: #000; }
@@ -2198,7 +2209,9 @@ h5 {
         right: 0; } }
           @media (max-width: 575px) {
             .site__content .politics .politicts-content .search-list-block .search-list-item .search-img {
-              width: 280px; } }
+              width: 90%; }
+              .site__content .politics .politicts-content .search-list-block .search-list-item .search-img img {
+                width: 100% !important; } }
         .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-title {
           max-width: 350px;
           white-space: nowrap;
@@ -5183,15 +5196,13 @@ a.user-btn.login-user i {
   position: relative; }
   .vip-item-img .svip-ban {
     position: absolute !important;
-    width: 55px;
-    height: 25px;
+    width: 40px;
+    height: 22px;
     background-color: #EC1C24;
     top: 68%;
     right: 0;
-    font-size: 12px;
-    color: #fff;
     font-family: "helvetica-bold";
-    font-size: 12px;
+    font-size: 11px;
     color: #FFF;
     -webkit-border-bottom-left-radius: 6px !important;
     -moz-border-radius-bottomleft: 6px !important;
@@ -5201,15 +5212,13 @@ a.user-btn.login-user i {
     border-top-left-radius: 6px !important; }
   .vip-item-img .vip-ban {
     position: absolute !important;
-    width: 55px;
-    height: 25px;
+    width: 40px;
+    height: 22px;
     background-color: #FFF100;
     top: 68%;
     right: 0;
-    font-size: 12px;
-    color: #fff;
     font-family: "helvetica-bold";
-    font-size: 12px;
+    font-size: 11px;
     color: #000;
     -webkit-border-bottom-left-radius: 6px !important;
     -moz-border-radius-bottomleft: 6px !important;
@@ -5307,3 +5316,73 @@ a.user-btn.login-user i {
   @media (max-width: 767px) {
     .pac-container {
       width: 150px !important; } }
+
+.qty-state {
+  font-family: "helvetica-roman";
+  font-size: 12px;
+  color: #EC1C24;
+  margin-left: -15px;
+  margin-top: 5px; }
+  @media (max-width: 767px) {
+    .qty-state {
+      text-align: center;
+      margin-left: 0; } }
+
+@media (max-width: 575px) {
+  .search-img {
+    width: 90%; }
+    .search-img img {
+      width: 100% !important; } }
+
+@media (max-width: 575px) {
+  .site__content .politics .politicts-content .search-list-block .search-list-item .search-img .search-list-img {
+    width: 100% !important; } }
+
+.item-details-desc .share-btn {
+  border: 1px solid #555;
+  background-color: #555;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  border-radius: 50% !important;
+  width: 26px;
+  height: 26px;
+  color: #FFF; }
+
+.item-details-desc .share-title {
+  font-family: "helvetica-roman";
+  font-size: 12px;
+  color: #555;
+  margin-left: 5px; }
+
+.item-details-desc .share-block-res {
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .item-details-desc .share-block-res {
+      display: none !important; } }
+
+@media (max-width: 575px) {
+  .details-title > div {
+    width: 100%;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-direction: column !important; }
+    .details-title > div i {
+      display: none; }
+    .details-title > div .content-title-link h6 {
+      font-size: 14px; }
+    .details-title > div .content-title-link:nth-child(3) {
+      margin-top: 10px; }
+      .details-title > div .content-title-link:nth-child(3) h6 {
+        font-size: 16px; } }
+
+.header-search .flags .flags-l {
+  width: 60px; }
