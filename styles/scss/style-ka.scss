@@ -4820,6 +4820,7 @@ a.user-btn.login-user i{
 .qty-state{
   @include font-style($primary-font,12px,$red);
   margin-top: 5px;
+  text-align: right;
   @media (max-width: 767px){
     text-align: center;
   }
@@ -4885,4 +4886,32 @@ a.user-btn.login-user i{
 
 .header-search .flags .flags-l{
   width: 60px;
+}
+.video-btn{
+  @include display-flex;
+  cursor: pointer;
+  background-color: $red;
+  @include font-style($bold-font,12px,#FFF);
+  padding: 15px 10px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 1px solid $red;
+  img{
+    width: 20px;
+    margin-right: 8px;
+  }
+  .video-hover{
+    display: none;
+  }
+  &:hover{
+    background-color: #FFF;
+    color: $red;
+    img{
+      display: none;
+    }
+    img.video-hover{
+      display: block;
+    }
+  }
 }

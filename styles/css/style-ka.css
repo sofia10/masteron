@@ -5322,7 +5322,8 @@ a.user-btn.login-user i {
   font-family: "helvetica-roman";
   font-size: 12px;
   color: #EC1C24;
-  margin-top: 5px; }
+  margin-top: 5px;
+  text-align: right; }
   @media (max-width: 767px) {
     .qty-state {
       text-align: center; } }
@@ -5385,3 +5386,32 @@ a.user-btn.login-user i {
 
 .header-search .flags .flags-l {
   width: 60px; }
+
+.video-btn {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  cursor: pointer;
+  background-color: #EC1C24;
+  font-family: "helvetica-bold";
+  font-size: 12px;
+  color: #FFF;
+  padding: 15px 10px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 1px solid #EC1C24; }
+  .video-btn img {
+    width: 20px;
+    margin-right: 8px; }
+  .video-btn .video-hover {
+    display: none; }
+  .video-btn:hover {
+    background-color: #FFF;
+    color: #EC1C24; }
+    .video-btn:hover img {
+      display: none; }
+    .video-btn:hover img.video-hover {
+      display: block; }
