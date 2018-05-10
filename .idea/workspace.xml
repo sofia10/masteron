@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46fe610b-607d-487e-b134-2c5430ef1259" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
-      <change beforePath="$PROJECT_DIR$/details.html" afterPath="$PROJECT_DIR$/details.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/plugins/symbols/custom.js" afterPath="$PROJECT_DIR$/plugins/symbols/custom.js" />
-      <change beforePath="$PROJECT_DIR$/plugins/symbols/jquery.caret.js" afterPath="$PROJECT_DIR$/plugins/symbols/jquery.caret.js" />
       <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
       <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
@@ -21,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="4888" column="1" lean-forward="false" selection-start-line="4888" selection-start-column="1" selection-end-line="4888" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="647" column="23" lean-forward="false" selection-start-line="647" selection-start-column="23" selection-end-line="647" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/symbols/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="915">
+              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -45,10 +40,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>search-form-in</find>
-      <find>header-search</find>
-      <find>flag</find>
-      <find>f-item</find>
       <find>search-form-input</find>
       <find>flags</find>
       <find>ნახვები</find>
@@ -75,6 +66,10 @@
       <find>keywo</find>
       <find>ka</find>
       <find>share-btn</find>
+      <find>qty-state</find>
+      <find>overflow: hidden</find>
+      <find>site__conte</find>
+      <find>.search-form-elem</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,10 +86,10 @@
         <option value="$PROJECT_DIR$/user-profile3.html" />
         <option value="$PROJECT_DIR$/categories.html" />
         <option value="$PROJECT_DIR$/details.html" />
-        <option value="$PROJECT_DIR$/styles/scss/style-ka.scss" />
         <option value="$PROJECT_DIR$/plugins/symbols/jquery.caret.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/plugins/symbols/custom.js" />
+        <option value="$PROJECT_DIR$/styles/scss/style-ka.scss" />
       </list>
     </option>
   </component>
@@ -270,12 +265,12 @@
       <workItem from="1525806015897" duration="92000" />
       <workItem from="1525862979534" duration="198000" />
       <workItem from="1525888291842" duration="811000" />
-      <workItem from="1525934308838" duration="8199000" />
+      <workItem from="1525934308838" duration="10345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58959000" />
+    <option name="totallyTimeSpent" value="61105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -686,14 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="4888" column="1" lean-forward="false" selection-start-line="4888" selection-start-column="1" selection-end-line="4888" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -714,8 +701,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/symbols/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="915">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="647" column="23" lean-forward="false" selection-start-line="647" selection-start-column="23" selection-end-line="647" selection-end-column="23" />
           <folding />
         </state>
       </provider>
