@@ -980,7 +980,11 @@ h5 {
         border: 2px solid #B5B5B5;
         -webkit-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
         -moz-box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
-        box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15); }
+        box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.15);
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        border-radius: 10px !important; }
         .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item {
           position: relative;
           padding: 10px 60px 10px 13px;
@@ -1072,10 +1076,6 @@ h5 {
         border: 1px solid #FFF100;
         color: #000;
         border: 1px solid #E1D401; }
-      .site__header .sub-header .search-form-elem:nth-child(2) .dropdown-menu .dropdown-item {
-        font-family: "helvetica-bold";
-        font-size: 12px;
-        color: #000; }
       .site__header .sub-header .search-form-elem:nth-child(4) .btn-secondary, .site__header .sub-header .search-form-elem:nth-child(5) .btn-secondary {
         background-color: #FFF;
         color: #000;
