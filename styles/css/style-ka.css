@@ -809,7 +809,18 @@ h5 {
             border-bottom: 1px solid #e4e4e4;
             font-family: "helvetica-bold";
             font-size: 11px;
-            color: #000; }
+            color: #000;
+            position: relative; }
+            .site__header .sup-header .navigation .workers-dropdown .workers-menu .workers-menu-link .inner-menu .inner-menu-link .option {
+              line-height: 15px;
+              overflow: hidden;
+              max-height: 30px;
+              margin-left: 10px; }
+            .site__header .sup-header .navigation .workers-dropdown .workers-menu .workers-menu-link .inner-menu .inner-menu-link span {
+              position: absolute;
+              left: 10px;
+              top: 50%;
+              transform: translateY(-50%); }
           .site__header .sup-header .navigation .workers-dropdown .workers-menu .workers-menu-link .inner-menu .back-menu {
             background-color: #E5E5E5; }
             .site__header .sup-header .navigation .workers-dropdown .workers-menu .workers-menu-link .inner-menu .back-menu img {
@@ -5288,7 +5299,8 @@ a.user-btn.login-user i {
   color: #333 !important;
   border: none !important;
   background: initial !important;
-  margin: 0 !important; }
+  margin: 0 !important;
+  color: #ec1c24 !important; }
 
 .pac-container {
   width: 350px !important; }
@@ -5299,8 +5311,8 @@ a.user-btn.login-user i {
       width: 150px !important; } }
 
 .qty-state {
-  font-family: "helvetica-roman";
-  font-size: 12px;
+  font-family: "helvetica-bold";
+  font-size: 11px;
   color: #EC1C24;
   margin-top: 5px;
   text-align: right; }
