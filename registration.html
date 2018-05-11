@@ -50,7 +50,17 @@
                         <div class="search-nav">
                             <i class="fa fa-times"></i>
                             <form action="" class="search-form d-flex flex-column align-items-start">
-                                <input type="text" class="search-form-input" placeholder="საძიებო ტექსტი">
+                                <div class="header-search  ui-widget searchi-b">
+                                    <input type="text" autocomplete="off" name="keyword" class="search-form-input form-control s og-symbols" id="tags" placeholder="საძიებო ტექსტი">
+                                    <button class="zoom-btn"><img src="images/zoom.svg" alt=""></button>
+                                    <div class="flags active">
+                                        <ul class="flags-l" style="margin-left: -20px;">
+                                            <li class="f-item uk">EN</li>
+                                            <li class="f-item ka">KA</li>
+                                            <li class="f-item ru">RU</li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div class="dropdown search-form-elem">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         სამრეცხაო
@@ -79,7 +89,7 @@
                         <h1 class="logo d-flex flex-column">
                             <span class="text d-none">masteron</span>
                             <a href="#">
-                                <img src="images/logo1@2x.png" class="img-fluid" alt="">
+                                <img src="images/logo.svg" class="img-fluid" alt="">
                             </a>
                         </h1>
                     </div>
@@ -321,299 +331,527 @@
                         </button>
                         <div class="dropdown-menu worker-btn-hover">
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> სახლი & ეზო</div>
-                                <span class="dropdown-item_num">120</span>
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> მშენებლობა - რემონტი</div>
+                                <span class="dropdown-item_num">18</span>
                                 <div class="dropdown-item_menu">
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი რემონტი რემონტი რემონტი რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=arqiteqtura_da_dizaini_1" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">არქიტექტურა და დიზაინი</div>
+                                                <span>14</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=asheneba_da_lesva_2" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">აშენება და ლესვა</div>
+                                                <span>4</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=bukhari_3" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ბუხარი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=gadakhurva,_termo_da_tboizolatsia_4" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გადახურვა, თერმო და თბოიზოლაცია</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=gazis_gakvana-montaji_5" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გაზის გაყვანა - მონტაჟი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=dangreva-dasuftaveba_6" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">დანგრევა - დასუფთავება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=eleqtrikosi_7" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ელექტრიკოსი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=tabashirmukao_da_shekiduli_cheri_8" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">თაბაშირმუყაო და შეკიდული ჭერი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=iatakis_dageba-mokhveca_9" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">იატაკის დაგება - მოხვეწა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=kanalizatsia_10" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კანალიზაცია</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=kar-fanjaris,_jaluzebis_damzadeba_11" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კარ - ფანჯარის, ჟალუზების დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=kafel-metlakhis_dageba_12" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კაფელ - მეთლახის დაგება</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=mina-shushis_samushaoebi_13" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მინა - შუშის სამუშაოები</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=saketebis_sheketeba_14" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">საკეტების შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=samghebro_samushaoebi_(maliari)_15" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სამღებრო სამუშაოები (მალიარი)</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=samsheneblo_narchenebis_gatana_16" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სამშენებლო ნარჩენების გატანა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=santeqnika_da_ckalgakvaniloba_17" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სანტექნიკა და წყალგაყვანილობა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=sruli_mshenebloba_da_remonti_18" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სრული მშენებლობა და რემონტი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=universaluri_khelosani_19" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">უნივერსალური ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=mshenebloba-remonti_1&amp;subCategory=shedugheba,_litonis_samushaoebi_20" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">შედუღება, ლითონის სამუშაოები</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> ელექტრონიკა</div>
-                                <span class="dropdown-item_num">12</span>
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> ავეჯის დამზადება-რესტავრაცია</div>
+                                <span class="dropdown-item_num">0</span>
                                 <div class="dropdown-item_menu">
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=avejis_aghdgena-restavratsia_22" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ავეჯის აღდგენა - რესტავრაცია</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=avejis_sacarmo_23" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ავეჯის საწარმო</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=gare_avejis_damzadeba_24" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გარე ავეჯის დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=dekoratiuli_avejis_damzadeba_25" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">დეკორატიული ავეჯის დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=durgali-khis_saamqro_26" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">დურგალი - ხის საამქრო</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=karadebi,_taroebi,_tumboebi_27" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კარადები, თაროები, ტუმბოები</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=magidebis_da_skamebis_damzadeba_28" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მაგიდების და სკამების დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=matrasebis_damzadeba_29" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მატრასების დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=rbili_avejis_damzadeba_30" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">რბილი ავეჯის დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=sabavshvo_aveji_31" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">საბავშვო ავეჯი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=samzareulos_damzadeba_32" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სამზარეულოს დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=saofise_avejis_damzadeba_33" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">საოფისე ავეჯის დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=sadzineblis_damzadeba_34" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">საძინებლის დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avejis_damzadeba-restavratsia_2&amp;subCategory=skhva_35" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> ავტომობილებისთვის</div>
-                                <span class="dropdown-item_num">40</span>
-                                <div class="dropdown-item_menu">
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> გათბობა - კონდიცირება</div>
+                                <span class="dropdown-item_num">1</span>
+                                <div class="dropdown-item_menu" >
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=gazis_gamatboblis_montaji-sheketeba_36" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გაზის გამათბობლის მონტაჟი - შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=gatbobis_qvabis_khelosani_37" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გათბობის ქვაბის ხელოსანი</div>
+                                                <span>1</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=konditsioneris_montaji-sheketeba_38" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კონდიციონერის მონტაჟი - შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=mzis_sistemis_montaji_da_sheketeba_39" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მზის სისტემის მონტაჟი და შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=saventilatsio_sitemis_montaji_40" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სავენტილაციო სიტემის მონტაჟი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=tsentraluri_gatbobis_montaji_41" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ცენტრალური გათბობის მონტაჟი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=gatboba-konditsireba_3&amp;subCategory=skhva_42" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> მშენებლობა & რემონტი</div>
-                                <span class="dropdown-item_num">3</span>
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> საყოფაცხოვრებო ტექნიკა</div>
+                                <span class="dropdown-item_num">1</span>
                                 <div class="dropdown-item_menu">
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=matsivris_khelosani_43" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მაცივრის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=mobiluri_telefonebis_sheketeba_44" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მობილური ტელეფონების შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=saretskhi_manqanis_khelosani_45" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სარეცხი მანქანის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=satelituri_antenebis_montaji_46" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სატელიტური ანტენების მონტაჟი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=televizorebis_sheketeba_47" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ტელევიზორების შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=foto,_video,_audio_teqnikis_sheketeba_48" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ფოტო, ვიდეო, აუდიო ტექნიკის შეკეთება</div>
+                                                <span>1</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=cvrili_teqnikis_sheketeba_49" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">წვრილი ტექნიკის შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=churchlis_saretskhi_manqanis_khelosani_50" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ჭურჭლის სარეცხი მანქანის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=sakofatskhovrebo_teqnika_4&amp;subCategory=skhva_51" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> ბიზნესი & დანადგარები</div>
-                                <span class="dropdown-item_num">120</span>
-                                <div class="dropdown-item_menu">
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> კომპიუტერული ტექნიკა</div>
+                                <span class="dropdown-item_num">0</span>
+                                <div class="dropdown-item_menu" >
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=kompiuteruli_teqnika_5&amp;subCategory=informatsiis_aghdgena_52" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ინფორმაციის აღდგენა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=kompiuteruli_teqnika_5&amp;subCategory=kartrijebis_datenva_53" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კარტრიჯების დატენვა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=kompiuteruli_teqnika_5&amp;subCategory=kompiuteruli_teqnikis_sheketeba_54" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კომპიუტერული ტექნიკის შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=kompiuteruli_teqnika_5&amp;subCategory=programuli_uzrunvelkofa_55" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">პროგრამული უზრუნველყოფა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=kompiuteruli_teqnika_5&amp;subCategory=skhva_56" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="dropdown-item header-menu-left">
-                                <img src="images/brush.svg" alt="">
-                                <div class="option-item"> სხვა</div>
-                                <span class="dropdown-item_num">37</span>
-                                <div class="dropdown-item_menu">
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> პირიმზე</div>
+                                <span class="dropdown-item_num">0</span>
+                                <div class="dropdown-item_menu" >
                                     <div class="dropdown-item_list">
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
-                                        <a href="#!" class="dropdown-item_link d-flex justify-content-between">
-                                            <div class="option">რემონტი</div>
-                                            <span>25</span>
-                                        </a>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=atelie_57" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ატელიე</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=gasaghebebis_damzadeba_58" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გასაღებების დამზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=mesaate_59" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მესაათე</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=mecaghe-fekhsatsmlis_sheketeba_60" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მეწაღე - ფეხსაცმლის შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=satvalis_sheketeba_61" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სათვალის შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=pirimze_6&amp;subCategory=skhva_62" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item header-menu-left">
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> ავტოხელოსნები</div>
+                                <span class="dropdown-item_num">1</span>
+                                <div class="dropdown-item_menu" >
+                                    <div class="dropdown-item_list">
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=avtosamretskhao_63" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ავტოსამრეცხაო</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=avtoservisi-profilaqtika_64" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ავტოსერვისი - პროფილაქტიკა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=audio_teqnikis_sheketeba_65" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">აუდიო ტექნიკის შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=gadatsemata_kolofis_khelosani_66" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გადაცემათა კოლოფის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=gazis_sistemis__montaji_67" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გაზის სისტემის  მონტაჟი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=gasaghebis_aghdgena-dazadeba_68" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გასაღების აღდგენა - დაზადება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=gzebze_teqdakhmareba_69" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გზებზე ტექდახმარება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=diagnostika_70" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">დიაგნოსტიკა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=evakuatori_71" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ევაკუატორი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=eleqtrikosi_72" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ელექტრიკოსი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=vulkanizatsia_73" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ვულკანიზაცია</div>
+                                                <span>1</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=zetis_shetsvla_74" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ზეთის შეცვლა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=karebis_khelosani_75" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კარების ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=konditsioneris_khelosani_76" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">კონდიციონერის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=magnitofonis_khelosani_77" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მაგნიტოფონის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=metunuqe_78" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მეთუნუქე</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=minebis_damuqeba_79" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მინების დამუქება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=plastmasis_aghdgena_80" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">პლასტმასის აღდგენა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=polireba_81" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">პოლირება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=radiatoris_khelosani_82" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">რადიატორის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=razvalis_gascoreba_83" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">რაზვალის გასწორება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=roboti_84" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">რობოტი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=savali_nacilis_khelosani_85" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სავალი ნაწილის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=salonis_aghdgena_86" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სალონის აღდგენა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=saqare_minis_aghdgena_87" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">საქარე მინის აღდგენა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=signalizatsiis_dakeneba_88" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სიგნალიზაციის დაყენება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=tuningi_89" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ტუნინგი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=qimcmenda_90" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ქიმწმენდა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=ghebva-maliari_91" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ღებვა - მალიარი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=dzravis_khelosani_92" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ძრავის ხელოსანი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=avtokhelosnebi_7&amp;subCategory=skhva_93" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown-item header-menu-left">
+                                <img src="https://masteron.ge/files/icons/brush.svg" alt="">
+                                <div class="option-item"> სხვა სპეც მომსახურება</div>
+                                <span class="dropdown-item_num">0</span>
+                                <div class="dropdown-item_menu" >
+                                    <div class="dropdown-item_list">
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=avejis_gadazidva_94" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ავეჯის გადაზიდვა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=gamcvaneba,_landshaftis_dizaini_95" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">გამწვანება, ლანდშაფტის დიზაინი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=vitrinebis_da_fasadebis_cmenda_96" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ვიტრინების და ფასადების წმენდა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=liftebis_sheketeba_97" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ლიფტების შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=mebaghe_98" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მებაღე</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=musikaluri_instr._sheketeba_99" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მუსიკალური ინსტრ. შეკეთება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=musha-mtvirtavi_100" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">მუშა - მტვირთავი</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=samsheneblo_inventaris_gaqiraveba_101" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სამშენებლო ინვენტარის გაქირავება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=samsheneblo_tvirtebis_gadazidva_102" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სამშენებლო ტვირთების გადაზიდვა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=simaghleze_mushaoba_103" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სიმაღლეზე მუშაობა</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=spetsteqnikis_gaqiraveba_104" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სპეცტექნიკის გაქირავება</div>
+                                                <span>0</span>
+                                            </a>
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=chis_gaburghva_105" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">ჭის გაბურღვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
+                                        <div class="menublock-list">
+                                            <a href="https://masteron.ge/application/search?category=skhva_spets_momsakhureba_8&amp;subCategory=skhva_106" class="dropdown-item_link d-flex justify-content-between" style="float: left;">
+                                                <div class="option">სხვა</div>
+                                                <span>0</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="dropdown search-form-elem material-btn hidden-drop">
-                        <button class="btn btn-secondary dropdown-toggle" type="button"" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" aria-haspopup="true" aria-expanded="false">
                             მასალები
                         </button>
                         <div class="dropdown-menu material-menu">
@@ -622,58 +860,377 @@
                             <a class="dropdown-item" href="#">მასალები</a>
                         </div>
                     </div>
-                    <input type="text" class="search-form-input" placeholder="საძიებო ტექსტი">
+                    <div class="header-search ui-widget searchi-b ui-widget searchi-b">
+                        <input type="text" autocomplete="off" name="keyword" class="search-form-input form-control s og-symbols" id="tags" placeholder="საძიებო ტექსტი">
+                        <button class="zoom-btn"><img src="images/zoom.svg" alt=""></button>
+                        <div class="flags active">
+                            <ul class="flags-l" style="margin-left: -20px;">
+                                <li class="f-item uk">EN</li>
+                                <li class="f-item ka">KA</li>
+                                <li class="f-item ru">RU</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="dropdown search-form-elem hidden-drop">
                         <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            სამრეცხაო
+                            <span class="ng-binding">აირჩიეთ ქვეკატეგორია</span>
                         </button>
-                        <div class="dropdown-menu dropdown-scroll" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">სამრეცხაო</a>
-                            <a class="dropdown-item" href="#">სამრეცხაო</a>
-                            <a class="dropdown-item" href="#">სამრეცხაო</a>
+                        <div class="dropdown-menu dropdown-scroll" aria-labelledby="dropdownMenuButton" x-placement="top-start" style="position: absolute; transform: translate3d(0px, -66px, 0px); top: 0px; left: 0px; will-change: transform;">
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('1', 'არქიტექტურა და დიზაინი')">არქიტექტურა და დიზაინი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('2', 'აშენება და ლესვა')">აშენება და ლესვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('3', 'ბუხარი')">ბუხარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('4', 'გადახურვა, თერმო და თბოიზოლაცია')">გადახურვა, თერმო და თბოიზოლაცია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('5', 'გაზის გაყვანა - მონტაჟი')">გაზის გაყვანა - მონტაჟი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('6', 'დანგრევა - დასუფთავება')">დანგრევა - დასუფთავება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('7', 'ელექტრიკოსი')">ელექტრიკოსი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('8', 'თაბაშირმუყაო და შეკიდული ჭერი')">თაბაშირმუყაო და შეკიდული ჭერი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('9', 'იატაკის დაგება - მოხვეწა')">იატაკის დაგება - მოხვეწა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('10', 'კანალიზაცია')">კანალიზაცია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('11', 'კარ - ფანჯარის, ჟალუზების დამზადება')">კარ - ფანჯარის, ჟალუზების დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('12', 'კაფელ - მეთლახის დაგება')">კაფელ - მეთლახის დაგება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('13', 'მინა - შუშის სამუშაოები')">მინა - შუშის სამუშაოები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('14', 'საკეტების შეკეთება')">საკეტების შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('15', 'სამღებრო სამუშაოები (მალიარი)')">სამღებრო სამუშაოები (მალიარი)</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('16', 'სამშენებლო ნარჩენების გატანა')">სამშენებლო ნარჩენების გატანა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('17', 'სანტექნიკა და წყალგაყვანილობა')">სანტექნიკა და წყალგაყვანილობა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('18', 'სრული მშენებლობა და რემონტი')">სრული მშენებლობა და რემონტი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('19', 'უნივერსალური ხელოსანი')">უნივერსალური ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('20', 'შედუღება, ლითონის სამუშაოები')">შედუღება, ლითონის სამუშაოები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('21', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('22', 'ავეჯის აღდგენა - რესტავრაცია')">ავეჯის აღდგენა - რესტავრაცია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('23', 'ავეჯის საწარმო')">ავეჯის საწარმო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('24', 'გარე ავეჯის დამზადება')">გარე ავეჯის დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('25', 'დეკორატიული ავეჯის დამზადება')">დეკორატიული ავეჯის დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('26', 'დურგალი - ხის საამქრო')">დურგალი - ხის საამქრო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('27', 'კარადები, თაროები, ტუმბოები')">კარადები, თაროები, ტუმბოები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('28', 'მაგიდების და სკამების დამზადება')">მაგიდების და სკამების დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('29', 'მატრასების დამზადება')">მატრასების დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('30', 'რბილი ავეჯის დამზადება')">რბილი ავეჯის დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('31', 'საბავშვო ავეჯი')">საბავშვო ავეჯი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('32', 'სამზარეულოს დამზადება')">სამზარეულოს დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('33', 'საოფისე ავეჯის დამზადება')">საოფისე ავეჯის დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('34', 'საძინებლის დამზადება')">საძინებლის დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('35', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('36', 'გაზის გამათბობლის მონტაჟი - შეკეთება')">გაზის გამათბობლის მონტაჟი - შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('37', 'გათბობის ქვაბის ხელოსანი')">გათბობის ქვაბის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('38', 'კონდიციონერის მონტაჟი - შეკეთება')">კონდიციონერის მონტაჟი - შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('39', 'მზის სისტემის მონტაჟი და შეკეთება')">მზის სისტემის მონტაჟი და შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('40', 'სავენტილაციო სიტემის მონტაჟი')">სავენტილაციო სიტემის მონტაჟი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('41', 'ცენტრალური გათბობის მონტაჟი')">ცენტრალური გათბობის მონტაჟი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('42', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('43', 'მაცივრის ხელოსანი')">მაცივრის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('44', 'მობილური ტელეფონების შეკეთება')">მობილური ტელეფონების შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('45', 'სარეცხი მანქანის ხელოსანი')">სარეცხი მანქანის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('46', 'სატელიტური ანტენების მონტაჟი')">სატელიტური ანტენების მონტაჟი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('47', 'ტელევიზორების შეკეთება')">ტელევიზორების შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('48', 'ფოტო, ვიდეო, აუდიო ტექნიკის შეკეთება')">ფოტო, ვიდეო, აუდიო ტექნიკის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('49', 'წვრილი ტექნიკის შეკეთება')">წვრილი ტექნიკის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('50', 'ჭურჭლის სარეცხი მანქანის ხელოსანი')">ჭურჭლის სარეცხი მანქანის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('51', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('52', 'ინფორმაციის აღდგენა')">ინფორმაციის აღდგენა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('53', 'კარტრიჯების დატენვა')">კარტრიჯების დატენვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('54', 'კომპიუტერული ტექნიკის შეკეთება')">კომპიუტერული ტექნიკის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('55', 'პროგრამული უზრუნველყოფა')">პროგრამული უზრუნველყოფა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('56', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('57', 'ატელიე')">ატელიე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('58', 'გასაღებების დამზადება')">გასაღებების დამზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('59', 'მესაათე')">მესაათე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('60', 'მეწაღე - ფეხსაცმლის შეკეთება')">მეწაღე - ფეხსაცმლის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('61', 'სათვალის შეკეთება')">სათვალის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('62', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('63', 'ავტოსამრეცხაო')">ავტოსამრეცხაო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('64', 'ავტოსერვისი - პროფილაქტიკა')">ავტოსერვისი - პროფილაქტიკა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('65', 'აუდიო ტექნიკის შეკეთება')">აუდიო ტექნიკის შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('66', 'გადაცემათა კოლოფის ხელოსანი')">გადაცემათა კოლოფის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('67', 'გაზის სისტემის  მონტაჟი')">გაზის სისტემის  მონტაჟი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('68', 'გასაღების აღდგენა - დაზადება')">გასაღების აღდგენა - დაზადება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('69', 'გზებზე ტექდახმარება')">გზებზე ტექდახმარება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('70', 'დიაგნოსტიკა')">დიაგნოსტიკა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('71', 'ევაკუატორი')">ევაკუატორი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('72', 'ელექტრიკოსი')">ელექტრიკოსი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('73', 'ვულკანიზაცია')">ვულკანიზაცია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('74', 'ზეთის შეცვლა')">ზეთის შეცვლა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('75', 'კარების ხელოსანი')">კარების ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('76', 'კონდიციონერის ხელოსანი')">კონდიციონერის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('77', 'მაგნიტოფონის ხელოსანი')">მაგნიტოფონის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('78', 'მეთუნუქე')">მეთუნუქე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('79', 'მინების დამუქება')">მინების დამუქება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('80', 'პლასტმასის აღდგენა')">პლასტმასის აღდგენა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('81', 'პოლირება')">პოლირება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('82', 'რადიატორის ხელოსანი')">რადიატორის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('83', 'რაზვალის გასწორება')">რაზვალის გასწორება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('84', 'რობოტი')">რობოტი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('85', 'სავალი ნაწილის ხელოსანი')">სავალი ნაწილის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('86', 'სალონის აღდგენა')">სალონის აღდგენა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('87', 'საქარე მინის აღდგენა')">საქარე მინის აღდგენა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('88', 'სიგნალიზაციის დაყენება')">სიგნალიზაციის დაყენება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('89', 'ტუნინგი')">ტუნინგი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('90', 'ქიმწმენდა')">ქიმწმენდა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('91', 'ღებვა - მალიარი')">ღებვა - მალიარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('92', 'ძრავის ხელოსანი')">ძრავის ხელოსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('93', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('94', 'ავეჯის გადაზიდვა')">ავეჯის გადაზიდვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('95', 'გამწვანება, ლანდშაფტის დიზაინი')">გამწვანება, ლანდშაფტის დიზაინი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('96', 'ვიტრინების და ფასადების წმენდა')">ვიტრინების და ფასადების წმენდა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('97', 'ლიფტების შეკეთება')">ლიფტების შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('98', 'მებაღე')">მებაღე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('99', 'მუსიკალური ინსტრ. შეკეთება')">მუსიკალური ინსტრ. შეკეთება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('100', 'მუშა - მტვირთავი')">მუშა - მტვირთავი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('101', 'სამშენებლო ინვენტარის გაქირავება')">სამშენებლო ინვენტარის გაქირავება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('102', 'სამშენებლო ტვირთების გადაზიდვა')">სამშენებლო ტვირთების გადაზიდვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('103', 'სიმაღლეზე მუშაობა')">სიმაღლეზე მუშაობა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('104', 'სპეცტექნიკის გაქირავება')">სპეცტექნიკის გაქირავება</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('105', 'ჭის გაბურღვა')">ჭის გაბურღვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('106', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('107', 'განათება და ელ.გაყვანილობა')">განათება და ელ.გაყვანილობა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('108', 'იატაკი')">იატაკი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('109', 'კარ-ფანჯარა')">კარ-ფანჯარა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('110', 'კაფელი, მეთლახი, დეკორი')">კაფელი, მეთლახი, დეკორი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('111', 'ლითონის მასალები')">ლითონის მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('112', 'მეტალოპლასტმასის კარ-ფანჯარა')">მეტალოპლასტმასის კარ-ფანჯარა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('113', 'მინა - შუშა - სარკე')">მინა - შუშა - სარკე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('114', 'საიზოლაციო მასალები')">საიზოლაციო მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('115', 'სამღებრო (სამალიარო) მასალები')">სამღებრო (სამალიარო) მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('116', 'სანტექნიკა')">სანტექნიკა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('117', 'საშენი მასალები')">საშენი მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('118', 'ფარდა - ჟალუზი, ტენტები')">ფარდა - ჟალუზი, ტენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('119', 'შპალერი')">შპალერი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('120', 'ჭერი და სახურავი')">ჭერი და სახურავი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('121', 'ხის მასალები')">ხის მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('122', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('123', 'ავეჯის აქსესუარები')">ავეჯის აქსესუარები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('124', 'ლითონის პროფილები')">ლითონის პროფილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('125', 'მდფ - დვპ - დსპ - ლამინატი')">მდფ - დვპ - დსპ - ლამინატი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('126', 'ნატურალური ხე')">ნატურალური ხე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('127', 'რბილი ავეჯის მასალა')">რბილი ავეჯის მასალა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('128', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('129', 'აქსესუარები და  ნაწილები')">აქსესუარები და  ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('130', 'გაზის გამათბობლები')">გაზის გამათბობლები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('131', 'გათბობის ქვაბები')">გათბობის ქვაბები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('132', 'ელ.გამათბობლები')">ელ.გამათბობლები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('133', 'ვენტილატორები')">ვენტილატორები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('134', 'იატაკის გათბობა')">იატაკის გათბობა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('135', 'კონდიციონერები')">კონდიციონერები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('136', 'მზის სისტემები')">მზის სისტემები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('137', 'რადიატორები')">რადიატორები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('138', 'რუფტოპები')">რუფტოპები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('139', 'ფანკოილები')">ფანკოილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('140', 'ჩილერები')">ჩილერები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('141', 'წყლის გამაცხელებლები')">წყლის გამაცხელებლები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('142', 'ჰაერგამტარები')">ჰაერგამტარები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('143', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('144', 'მაცივრის ნაწილები')">მაცივრის ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('145', 'სარეცხი მანქანის ნაწილები')">სარეცხი მანქანის ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('146', 'ტელევიზორების ნაწილები')">ტელევიზორების ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('147', 'ფოტო, ვიდეო, აუდიო - ნაწილები')">ფოტო, ვიდეო, აუდიო - ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('148', 'ჭურჭლის სარეცხი მანქანის ნაწილები')">ჭურჭლის სარეცხი მანქანის ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('149', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('150', 'დედადაფები')">დედადაფები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('151', 'ვიდეობარათები')">ვიდეობარათები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('152', 'ვინჩესტერები')">ვინჩესტერები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('153', 'კაბელები')">კაბელები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('154', 'კვების ბლოკები')">კვების ბლოკები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('155', 'ლეპტოპის აკუმულატორები')">ლეპტოპის აკუმულატორები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('156', 'ლეპტოპის დამტენები')">ლეპტოპის დამტენები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('157', 'ლეპტოპის ეკრანები')">ლეპტოპის ეკრანები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('158', 'ლეპტოპის კლავიატურები')">ლეპტოპის კლავიატურები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('159', 'მაინერები')">მაინერები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('160', 'პროცესორები')">პროცესორები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('161', 'ქეისები')">ქეისები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('162', 'ქულერები')">ქულერები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('163', 'სხვა აქსესუარები')">სხვა აქსესუარები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('164', 'ბაღის ინსტრუმენტები')">ბაღის ინსტრუმენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('165', 'ელექტრო ინსტრუმენტები')">ელექტრო ინსტრუმენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('166', 'ინსტრუმენტის სახარჯი მასალები')">ინსტრუმენტის სახარჯი მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('167', 'სამღებრო ინსტრუმენტები')">სამღებრო ინსტრუმენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('168', 'სამშენებლო მოწყობილობები')">სამშენებლო მოწყობილობები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('169', 'სპეცტანსაცმელი')">სპეცტანსაცმელი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('170', 'ხელის ინსტრუმენტები')">ხელის ინსტრუმენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('171', 'სხვა ინსტრუმენტები')">სხვა ინსტრუმენტები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('172', 'ავტონაწილების მაღაზიები')">ავტონაწილების მაღაზიები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('173', 'აკუმულატორები')">აკუმულატორები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('174', 'დაშლილები')">დაშლილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('175', 'მოტოცკლის ნაწილები')">მოტოცკლის ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('176', 'საბურავები')">საბურავები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('177', 'საცხებ - საპოხი მასალები')">საცხებ - საპოხი მასალები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('178', 'სპეცტექნიკის ნაწილები')">სპეცტექნიკის ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('179', 'სხვა')">სხვა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('180', 'ავზები')">ავზები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('181', 'აუზის სისტემები')">აუზის სისტემები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('182', 'მუსიკალური ინსტრ. ნაწილები')">მუსიკალური ინსტრ. ნაწილები</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('183', 'სახანძრო ინვენტარი')">სახანძრო ინვენტარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedSubCategory('184', 'სხვა')">სხვა</a>
                         </div>
                     </div>
                     <div class="dropdown search-form-elem">
-                        <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            თბილისი
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="ng-binding">აირჩიეთ ქალაქი</span>
                         </button>
                         <div class="dropdown-menu dropdown-scroll" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
-                            <a class="dropdown-item" href="#">თბილისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('1', 'თბილისი')">თბილისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('2', 'ბათუმი')">ბათუმი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('3', 'რუსთავი')">რუსთავი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('4', 'ქუთაისი')">ქუთაისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('5', 'ზუგდიდი')">ზუგდიდი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('6', 'ფოთი')">ფოთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('7', 'ზესტაფონი')">ზესტაფონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('8', 'გორი')">გორი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('9', 'თელავი')">თელავი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('10', 'სამტრედია')">სამტრედია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('11', 'წყალტუბო')">წყალტუბო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('12', 'სენაკი')">სენაკი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('13', 'ოზურგეთი')">ოზურგეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('14', 'ქობულეთი')">ქობულეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('15', 'გურჯაანი')">გურჯაანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('16', 'აბასთუმანი')">აბასთუმანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('17', 'აბაშა')">აბაშა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('18', 'აგარა')">აგარა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('19', 'ადიგენი')">ადიგენი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('20', 'ამბროლაური')">ამბროლაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('21', 'ანაკლია')">ანაკლია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('22', 'ანდეზიტი')">ანდეზიტი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('23', 'ასპინძა')">ასპინძა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('24', 'ახალდაბა')">ახალდაბა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('25', 'ახალქალაქი')">ახალქალაქი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('26', 'ახალციხე')">ახალციხე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('27', 'ახმეტა')">ახმეტა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('28', 'ბაკურიანი')">ბაკურიანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('29', 'ბაღდათი')">ბაღდათი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('30', 'ბედიანი')">ბედიანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('31', 'ბოლნისი')">ბოლნისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('32', 'ბორჯომი')">ბორჯომი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('33', 'გარდაბანი')">გარდაბანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('34', 'დედოფლისწყარო')">დედოფლისწყარო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('35', 'დმანისი')">დმანისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('36', 'დუშეთი')">დუშეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('37', 'ვალე')">ვალე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('38', 'ვანი')">ვანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('39', 'თამარისი')">თამარისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('40', 'თეთრიწყარო')">თეთრიწყარო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('41', 'თერჯოლა')">თერჯოლა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('42', 'თიანეთი')">თიანეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('43', 'თრიალეთი')">თრიალეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('44', 'კაზრეთი')">კაზრეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('45', 'კასპი')">კასპი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('46', 'კულაში')">კულაში</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('47', 'ლაგოდეხი')">ლაგოდეხი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('48', 'ლაითური')">ლაითური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('49', 'ლანჩხუთი')">ლანჩხუთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('50', 'ლენტეხი')">ლენტეხი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('51', 'მანგლისი')">მანგლისი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('52', 'მარნეული')">მარნეული</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('53', 'მარტვილი')">მარტვილი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('54', 'მესტია')">მესტია</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('55', 'მირზაანი')">მირზაანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('56', 'მცხეთა')">მცხეთა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('57', 'ნარუჯა')">ნარუჯა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('58', 'ნასაკირალი')">ნასაკირალი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('59', 'ნინოწმინდა')">ნინოწმინდა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('60', 'ონი')">ონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('61', 'ოჩხამური')">ოჩხამური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('62', 'ჟინვალი')">ჟინვალი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('63', 'საგარეჯო')">საგარეჯო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('64', 'საჩხერე')">საჩხერე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('65', 'სიონი')">სიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('66', 'სიღნაღი')">სიღნაღი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('67', 'სტეფანწმინდა')">სტეფანწმინდა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('68', 'სურამი')">სურამი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('69', 'ტყიბული')">ტყიბული</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('70', 'ურეკი')">ურეკი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('71', 'ფასანაური')">ფასანაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('72', 'ქარელი')">ქარელი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('73', 'ქედა')">ქედა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('74', 'ყვარელი')">ყვარელი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('75', 'შაუმიანი')">შაუმიანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('76', 'შორაპანი')">შორაპანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('77', 'შუახევი')">შუახევი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('78', 'ჩაქვი')">ჩაქვი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('79', 'ჩოხატაური')">ჩოხატაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('80', 'ჩხოროწყუ')">ჩხოროწყუ</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('81', 'ცაგერი')">ცაგერი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('82', 'წალენჯიხა')">წალენჯიხა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('83', 'წალკა')">წალკა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('84', 'წაღვერი')">წაღვერი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('85', 'წნორი')">წნორი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('86', 'ჭიათურა')">ჭიათურა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('87', 'ხარაგაული')">ხარაგაული</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('88', 'ხარისთვალა')">ხარისთვალა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('89', 'ხაშური')">ხაშური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('90', 'ხელვაჩაური')">ხელვაჩაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('91', 'ხობი')">ხობი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('92', 'ხონი')">ხონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('93', 'ხულო')">ხულო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('94', 'ჯვარი')">ჯვარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('95', 'სოხუმი')">სოხუმი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('96', 'ცხინვალი')">ცხინვალი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('97', 'ოჩამჩირე')">ოჩამჩირე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('98', 'გულრიფში')">გულრიფში</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('99', 'გაგრა')">გაგრა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('100', 'გალი')">გალი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('101', 'გონიო')">გონიო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('102', 'თეთრი წყარო')">თეთრი წყარო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('103', 'ყვერელი')">ყვერელი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('104', 'დედოფლის წყარო')">დედოფლის წყარო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('105', 'გუდაური')">გუდაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('106', 'საგურამო')">საგურამო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('107', 'დაბა ჯვარი')">დაბა ჯვარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('108', 'ვარციხე')">ვარციხე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('109', 'იორმუღანლო')">იორმუღანლო</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('110', 'კაბალი')">კაბალი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('111', 'ლოტკინი')">ლოტკინი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('112', 'მარტყოფი')">მარტყოფი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('113', 'მახინჯაური')">მახინჯაური</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('114', 'მუხრანი')">მუხრანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('115', 'ნატახტარი')">ნატახტარი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('116', 'საირმე')">საირმე</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('117', 'ქსანი')">ქსანი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('118', 'შეკვეთილი')">შეკვეთილი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('119', 'წითელი ხიდი')">წითელი ხიდი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('120', 'წყნეთი')">წყნეთი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('168', 'ჯავა')">ჯავა</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('169', 'მცხეთის რაიონი')">მცხეთის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('170', 'ბოლნისის რაიონი')">ბოლნისის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('171', 'სიღნაღის რაიონი')">სიღნაღის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('172', 'ბორჯომის რაიონი')">ბორჯომის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('173', 'ქობულეთის რაიონი')">ქობულეთის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('174', 'ოზურგეთის რაიონი')">ოზურგეთის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('175', 'სტეფანწმინდის რაიონი')">სტეფანწმინდის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('176', 'ხარაგაულის რაიონი')">ხარაგაულის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('177', 'დედოფლისწყაროს რაიონი')">დედოფლისწყაროს რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('178', 'გარდაბნის რაიონი')">გარდაბნის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('179', 'გურჯაანის რაიონი')">გურჯაანის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('180', 'ხაშურის რაიონი')">ხაშურის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('181', 'ყვარელის რაიონი')">ყვარელის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('182', 'ქარელის რაიონი')">ქარელის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('183', 'ხობის რაიონი')">ხობის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('184', 'ზუგდიდის რაიონი')">ზუგდიდის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('185', 'თეთრიწყაროს რაიონი')">თეთრიწყაროს რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('186', 'ლაგოდეხის რაიონი')">ლაგოდეხის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('187', 'ნინოწმინდის რაიონი')">ნინოწმინდის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('188', 'ლანჩხუთის რაიონი')">ლანჩხუთის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('189', 'წალენჯიხის რაიონი')">წალენჯიხის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('190', 'საგარეჯოს რაიონი')">საგარეჯოს რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('191', 'ზესტაფონის რაიონი')">ზესტაფონის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('192', 'ხელვაჩაურის რაიონი')">ხელვაჩაურის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('193', 'ახმეტის რაიონი')">ახმეტის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('194', 'წყალტუბოს რაიონი')">წყალტუბოს რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('195', 'გორის რაიონი')">გორის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('196', 'საჩხერის რაიონი')">საჩხერის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('197', 'ჩოხატაურის რაიონი')">ჩოხატაურის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('198', 'ჭიათურის რაიონი')">ჭიათურის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('199', 'სამტრედიის რაიონი')">სამტრედიის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('200', 'მარნეულის რაიონი')">მარნეულის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('201', 'ახალციხის რაიონი')">ახალციხის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('202', 'ახალქალაქის რაიონი')">ახალქალაქის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('203', 'ცაგერის რაიონი')">ცაგერის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('204', 'ვანის რაიონი')">ვანის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('205', 'დუშეთის რაიონი')">დუშეთის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('206', 'ახალციხის რაოინი')">ახალციხის რაოინი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('207', 'დმანისის რაიონი')">დმანისის რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('208', 'ახალქალაქი რაიონი')">ახალქალაქი რაიონი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('209', 'წალენჯიხი')">წალენჯიხი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('210', 'სოფელი რუხი')">სოფელი რუხი</a>
+                            <a class="dropdown-item" style="cursor: pointer;" ng-click="setSelectedCity('225', 'სარფი')">სარფი</a>
                         </div>
                     </div>
                     <input type="submit" value="ძებნა">

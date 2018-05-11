@@ -1058,8 +1058,9 @@ h5{
         @include border-radius(10px);
         background-color: #FFF;
         transition: 0.4s;
+        position: relative;
         .politics-menu__link{
-          position: relative;
+          position: initial;
           @include font-style($bold-font, 12px, #1A1A1A);
           padding: 15px 30px 15px 30px;
           &:not(:last-child){

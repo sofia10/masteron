@@ -1491,9 +1491,10 @@ h5 {
       -ms-border-radius: 10px !important;
       border-radius: 10px !important;
       background-color: #FFF;
-      transition: 0.4s; }
+      transition: 0.4s;
+      position: relative; }
       .site__content .politics .politics-menu .politics-menu__block .politics-menu__link {
-        position: relative;
+        position: initial;
         font-family: "helvetica-bold";
         font-size: 12px;
         color: #1A1A1A;

@@ -19,8 +19,6 @@ $(document).ready(function () {
     var swiper = new Swiper('.sw-det', {
         slidesPerView: 4,
         spaceBetween: 5,
-        loop: true,
-        loopFillGroupWithBlank: true,
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
