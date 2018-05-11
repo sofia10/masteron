@@ -328,6 +328,7 @@ h5{
           .workers-menu-link{
             margin: 0;
             padding: 12px;
+            flex-direction: row-reverse;
             &:not(:last-child){
               border-bottom: 1px solid $border-color;
             }
@@ -577,22 +578,17 @@ h5{
           .dropdown-item_menu{
             visibility: hidden;
             opacity: 0;
-            width: 265px;
             position: absolute;
             top: 0;
             left: 100%;
             padding-left: 12px;
             .dropdown-item_list{
-              //-webkit-columns: 3; /* Chrome, Safari, Opera */
-              //-moz-columns: 3; /* Firefox */
-              //columns: 3;
-              max-width: 750px;
+              max-width: 815px;
               overflow: hidden;
               background-color: #FFF;
               border: 2px solid #b5b5b5;
               @include border-shadow;
               @include display-flex;
-              @include justify-content(space-between);
               @include border-radius(10px);
               .dropdown-item_link{
                 float: left;
@@ -613,6 +609,12 @@ h5{
                 .option{
                   @include truncate(180px);
                 }
+                @media (max-width: 1199px){
+                  width: 200px;
+                  .option{
+                    max-width: 140px;
+                  }
+                }
               }
             }
           }
@@ -626,7 +628,6 @@ h5{
               background-size: 100%;
               background-position: center;
               right: -10px;
-              top: 14px;
               width: 10px;
               height: 13px;
             }
@@ -1221,7 +1222,7 @@ h5{
             font-size: 18px;
             position: absolute;
             top: 15px;
-            left: 15px;
+            right: 15px;
           }
         }
       }
@@ -1370,10 +1371,6 @@ h5{
           left: 100%;
           padding-left: 12px;
           .dropdown-item_list{
-            //-webkit-columns: 3; /* Chrome, Safari, Opera */
-            //-moz-columns: 3; /* Firefox */
-            //columns: 3;
-            /*max-width: 750px;*/
             overflow: hidden;
             background-color: #FFF;
             border: 2px solid #b5b5b5;
@@ -1728,7 +1725,7 @@ h5{
               padding-left: 5px;
               background-image: url("../../images/sort.png");
               background-repeat: no-repeat;
-              background-size: 11px;
+              background-size: 7px;
               background-position: 94%;
               width: 140px;
             }
@@ -4296,10 +4293,6 @@ td{
 .dropdown-item .dropdown-item_menu{
     width: unset;
 }
-.dropdown-item_list{
-    display: block !important;
-    max-width: unset !important;
-}
 .dropdown-item_link{
     margin: 0 10px;
 }
@@ -4921,4 +4914,7 @@ a.user-btn.login-user i{
     max-width: 100%;
     max-height: 100%;
   }
+}
+.menublock-list{
+  min-height: 308px;;
 }

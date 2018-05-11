@@ -10,28 +10,28 @@ $(document).ready(function () {
     });*/
 
     // dropdown js menu
-
-    var length = $('.dropdown-item_list').length;
-    for(var i = 0; i < length; i++){
-        var myLength = $('.dropdown-item_list').eq(i).find('.dropdown-item_link');
-        if(myLength.length <= 10){
-            myLength.closest('.dropdown-item_menu').css('width', '285px');
-        }
-        else if(myLength.length <= 20){
-            myLength.closest('.dropdown-item_menu').css('width', '560px');
-            $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
-        }
-        else{
-            var width = $(window).width();
-            var listWidth = 830;
-            if(width <= 1200){
-                listWidth = 590;
-            }
-            myLength.closest('.dropdown-item_menu').css('width', listWidth+'px');
-            $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
-        }
-    }
-
+    //
+    // var length = $('.dropdown-item_list').length;
+    // for(var i = 0; i < length; i++){
+    //     var myLength = $('.dropdown-item_list').eq(i).find('.dropdown-item_link');
+    //     if(myLength.length <= 13){
+    //         myLength.closest('.dropdown-item_menu').css('width', '285px');
+    //     }
+    //     else if(myLength.length <= 20){
+    //         myLength.closest('.dropdown-item_menu').css('width', '560px');
+    //         $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
+    //     }
+    //     else{
+    //         var width = $(window).width();
+    //         var listWidth = 830;
+    //         if(width <= 1200){
+    //             listWidth = 590;
+    //         }
+    //         myLength.closest('.dropdown-item_menu').css('width', listWidth+'px');
+    //         $('.dropdown-item_list').eq(i).find('.dropdown-item_link').css('float', 'left');
+    //     }
+    // }
+    //
 
 
 
