@@ -5424,3 +5424,8 @@ a.user-btn.login-user i {
 .error-registration .refresh-sms {
   padding-left: 0 !important;
   bottom: -25px !important; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
