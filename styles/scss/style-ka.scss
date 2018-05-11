@@ -2231,6 +2231,7 @@ h5{
       .login-item{
         position: relative;
         margin-top: 10px;
+        margin-bottom: 25px;
         label{
           width: 200px;
           background-color: #F6F6F6;
@@ -2264,7 +2265,7 @@ h5{
           position: absolute;
           display: inline-table;
           padding-left: 10px;
-          bottom: -23px;
+          bottom: -20px;
           left: 0;
           @include font-style($primary-font,12px,$red);
           img{
@@ -4682,8 +4683,7 @@ a.user-btn.login-user i{
   background-color: transparent!important;
 }
 .dropzone .dz-preview .dz-remove{
-  text-align: left;
-  padding-left: 15px;
+  text-align: center;
   text-decoration: none!important;
   @include font-style($bold-font,14px,$red);
   &:after{
@@ -4694,6 +4694,9 @@ a.user-btn.login-user i{
   &:hover{
     opacity: 0.7;
   }
+}
+.dropzone .dz-preview .dz-image img{
+  margin: 0 auto;
 }
 .sw-det{
   .swiper-wrapper{
@@ -4936,6 +4939,6 @@ a.user-btn.login-user i{
 .error-registration{
   .refresh-sms{
     padding-left: 0!important;
-    bottom: -40px!important;
+    bottom: -25px!important;
   }
 }
