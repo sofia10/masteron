@@ -1361,82 +1361,649 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td class="d-flex">
+                                <!-- ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex left-td">
                                         <div class="checkall dektop-check inner-check d-flex align-items-center">
                                             <label class="check">
-                                                <input type="checkbox"  class="checker">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/1" class="table-photo">
-                                            <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
-                                            <div class="svip-ban d-flex align-items-center justify-content-center">S-VIP
-                                            </div>
+                                            <img ng-src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
                                     <td colspan="5" class="mid-td">
                                         <table>
+                                            <tbody>
                                             <tr>
-                                                <td>ID 1463</td>
-                                                <td>სანტექნიკი</td>
-                                                <td class="price">40 ₾</td>
-                                                <td>124</td>
-                                                <td>22</td>
+                                                <td class="ng-binding">ID 1</td>
+                                                <td class="ng-binding">ეს არის გორში</td>
+                                                <td class="price ng-binding">
+                                                    33 ₾
+                                                </td>
+                                                <td class="ng-binding">163</td>
+                                                <td class="ng-binding">1</td>
                                             </tr>
                                             <tr>
                                                 <td colspan="5" class="td-text">
-                                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
+                                                    <p class="ng-binding">განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი</p>
                                                 </td>
                                             </tr>
+                                            </tbody>
                                         </table>
                                     </td>
                                     <td class="date">
-                                        <p>განთავსება: 12/11/18  23:07</p>
-                                        <p>განახლება:  12/12/18  23:07</p>
-                                        <p>ვადა: 12/12/19  23:07</p>
+                                        <p class="ng-binding">განთავსება: 06/04/2018 22:13</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 28/06/2018 04:03</p>
                                     </td>
-                                </tr>
-                                <tr>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
                                     <td class="d-flex">
                                         <div class="checkall dektop-check inner-check d-flex align-items-center">
                                             <label class="check">
-                                                <input type="checkbox"  class="checker">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
-                                        <a href="https://masteron.ge/application/1" class="table-photo">
-                                            <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
-                                            <div class="vip-ban d-flex align-items-center justify-content-center">S-VIP
-                                            </div>
+                                        <a href="https://masteron.ge/application/2" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                        </div><!-- end ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
-                                    <td colspan="5">
+                                    <td colspan="5" class="mid-td">
                                         <table>
-                                            <tr>
-                                                <td>ID 1463</td>
-                                                <td>სანტექნიკი</td>
-                                                <td class="price">40 ₾</td>
-                                                <td>124</td>
-                                                <td>22</td>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 2</td>
+                                                <td class="ng-binding">dsfsf</td>
+                                                <td class="price ng-binding">
+                                                    34 ₾
+                                                </td>
+                                                <td class="ng-binding">56</td>
+                                                <td class="ng-binding">3</td>
                                             </tr>
                                             <tr>
-                                                <td colspan="5">
-                                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">დსფსდ</p>
                                                 </td>
                                             </tr>
-                                        </table>
+                                            </tbody></table>
                                     </td>
                                     <td class="date">
-                                        <p>განთავსება: 12/11/18  23:07</p>
-                                        <p>განახლება:  12/12/18  23:07</p>
-                                        <p>ვადა: 12/12/19  23:07</p>
+                                        <p class="ng-binding">განთავსება: 07/04/2018 00:46</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
                                     </td>
-                                </tr>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/3" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 3</td>
+                                                <td class="ng-binding">ჩემი განცხადება</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">39</td>
+                                                <td class="ng-binding">1</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">ragaca</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 10/04/2018 11:19</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str --><p ng-if="t.post_renew_date_str != t.post_date_str" class="ng-binding ng-scope">განახლება: 11/04/2018 11:19</p><!-- end ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/4" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 4</td>
+                                                <td class="ng-binding">ეს არის ხაშურში</td>
+                                                <td class="price ng-binding">
+                                                    321 ₾
+                                                </td>
+                                                <td class="ng-binding">25</td>
+                                                <td class="ng-binding">1</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">დს</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 10/04/2018 11:21</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/10" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 10</td>
+                                                <td class="ng-binding">ragaca</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">13</td>
+                                                <td class="ng-binding">1</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">aass</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 11/04/2018 11:13</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/11" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 11</td>
+                                                <td class="ng-binding">fdsdsf</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">11</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">as</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 11/04/2018 13:30</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/12" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 12</td>
+                                                <td class="ng-binding">axali bevri suratebiT</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">28</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა დავამატე აღწერა</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 12:38</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/13" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 13</td>
+                                                <td class="ng-binding">kide axali gancxadeba</td>
+                                                <td class="price ng-binding">
+                                                    123 ₾
+                                                </td>
+                                                <td class="ng-binding">27</td>
+                                                <td class="ng-binding">2</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ ასდასდ</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 12:43</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/14" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 14</td>
+                                                <td class="ng-binding">sads</td>
+                                                <td class="price ng-binding">
+                                                    231 ₾
+                                                </td>
+                                                <td class="ng-binding">15</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">werew</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 13:12</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/15" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 15</td>
+                                                <td class="ng-binding">ეს არის ქუთაისში</td>
+                                                <td class="price ng-binding">
+                                                    23 ₾
+                                                </td>
+                                                <td class="ng-binding">17</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">32sd</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 13:14</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/16" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 16</td>
+                                                <td class="ng-binding">asdsad</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">11</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">sdfds</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 13:51</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/17" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 17</td>
+                                                <td class="ng-binding">dfsf</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">14</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">dfssd</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 12/04/2018 13:53</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/19" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 19</td>
+                                                <td class="ng-binding">ახალი დიზაინი</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">16</td>
+                                                <td class="ng-binding">2</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">სდფდ</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 13/04/2018 12:30</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/20" class="table-photo">
+                                            <img ng-src="https://masteron.ge/attachment/ad6f087f7dda7f7ecd644f58ec776d2e5497e9ee?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/ad6f087f7dda7f7ecd644f58ec776d2e5497e9ee?op=crop&amp;width=165&amp;height=120">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 20</td>
+                                                <td class="ng-binding">ეს არის ზესტაფონში</td>
+                                                <td class="price ng-binding">
+                                                    212 ₾
+                                                </td>
+                                                <td class="ng-binding">73</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">ახალი განცხადება</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 13/04/2018 12:55</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str --><p ng-if="t.post_renew_date_str != t.post_date_str" class="ng-binding ng-scope">განახლება: 13/05/2018 12:55</p><!-- end ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/27" class="table-photo">
+                                            <img ng-src="https://masteron.ge/attachment/6c2f559e72ae5b4cc5c2311a2daa48acaefeac09?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/6c2f559e72ae5b4cc5c2311a2daa48acaefeac09?op=crop&amp;width=165&amp;height=120">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 27</td>
+                                                <td class="ng-binding">ქვაბის დაყენება</td>
+                                                <td class="price ng-binding">
+                                                    1200 ₾
+                                                </td>
+                                                <td class="ng-binding">25</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">ასდასდასდ ასდ ასდ</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 19/04/2018 19:16</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/30" class="table-photo">
+                                            <img ng-src="https://masteron.ge/attachment/f711207608a490a8a89a6a787b349f6004844487?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/f711207608a490a8a89a6a787b349f6004844487?op=crop&amp;width=165&amp;height=120">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 30</td>
+                                                <td class="ng-binding">ახალი განცხადება - 1</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">39</td>
+                                                <td class="ng-binding">2</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">ახალი და კარგი განცხადება</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 24/04/2018 16:33</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                    <td class="d-flex">
+                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
+                                            <label class="check">
+                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <a href="https://masteron.ge/application/31" class="table-photo">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                        </a>
+                                    </td>
+                                    <td colspan="5" class="mid-td">
+                                        <table>
+                                            <tbody><tr>
+                                                <td class="ng-binding">ID 31</td>
+                                                <td class="ng-binding">დსფ</td>
+                                                <td class="price ng-binding">
+                                                    32 ₾
+                                                </td>
+                                                <td class="ng-binding">13</td>
+                                                <td class="ng-binding">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="5" class="td-text">
+                                                    <p class="ng-binding">სადა</p>
+                                                </td>
+                                            </tr>
+                                            </tbody></table>
+                                    </td>
+                                    <td class="date">
+                                        <p class="ng-binding">განთავსება: 25/04/2018 17:03</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
+                                    </td>
+                                </tr><!-- end ngRepeat: t in applications -->
                                 </tbody>
                             </table>
                         </div>
@@ -1491,69 +2058,36 @@
                             <div class="image d-flex align-items-center">
                                 <div class="checkall inner-check d-flex align-items-center">
                                     <label class="check">
-                                        <input type="checkbox" class="check">
+                                        <input type="checkbox" class="check ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows(); slideOnCheck(t);">
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-                                <a href="https://masteron.ge/application/1" class="table-photo">
-                                    <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
-                                    <div class="svip-ban d-flex align-items-center justify-content-center">S-VIP
-                                    </div>
+                                <a href="https://masteron.ge/application/3" class="table-photo">
+                                    <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                    <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                </div><!-- end ngIf: t.application_type_id == 3 -->
+                                    <!-- ngIf: t.application_type_id == 2 -->
                                 </a>
                             </div>
                             <div class="right-sw">
-                                <span class="title-sw">სანტექნიკი</span>
+                                <span class="title-sw ng-binding">ჩემი განცხადება</span>
                                 <ul>
                                     <div class="d-flex price-id">
-                                        <li class="d-flex price">ფასი: <span>40₾</span></li>
+                                        <li class="d-flex price">ფასი: <span class="ng-binding">32₾</span></li>
                                     </div>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-eye"></i></div>2357</li>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-calendar"></i></div>12/11/18 </li>
-
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-eye"></i></div>39
+                                    </li>
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-calendar"></i></div>
+                                        10/04/2018 11:19
+                                    </li>
                                 </ul>
                                 <div class="text-swiper">
-                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
+                                    <p class="ng-binding">ragaca </p>
                                 </div>
                             </div>
                         </div>
-
-                        <!--<div class="slide-right">-->
-                            <!--<i class="fa fa-chevron-left"></i>-->
-                        <!--</div>-->
-                    </div>
-                    <div class="right-item item">
-                        <ul>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip">
-                                        <span>S-VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip svip">
-                                        <span>VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon"><img src="images/sync.svg" alt=""></div>განახლება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-facebook-f"></i></div>გაზიარება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-edit"></i></div>რედაქტირება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-times"></i></div>წაშლა
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -1564,141 +2098,36 @@
                             <div class="image d-flex align-items-center">
                                 <div class="checkall inner-check d-flex align-items-center">
                                     <label class="check">
-                                        <input type="checkbox" class="check">
+                                        <input type="checkbox" class="check ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows(); slideOnCheck(t);">
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
-                                <a href="https://masteron.ge/application/1" class="table-photo">
-                                    <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
-                                    <div class="vip-ban d-flex align-items-center justify-content-center">VIP
-                                    </div>
+                                <a href="https://masteron.ge/application/3" class="table-photo">
+                                    <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                    <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
+                                </div><!-- end ngIf: t.application_type_id == 3 -->
+                                    <!-- ngIf: t.application_type_id == 2 -->
                                 </a>
                             </div>
                             <div class="right-sw">
-                                <span class="title-sw">სანტექნიკი</span>
+                                <span class="title-sw ng-binding">ჩემი განცხადება</span>
                                 <ul>
                                     <div class="d-flex price-id">
-                                        <li class="d-flex price">ფასი: <span>40₾</span></li>
+                                        <li class="d-flex price">ფასი: <span class="ng-binding">32₾</span></li>
                                     </div>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-eye"></i></div>2357</li>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-calendar"></i></div>12/11/18 </li>
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-eye"></i></div>39
+                                    </li>
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-calendar"></i></div>
+                                        10/04/2018 11:19
+                                    </li>
                                 </ul>
                                 <div class="text-swiper">
-                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
+                                    <p class="ng-binding">ragaca </p>
                                 </div>
                             </div>
                         </div>
-
-                        <!--<div class="slide-right">-->
-                            <!--<i class="fa fa-chevron-left"></i>-->
-                        <!--</div>-->
-                    </div>
-                    <div class="right-item item">
-                        <ul>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip">
-                                        <span>S-VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip svip">
-                                        <span>VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon"><img src="images/sync.svg" alt=""></div>განახლება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-facebook-f"></i></div>გაზიარება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-edit"></i></div>რედაქტირება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-times"></i></div>წაშლა
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="my-swiper svip">
-                <div class="main">
-                    <div class="left-item item d-flex flex-column align-items-start">
-                        <div class="d-flex">
-                            <div class="image d-flex align-items-center">
-                                <div class="checkall inner-check d-flex align-items-center">
-                                    <label class="check">
-                                        <input type="checkbox" class="check">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                                <a href="https://masteron.ge/application/1" class="table-photo">
-                                    <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
-                                    <div class="svip-ban d-flex align-items-center justify-content-center">S-VIP
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="right-sw">
-                                <span class="title-sw">სანტექნიკი</span>
-                                <ul>
-                                    <div class="d-flex price-id">
-                                        <li class="d-flex price">ფასი: <span>40₾</span></li>
-                                    </div>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-eye"></i></div>2357</li>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-calendar"></i></div>12/11/18 </li>
-
-                                </ul>
-                                <div class="text-swiper">
-                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--<div class="slide-right">-->
-                            <!--<i class="fa fa-chevron-left"></i>-->
-                        <!--</div>-->
-                    </div>
-                    <div class="right-item item">
-                        <ul>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip">
-                                        <span>S-VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <div class="vip svip">
-                                        <span>VIP</span>
-                                    </div>
-                                </div>
-                                გადატანა
-                            </li>
-                            <li>
-                                <div class="icon"><img src="images/sync.svg" alt=""></div>განახლება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-facebook-f"></i></div>გაზიარება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-edit"></i></div>რედაქტირება
-                            </li>
-                            <li>
-                                <div class="icon"><i class="fa fa-times"></i></div>წაშლა
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -1709,35 +2138,35 @@
                             <div class="image d-flex align-items-center">
                                 <div class="checkall inner-check d-flex align-items-center">
                                     <label class="check">
-                                        <input type="checkbox" class="check">
+                                        <input type="checkbox" class="check ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows(); slideOnCheck(t);">
                                         <span class="checkmark"></span>
                                     </label>
                                 </div>
                                 <a href="https://masteron.ge/application/1" class="table-photo">
-                                    <img title="3" ng-src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/bb953fd33da17a1deb3d92c07d47be66f8e1d440?op=crop&amp;width=165&amp;height=120">
+                                    <img ng-src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120">
+                                    <!-- ngIf: t.application_type_id == 3 -->
+                                    <!-- ngIf: t.application_type_id == 2 -->
                                 </a>
                             </div>
                             <div class="right-sw">
-                                <span class="title-sw">სანტექნიკი</span>
+                                <span class="title-sw ng-binding">ეს არის გორში</span>
                                 <ul>
                                     <div class="d-flex price-id">
-                                        <li class="d-flex price">ფასი: <span>40₾</span></li>
+                                        <li class="d-flex price">ფასი: <span class="ng-binding">33₾</span></li>
                                     </div>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-eye"></i></div>2357</li>
-                                    <li class="d-flex share-li"><div class="share"><i class="fa fa-calendar"></i></div>12/11/18 </li>
-
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-eye"></i></div>163
+                                    </li>
+                                    <li class="d-flex share-li ng-binding">
+                                        <div class="share"><i class="fa fa-calendar"></i></div>
+                                        06/04/2018 22:13
+                                    </li>
                                 </ul>
                                 <div class="text-swiper">
-                                    <p>საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
-                                        იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავ...
-                                        ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი </p>
+                                    <p class="ng-binding">განახლებული ტექსტი </p>
                                 </div>
                             </div>
                         </div>
-
-                        <!--<div class="slide-right">-->
-                        <!--<i class="fa fa-chevron-left"></i>-->
-                        <!--</div>-->
                     </div>
                     <div class="right-item item">
                         <ul>

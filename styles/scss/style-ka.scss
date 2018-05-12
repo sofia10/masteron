@@ -1605,13 +1605,13 @@ h5{
       }
       [id*="open-accordion"]:after, [id*="close-accordion"]:after {
         content: "";
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 5px solid #000;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 4px solid #000;
         position: absolute;
         right: 5px;
         top: 20px;
-        right: 5px;
+        right: 15px;
         z-index: 2;
         transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
@@ -2527,7 +2527,7 @@ h5{
               border-right: none!important;
               @include font-style($bold-font,12px,#060606);
               img{
-                width: 90px;
+                width: 110px;
                 height: auto;
                 object-position: center;
                 object-fit: cover;
@@ -2556,6 +2556,9 @@ h5{
               p{
                 color: #555555;
               }
+            }
+            td.left-td{
+              width: 140px;
             }
           }
         }
@@ -3784,7 +3787,8 @@ label.add-balance{
     @include display-flex;
     @include align-items(center);
     .image{
-      height: 150px;
+      height: 100%;
+      max-height: 100%;
       padding-left: 10px;
       img{
         @include border-radius(6px);
@@ -3838,8 +3842,8 @@ label.add-balance{
       margin-bottom: 5px;
       display: block;
       margin-left: 0px;
-      margin-bottom: 10px;
-      max-height: 30px;
+      margin-bottom: 5px;
+      max-height: 15px;
       overflow: hidden;
       line-height: 15px;
     }
@@ -3869,7 +3873,7 @@ label.add-balance{
       }
     }
     .right-sw{
-      padding: 20px 20px;
+      padding-left: 20px;
       .price{
         color: $red;
         .icon{
@@ -3939,6 +3943,8 @@ label.add-balance{
   .item{
     float: left;
     transition: 0.2s;
+    height: 100%;
+    @include justify-content(center);
   }
   .main{
     position: absolute;
@@ -3956,7 +3962,6 @@ label.add-balance{
     overflow: hidden;
     height: 130px;
     width: 100%;
-    margin-top: 15px;
     border-bottom: 1px solid $border-color;
     i{
       color: #b5b5b5;
@@ -4753,6 +4758,7 @@ a.user-btn.login-user i{
 }
 .table-photo{
   position: relative;
+  margin-left: 10px;
   .svip-ban{
     position: absolute!important;
     width: 45px;

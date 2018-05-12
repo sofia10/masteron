@@ -2044,13 +2044,13 @@ h5 {
       margin: 15px 30px; }
     .site__content .politics .politicts-content [id*="open-accordion"]:after, .site__content .politics .politicts-content [id*="close-accordion"]:after {
       content: "";
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid #000;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+      border-top: 4px solid #000;
       position: absolute;
       right: 5px;
       top: 20px;
-      right: 5px;
+      right: 15px;
       z-index: 2;
       transform: rotate(-90deg);
       -webkit-transform: rotate(-90deg); }
@@ -2930,7 +2930,7 @@ h5 {
           font-size: 12px;
           color: #060606; }
           .site__content .login-block .table-responsive-lg .last-table tbody tr td img {
-            width: 90px;
+            width: 110px;
             height: auto;
             object-position: center;
             object-fit: cover;
@@ -2953,6 +2953,8 @@ h5 {
           color: #EC1C24; }
         .site__content .login-block .table-responsive-lg .last-table tbody tr td.date p {
           color: #555555; }
+        .site__content .login-block .table-responsive-lg .last-table tbody tr td.left-td {
+          width: 140px; }
         @media (max-width: 767px) {
           .site__content .login-block .table-responsive-lg .last-table {
             width: 790px; } }
@@ -4191,7 +4193,8 @@ h5 {
   -webkit-align-items: center;
   align-items: center; }
   .mobile-transaction .left-item .image {
-    height: 150px;
+    height: 100%;
+    max-height: 100%;
     padding-left: 10px; }
     .mobile-transaction .left-item .image img {
       -webkit-border-radius: 6px !important;
@@ -4251,8 +4254,8 @@ h5 {
     margin-bottom: 5px;
     display: block;
     margin-left: 0px;
-    margin-bottom: 10px;
-    max-height: 30px;
+    margin-bottom: 5px;
+    max-height: 15px;
     overflow: hidden;
     line-height: 15px; }
   .mobile-transaction .left-item .text-swiper {
@@ -4289,7 +4292,7 @@ h5 {
       color: #FFF;
       font-size: 11px; }
   .mobile-transaction .left-item .right-sw {
-    padding: 20px 20px; }
+    padding-left: 20px; }
     .mobile-transaction .left-item .right-sw .price {
       color: #EC1C24; }
       .mobile-transaction .left-item .right-sw .price .icon {
@@ -4405,7 +4408,13 @@ h5 {
 
 .mobile-transaction .item {
   float: left;
-  transition: 0.2s; }
+  transition: 0.2s;
+  height: 100%;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
 
 .mobile-transaction .main {
   position: absolute;
@@ -4423,7 +4432,6 @@ h5 {
   overflow: hidden;
   height: 130px;
   width: 100%;
-  margin-top: 15px;
   border-bottom: 1px solid #E4E4E4; }
   .mobile-transaction .my-swiper i {
     color: #b5b5b5; }
@@ -5223,7 +5231,8 @@ a.user-btn.login-user i {
     border-top-left-radius: 6px !important; }
 
 .table-photo {
-  position: relative; }
+  position: relative;
+  margin-left: 10px; }
   .table-photo .svip-ban {
     position: absolute !important;
     width: 45px;
