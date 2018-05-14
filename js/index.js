@@ -3,7 +3,7 @@ $(document).ready(function () {
         slidesPerView: 6,
         spaceBetween: 35,
         autoplay: {
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
         },
         pagination: {
@@ -42,7 +42,7 @@ $(document).ready(function () {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2000,
+        delay: 5000,
         disableOnInteraction: false,
       },
       pagination: {

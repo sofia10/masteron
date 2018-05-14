@@ -2406,8 +2406,8 @@ h5{
     }
     .btn-block{
       transition: 0.4s;
-      opacity: 0;
-      visibility: hidden;
+      //opacity: 0;
+      //visibility: hidden;
       margin-top: 25px;
       .btn-block-item{
         margin: 0 3px;
@@ -4164,18 +4164,18 @@ label.add-balance{
     height: 15px;
     width: 15px;
     background-color: #eee;
-    border: 1px solid #e4e4e4;
+    border: 1px solid #c0c0c0;
     @media (max-width: 991px){
       left: 0;
     }
   }
   .check:hover input ~ .checkmark {
     background-color: transparent;
-    border: 1px solid #e4e4e4;
+    border: 1px solid #c0c0c0;
   }
   .check input:checked ~ .checkmark {
     background-color: transparent;
-    border: 1px solid #e4e4e4;
+    border: 1px solid #c0c0c0;
   }
   .checkmark:after {
     content: "";

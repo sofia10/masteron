@@ -2819,8 +2819,6 @@ h5 {
           margin-top: 30px; } }
     .site__content .login-block .btn-block {
       transition: 0.4s;
-      opacity: 0;
-      visibility: hidden;
       margin-top: 25px; }
       .site__content .login-block .btn-block .btn-block-item {
         margin: 0 3px;
@@ -4636,18 +4634,18 @@ h5 {
   height: 15px;
   width: 15px;
   background-color: #eee;
-  border: 1px solid #e4e4e4; }
+  border: 1px solid #c0c0c0; }
   @media (max-width: 991px) {
     .checkall .checkmark {
       left: 0; } }
 
 .checkall .check:hover input ~ .checkmark {
   background-color: transparent;
-  border: 1px solid #e4e4e4; }
+  border: 1px solid #c0c0c0; }
 
 .checkall .check input:checked ~ .checkmark {
   background-color: transparent;
-  border: 1px solid #e4e4e4; }
+  border: 1px solid #c0c0c0; }
 
 .checkall .checkmark:after {
   content: "";

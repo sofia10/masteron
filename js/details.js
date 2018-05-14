@@ -15,7 +15,13 @@ $(document).ready(function () {
         centerMode: false,
         focusOnSelect: true,
     });
+
+
+
+
     //swiper-slider
+
+
     var swiper = new Swiper('.sw-det', {
         slidesPerView: 4,
         spaceBetween: 5,
@@ -47,6 +53,9 @@ $(document).ready(function () {
         }
     });
 
+
+
+
     $('.workers-title').click(function (){
        $('.workers-title').toggleClass('arrow');
     });
@@ -56,7 +65,7 @@ $(document).ready(function () {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
       },
       pagination: {
