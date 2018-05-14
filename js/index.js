@@ -2,8 +2,6 @@ $(document).ready(function () {
     var swiper = new Swiper('.advert-slider', {
         slidesPerView: 6,
         spaceBetween: 35,
-        loop: true,
-        loopFillGroupWithBlank: true,
         autoplay: {
             delay: 2000,
             disableOnInteraction: false,
