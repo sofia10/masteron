@@ -5441,3 +5441,18 @@ input[type=number]::-webkit-outer-spin-button {
 
 .banners-slider {
   height: 100%; }
+
+.det-icons .details-icon.svip, .det-icons .details-icon.vip {
+  display: none; }
+
+.det-icons.svip .details-icon {
+  display: none; }
+
+.det-icons.svip .details-icon.svip {
+  display: block; }
+
+.det-icons.vip .details-icon, .det-icons.vip .details-icon.svip {
+  display: none; }
+
+.det-icons.vip .details-icon.vip {
+  display: block; }

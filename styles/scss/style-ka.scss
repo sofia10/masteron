@@ -4958,3 +4958,24 @@ input[type=number]::-webkit-outer-spin-button {
 .banners-slider{
   height: 100%;
 }
+.det-icons{
+  .details-icon.svip, .details-icon.vip{
+    display: none;
+  }
+}
+.det-icons.svip{
+  .details-icon{
+    display: none;
+  }
+  .details-icon.svip{
+    display: block;
+  }
+}
+.det-icons.vip{
+  .details-icon, .details-icon.svip{
+    display: none;
+  }
+  .details-icon.vip{
+    display: block;
+  }
+}
