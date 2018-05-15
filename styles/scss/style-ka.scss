@@ -2225,6 +2225,7 @@ h5{
   }
   .login-block{
     margin-top: 60px;
+    min-height: 400px;
     .login-title{
       @include font-style($bold-font,18px,#060606);
     }

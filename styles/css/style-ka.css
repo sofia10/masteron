@@ -2622,7 +2622,8 @@ h5 {
       .site__content .politics {
         margin-top: 0; } }
   .site__content .login-block {
-    margin-top: 60px; }
+    margin-top: 60px;
+    min-height: 400px; }
     .site__content .login-block .login-title {
       font-family: "helvetica-bold";
       font-size: 18px;
