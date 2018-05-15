@@ -1339,30 +1339,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="table-responsive-lg transaction-table">
-                            <table class="table last-table">
+                        <div class="table-responsive-lg transaction-table ng-scope" ng-if="applications.length > 0">
+                            <table class="table last-table" style="display: inline;" ng-style="{ display: !loading ? 'inline' : 'none' }">
                                 <thead>
                                 <tr>
                                     <td class="d-flex">
                                         <div class="checkall dektop-check inner-check d-flex align-items-center">
                                             <label class="check">
-                                                <input type="checkbox" name="checker" class="main_checker">
+                                                <input type="checkbox" name="checker" class="main_checker ng-pristine ng-untouched ng-valid" ng-model="checker.checkAll" ng-change="checkAllChanged()">
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
                                         <span class="photo-td">ფოტო</span>
                                     </td>
-                                    <td>ID</td>
-                                    <td>დასახელება</td>
-                                    <td>ფასი</td>
-                                    <td>ნახვები</td>
-                                    <td>მოწონება</td>
+                                    <td class="td-id">ID</td>
+                                    <td class="td-title">დასახელება</td>
+                                    <td class="td-price">ფასი</td>
+                                    <td class="td-seen">ნახვები</td>
+                                    <td class="td-like">მოწონება</td>
                                     <td class="last-td">თარიღები</td>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <!-- ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
-                                    <td class="d-flex left-td">
+                                    <td class="d-flex">
                                         <div class="checkall dektop-check inner-check d-flex align-items-center">
                                             <label class="check">
                                                 <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
@@ -1370,35 +1370,34 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/1" class="table-photo">
-                                            <img ng-src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/7e1841957d6122c8b6f4adebc55c468336834fca?op=crop&amp;width=165&amp;height=120">
-                                            <!-- ngIf: t.application_type_id == 3 -->
+                                            <img ng-src="https://masteron.ge/attachment/ae368897e62275f567034ea535a162268787b694?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/ae368897e62275f567034ea535a162268787b694?op=crop&amp;width=165&amp;height=120">
+                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
+                                        </div><!-- end ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
                                     <td colspan="5" class="mid-td">
                                         <table>
-                                            <tbody>
-                                            <tr>
-                                                <td class="ng-binding">ID 1</td>
-                                                <td class="ng-binding">ეს არის გორში</td>
-                                                <td class="price ng-binding">
+                                            <tbody><tr>
+                                                <td class="ng-binding td-id">ID 1</td>
+                                                <td class="ng-binding td-title">ეს არის გორში</td>
+                                                <td class="price td-price ng-binding">
                                                     33 ₾
                                                 </td>
-                                                <td class="ng-binding">163</td>
-                                                <td class="ng-binding">1</td>
+                                                <td class="ng-binding td-seen">172</td>
+                                                <td class="ng-binding td-like">1</td>
                                             </tr>
                                             <tr>
                                                 <td colspan="5" class="td-text">
-                                                    <p class="ng-binding">განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი განახლებული ტექსტი</p>
+                                                    <p class="ng-binding">განახლებული ტექსტი</p>
                                                 </td>
                                             </tr>
-                                            </tbody>
-                                        </table>
+                                            </tbody></table>
                                     </td>
                                     <td class="date">
                                         <p class="ng-binding">განთავსება: 06/04/2018 22:13</p>
-                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
-                                        <p class="ng-binding">ვადა: 28/06/2018 04:03</p>
+                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str --><p ng-if="t.post_renew_date_str != t.post_date_str" class="ng-binding ng-scope">განახლება: 14/05/2018 17:30</p><!-- end ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">ვადა: 13/06/2018 17:30</p>
                                     </td>
                                 </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
                                     <td class="d-flex">
@@ -1409,7 +1408,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/2" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
                                         </div><!-- end ngIf: t.application_type_id == 2 -->
@@ -1423,7 +1422,7 @@
                                                 <td class="price ng-binding">
                                                     34 ₾
                                                 </td>
-                                                <td class="ng-binding">56</td>
+                                                <td class="ng-binding">60</td>
                                                 <td class="ng-binding">3</td>
                                             </tr>
                                             <tr>
@@ -1447,9 +1446,8 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/3" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
-                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
-                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
+                                            <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
@@ -1461,7 +1459,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">39</td>
+                                                <td class="ng-binding">41</td>
                                                 <td class="ng-binding">1</td>
                                             </tr>
                                             <tr>
@@ -1485,9 +1483,8 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/4" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
-                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
-                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
+                                            <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
@@ -1499,7 +1496,7 @@
                                                 <td class="price ng-binding">
                                                     321 ₾
                                                 </td>
-                                                <td class="ng-binding">25</td>
+                                                <td class="ng-binding">31</td>
                                                 <td class="ng-binding">1</td>
                                             </tr>
                                             <tr>
@@ -1523,7 +1520,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/10" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
@@ -1536,7 +1533,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">13</td>
+                                                <td class="ng-binding">18</td>
                                                 <td class="ng-binding">1</td>
                                             </tr>
                                             <tr>
@@ -1560,7 +1557,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/11" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
                                         </div><!-- end ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
@@ -1574,7 +1571,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">11</td>
+                                                <td class="ng-binding">16</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1598,10 +1595,9 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/12" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
-                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
-                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
                                     <td colspan="5" class="mid-td">
@@ -1612,7 +1608,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">28</td>
+                                                <td class="ng-binding">34</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1636,9 +1632,8 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/13" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
-                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
-                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
+                                            <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
@@ -1650,7 +1645,7 @@
                                                 <td class="price ng-binding">
                                                     123 ₾
                                                 </td>
-                                                <td class="ng-binding">27</td>
+                                                <td class="ng-binding">29</td>
                                                 <td class="ng-binding">2</td>
                                             </tr>
                                             <tr>
@@ -1674,7 +1669,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/14" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
@@ -1687,7 +1682,7 @@
                                                 <td class="price ng-binding">
                                                     231 ₾
                                                 </td>
-                                                <td class="ng-binding">15</td>
+                                                <td class="ng-binding">20</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1711,10 +1706,9 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/15" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
-                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
-                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
                                     <td colspan="5" class="mid-td">
@@ -1725,7 +1719,7 @@
                                                 <td class="price ng-binding">
                                                     23 ₾
                                                 </td>
-                                                <td class="ng-binding">17</td>
+                                                <td class="ng-binding">23</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1749,7 +1743,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/16" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
@@ -1762,7 +1756,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">11</td>
+                                                <td class="ng-binding">14</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1786,9 +1780,8 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/17" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
-                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
-                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
+                                            <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
@@ -1800,7 +1793,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">14</td>
+                                                <td class="ng-binding">20</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1824,7 +1817,7 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/19" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
                                         </div><!-- end ngIf: t.application_type_id == 2 -->
@@ -1838,7 +1831,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">16</td>
+                                                <td class="ng-binding">22</td>
                                                 <td class="ng-binding">2</td>
                                             </tr>
                                             <tr>
@@ -1875,7 +1868,7 @@
                                                 <td class="price ng-binding">
                                                     212 ₾
                                                 </td>
-                                                <td class="ng-binding">73</td>
+                                                <td class="ng-binding">79</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>
@@ -1898,47 +1891,9 @@
                                                 <span class="checkmark"></span>
                                             </label>
                                         </div>
-                                        <a href="https://masteron.ge/application/27" class="table-photo">
-                                            <img ng-src="https://masteron.ge/attachment/6c2f559e72ae5b4cc5c2311a2daa48acaefeac09?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/6c2f559e72ae5b4cc5c2311a2daa48acaefeac09?op=crop&amp;width=165&amp;height=120">
-                                            <!-- ngIf: t.application_type_id == 3 -->
-                                            <!-- ngIf: t.application_type_id == 2 -->
-                                        </a>
-                                    </td>
-                                    <td colspan="5" class="mid-td">
-                                        <table>
-                                            <tbody><tr>
-                                                <td class="ng-binding">ID 27</td>
-                                                <td class="ng-binding">ქვაბის დაყენება</td>
-                                                <td class="price ng-binding">
-                                                    1200 ₾
-                                                </td>
-                                                <td class="ng-binding">25</td>
-                                                <td class="ng-binding">0</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="5" class="td-text">
-                                                    <p class="ng-binding">ასდასდასდ ასდ ასდ</p>
-                                                </td>
-                                            </tr>
-                                            </tbody></table>
-                                    </td>
-                                    <td class="date">
-                                        <p class="ng-binding">განთავსება: 19/04/2018 19:16</p>
-                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str -->
-                                        <p class="ng-binding">ვადა: 10/06/2018 00:00</p>
-                                    </td>
-                                </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
-                                    <td class="d-flex">
-                                        <div class="checkall dektop-check inner-check d-flex align-items-center">
-                                            <label class="check">
-                                                <input type="checkbox" class="checker ng-pristine ng-untouched ng-valid" ng-model="t.checked" ng-click="checkSelectedRows()">
-                                                <span class="checkmark"></span>
-                                            </label>
-                                        </div>
                                         <a href="https://masteron.ge/application/30" class="table-photo">
                                             <img ng-src="https://masteron.ge/attachment/f711207608a490a8a89a6a787b349f6004844487?op=crop&amp;width=165&amp;height=120" alt="" src="https://masteron.ge/attachment/f711207608a490a8a89a6a787b349f6004844487?op=crop&amp;width=165&amp;height=120">
-                                            <!-- ngIf: t.application_type_id == 3 --><div ng-if="t.application_type_id == 3" class="svip-ban d-flex align-items-center justify-content-center ng-scope">S-VIP
-                                        </div><!-- end ngIf: t.application_type_id == 3 -->
+                                            <!-- ngIf: t.application_type_id == 3 -->
                                             <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
@@ -1950,7 +1905,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">39</td>
+                                                <td class="ng-binding">43</td>
                                                 <td class="ng-binding">2</td>
                                             </tr>
                                             <tr>
@@ -1974,10 +1929,9 @@
                                             </label>
                                         </div>
                                         <a href="https://masteron.ge/application/31" class="table-photo">
-                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526144837">
+                                            <img ng-src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217" alt="" src="https://masteron.ge/assets/uploads/images/nophoto.svg?v=1526388217">
                                             <!-- ngIf: t.application_type_id == 3 -->
-                                            <!-- ngIf: t.application_type_id == 2 --><div ng-if="t.application_type_id == 2" class="vip-ban d-flex align-items-center justify-content-center ng-scope">VIP
-                                        </div><!-- end ngIf: t.application_type_id == 2 -->
+                                            <!-- ngIf: t.application_type_id == 2 -->
                                         </a>
                                     </td>
                                     <td colspan="5" class="mid-td">
@@ -1988,7 +1942,7 @@
                                                 <td class="price ng-binding">
                                                     32 ₾
                                                 </td>
-                                                <td class="ng-binding">13</td>
+                                                <td class="ng-binding">16</td>
                                                 <td class="ng-binding">0</td>
                                             </tr>
                                             <tr>

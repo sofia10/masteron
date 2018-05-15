@@ -509,7 +509,7 @@ h5{
               }
               @include font-style($primary-font, 11px, #707070);
               &:hover{
-                color: $red;
+                color: #ec1c24!important;
               }
             }
           }
@@ -2572,6 +2572,9 @@ h5{
     }
     @media (max-width: 991px){
       margin-top: 30px!important;
+    }
+    @media (max-width: 767px){
+      min-height: auto;
     }
   }
   .modal-content{
@@ -4979,4 +4982,31 @@ input[type=number]::-webkit-outer-spin-button {
   .details-icon.vip{
     display: block;
   }
+}
+.login-block{
+  .table{
+
+  }
+}
+td.mid-td{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.td-id{
+  width: 55px;
+}
+.td-title{
+  width: 240px;
+  @media (max-width: 1199px){
+    width: 180px;
+  }
+}
+.td-price{
+  width: 50px;
+}
+.td-seen{
+  width: 75px;
+}
+.td-like{
+  width: 80px;
 }
