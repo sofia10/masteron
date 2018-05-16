@@ -1011,7 +1011,7 @@ h5 {
             position: absolute;
             right: 15px; }
           .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item:hover {
-            color: #EC1C24; }
+            color: #ec1c24 !important; }
           .site__header .sub-header .search-form-elem .dropdown-menu .dropdown-item .dropdown-item_menu {
             visibility: hidden;
             opacity: 0;
@@ -2147,7 +2147,7 @@ h5 {
         padding: 10px;
         padding-left: 15px; }
         .site__content .politics .politicts-content .content-title .sort .dropdown .dropdown-menu .dropdown-item:hover {
-          color: #EC1C24;
+          color: #ec1c24 !important;
           background-color: #F6F6F6; }
       .site__content .politics .politicts-content .content-title .sort .dropdown .btn-secondary.dropdown-toggle {
         font-size: 11px;
