@@ -1361,7 +1361,8 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <!-- ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
+                                <!-- ngRepeat: t in applications -->
+                                <tr ng-repeat="t in applications" class="ng-scope table-ads table-svip">
                                     <td class="d-flex">
                                         <div class="checkall dektop-check inner-check d-flex align-items-center">
                                             <label class="check">
@@ -1378,9 +1379,10 @@
                                     </td>
                                     <td colspan="5" class="mid-td">
                                         <table>
-                                            <tbody><tr>
+                                            <tbody>
+                                            <tr>
                                                 <td class="ng-binding td-id">ID 1</td>
-                                                <td class="ng-binding td-title">ეს არის გორში</td>
+                                                <td class="ng-binding td-title">ეს არის გორში ეს არის გორში ეს არის გორში ეს არის გორში</td>
                                                 <td class="price td-price ng-binding">
                                                     33 ₾
                                                 </td>
@@ -1389,15 +1391,26 @@
                                             </tr>
                                             <tr>
                                                 <td colspan="5" class="td-text">
-                                                    <p class="ng-binding">განახლებული ტექსტი</p>
+                                                    <p class="ng-binding">განახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტიგანახლებული ტექსტი</p>
                                                 </td>
                                             </tr>
                                             </tbody></table>
                                     </td>
                                     <td class="date">
-                                        <p class="ng-binding">განთავსება: 06/04/2018 22:13</p>
-                                        <!-- ngIf: t.post_renew_date_str != t.post_date_str --><p ng-if="t.post_renew_date_str != t.post_date_str" class="ng-binding ng-scope">განახლება: 14/05/2018 17:30</p><!-- end ngIf: t.post_renew_date_str != t.post_date_str -->
-                                        <p class="ng-binding">ვადა: 13/06/2018 17:30</p>
+                                        <p class="ng-binding">
+                                                <i class="fa fa-calendar"></i>
+                                            06/04/2018 22:13
+                                        </p>
+                                        <p ng-if="t.post_renew_date_str != t.post_date_str" class="ng-binding ng-scope">
+                                                <img src="images/sync.svg" alt="">
+                                                <img src="images/sync-svip.svg" alt="" class="sync-svip">
+                                                <img src="images/sync-vip.svg" alt="" class="sync-vip">
+                                            14/05/2018 17:30
+                                        </p><!-- end ngIf: t.post_renew_date_str != t.post_date_str -->
+                                        <p class="ng-binding">
+                                                <i class="fa fa-hourglass-end"></i>
+                                            13/06/2018 17:30
+                                        </p>
                                     </td>
                                 </tr><!-- end ngRepeat: t in applications --><tr ng-repeat="t in applications" class="ng-scope">
                                     <td class="d-flex">
