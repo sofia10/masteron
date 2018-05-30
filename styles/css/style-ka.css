@@ -2011,7 +2011,8 @@ h5 {
         .site__content .politics .politicts-content .contact-form input[type=submit] {
           position: absolute;
           left: 50%;
-          transform: translateX(-50%); } }
+          top: 100%;
+          transform: translate3d(-50%, 0, 0); } }
     @media (max-width: 767px) {
       .site__content .politics .politicts-content .contact-form {
         padding-top: 30px; } }
@@ -4515,7 +4516,8 @@ h5 {
       flex-wrap: nowrap; } }
   .vip-block-items .vip-item {
     width: 160px;
-    margin-right: 35px; }
+    margin-right: 35px;
+    overflow: hidden; }
     @media (max-width: 530px) {
       .vip-block-items .vip-item {
         max-width: 50% !important;
