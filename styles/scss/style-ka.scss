@@ -1842,7 +1842,7 @@ h5{
             }
             .search-list-info {
               position: absolute;
-              width: 100%;
+              width: 95%;
               bottom: 0;
               .search-list-info__item {
                 img {
@@ -1864,6 +1864,10 @@ h5{
                   width: 50%;
                   @include justify-content(center);
                 }
+              }
+              @media (max-width: 767px){
+                position: relative;
+                margin-top: 10px;
               }
             }
             @media (max-width: 480px){
@@ -4055,7 +4059,6 @@ label.add-balance{
   .vip-item{
     width: 160px;
     margin-right: 35px;
-    overflow: hidden;
     @media (max-width: 530px){
       max-width: 50%!important;
       width: 50%!important;
@@ -4249,6 +4252,7 @@ label.add-balance{
 .line-limit{
   line-height: 20px;
   width: 150px;
+  overflow: hidden;
 }
 .content-vip-blok.s-vip{
   background-color: $red!important;

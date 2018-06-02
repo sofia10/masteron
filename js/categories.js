@@ -10,6 +10,19 @@ $('.burger-bg').click(function (){
     $('.filters').removeClass('navigation-filter');
     $('.burger-bg').fadeOut();
 });
+$('.red-button').click(function(){
+    $('.filters').removeClass('navigation-filter');
+    $('.burger-bg').fadeOut();
+});
+
+$('.filters-btn').click(function (){
+    $( "body" ).css( "overflow-y", "hidden" );
+});
+$('.fa-times , .burger-bg').click(function (){
+    $( "body" ).css( "overflow-y", "auto" );
+});
+
+
 
 
 var swiper = new Swiper('.banners-slider', {
