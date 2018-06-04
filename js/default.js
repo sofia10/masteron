@@ -70,6 +70,8 @@ $(document).ready(function () {
         $('.burger-bg').fadeIn();
     });
 
+
+
     //burger-menu
     $('.workers-title-1').click(function (){
         $(this).next().slideToggle('slow');
@@ -79,10 +81,16 @@ $(document).ready(function () {
     });
     $('.burger-btn').click(function (){
         $( "body" ).css( "overflow-y", "hidden" );
+        $( ".site__content" ).css( "position", "fixed" );
     });
     $('.fa-times , .burger-bg').click(function (){
         $( "body" ).css( "overflow-y", "auto" );
+        $( ".site__content" ).css( "position", "unset" );
     });
+
+
+
+
 
     // inner-menu
     $('.workers-menu-link').click(function(){
