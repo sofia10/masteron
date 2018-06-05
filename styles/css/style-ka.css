@@ -675,7 +675,8 @@ h5 {
     right: -500px;
     top: 0;
     transition: 1.2s;
-    overflow: auto; }
+    overflow: auto;
+    padding-bottom: 30px; }
     .site__header .sup-header .navigation .burger-nav .close-btn {
       margin: 20px;
       color: #EC1C24;
@@ -1659,13 +1660,13 @@ h5 {
           font-size: 18px;
           position: absolute;
           top: 15px;
-          right: 15px; } }
+          left: 15px; } }
     .site__content .politics .politics-menu .navigation-filter {
       right: 0;
       transition: 1.2s; }
       @media (max-width: 420px) {
         .site__content .politics .politics-menu .navigation-filter {
-          width: 280px;
+          width: 100%;
           padding: 20px 10px;
           overflow: scroll; } }
     .site__content .politics .politics-menu .filters-title {

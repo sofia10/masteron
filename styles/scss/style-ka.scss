@@ -222,6 +222,7 @@ h5{
         top: 0;
         transition: 1.2s;
         overflow: auto;
+        padding-bottom: 30px;
         .close-btn{
           margin: 20px;
           color: $red;
@@ -1239,7 +1240,7 @@ h5{
             font-size: 18px;
             position: absolute;
             top: 15px;
-            right: 15px;
+            left: 15px;
           }
         }
       }
@@ -1247,7 +1248,7 @@ h5{
         right: 0;
         transition: 1.2s;
         @media (max-width: 420px){
-          width: 280px;
+          width: 100%;
           padding: 20px 10px;
           overflow: scroll;
         }

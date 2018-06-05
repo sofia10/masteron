@@ -17,11 +17,11 @@ $('.red-button').click(function(){
 
 $('.filters-btn').click(function (){
     $( "body" ).css( "overflow-y", "hidden" );
-    $( ".site__content" ).css( "position", "fixed" );
+    // $( ".site__content" ).css( "position", "fixed" );
 });
 $('.fa-times , .burger-bg').click(function (){
     $( "body" ).css( "overflow-y", "auto" );
-    $( ".site__content" ).css( "position", "unset" );
+    // $( ".site__content" ).css( "position", "unset" );
 });
 
 
