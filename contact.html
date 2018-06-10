@@ -1297,6 +1297,14 @@
                                     <input type="email" id="mail" placeholder="-" required>
                                 </div>
                                 <textarea rows="8" placeholder="შეტყობინება"></textarea>
+                                <div class="captcha-block d-flex">
+                                    <div id="contact-captcha"><img src="https://masteron.ge/captcha/simple?k1ZzPeBI"></div>
+                                    <img onclick="refreshContactCaptchaCode()" class="captcha-refresh" style="cursor: pointer; color: red;" src="https://masteron.ge/assets/images/refresh.svg" height="10" alt="">
+                                </div>
+                                <div class="contact-form__item d-flex">
+                                    <label for="captcha">უსაფ. კოდი <span>*</span></label>
+                                    <input type="text" id="captcha" placeholder="" ng-model="contact.captcha" class="ng-pristine ng-untouched ng-valid">
+                                </div>
                                 <input type="submit" value="გაგზავნა">
                             </form>
                         </div>

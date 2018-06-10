@@ -258,7 +258,7 @@ h5{
           }
         }
         @media (max-width: 575px){
-          width: 320px;
+          width: 100%;
         }
       }
       .user-btn{
@@ -393,7 +393,7 @@ h5{
           }
         }
         @media (max-width: 575px){
-          width: 310px;
+          width: 97%;
         }
       }
       .burger-nav.active{
@@ -5074,4 +5074,24 @@ td.mid-td{
 }
 button.close {
   z-index: 1;
+}
+.captcha-block{
+  @include justify-content(center);
+  @include align-items(center);
+  margin: 15px;
+  background-color: #d9dbdf;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  border-radius: 6px;
+  .contact-captcha{
+    width: 120px;
+  }
+  .captcha-refresh{
+    position: absolute;
+    right: 30px;
+  }
+}
+.balance-error{
+  min-height: 60vh;
 }
