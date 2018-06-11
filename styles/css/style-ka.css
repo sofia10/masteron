@@ -4835,10 +4835,10 @@ body {
   text-shadow: 0 -1px 0 #354c8c;
   font-family: helvetica-roman;
   color: #fff;
-  -webkit-border-radius: 0.2em !important;
-  -moz-border-radius: 0.2em !important;
-  -ms-border-radius: 0.2em !important;
-  border-radius: 0.2em !important; }
+  -webkit-border-radius: .2em !important;
+  -moz-border-radius: .2em !important;
+  -ms-border-radius: .2em !important;
+  border-radius: .2em !important; }
   .loginBtn--facebook:before {
     content: "";
     box-sizing: border-box;
@@ -4869,10 +4869,10 @@ body {
   text-shadow: 0 -1px 0 #db402c;
   font-family: helvetica-roman;
   color: #fff;
-  -webkit-border-radius: 0.2em !important;
-  -moz-border-radius: 0.2em !important;
-  -ms-border-radius: 0.2em !important;
-  border-radius: 0.2em !important; }
+  -webkit-border-radius: .2em !important;
+  -moz-border-radius: .2em !important;
+  -ms-border-radius: .2em !important;
+  border-radius: .2em !important; }
   .loginBtn--google:before {
     content: "";
     box-sizing: border-box;
@@ -5562,7 +5562,7 @@ button.close {
 .balance-error {
   min-height: 45vh; }
 
-li.accordion-text {
+.accordion-content p {
   margin: 15px 30px;
   font-family: "helvetica-roman";
   font-size: 12px;
@@ -5570,3 +5570,8 @@ li.accordion-text {
 
 .accordion-content ul {
   list-style-type: circle; }
+  .accordion-content ul li {
+    margin: 15px 30px;
+    font-family: "helvetica-roman";
+    font-size: 12px;
+    color: #060606; }
