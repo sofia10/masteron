@@ -5093,5 +5093,14 @@ button.close {
   }
 }
 .balance-error{
-  min-height: 60vh;
+  min-height: 45vh;
+}
+li.accordion-text{
+  margin: 15px 30px;
+  @include font-style($primary-font,12px,#060606);
+}
+.accordion-content{
+  ul{
+    list-style-type: circle;
+  }
 }

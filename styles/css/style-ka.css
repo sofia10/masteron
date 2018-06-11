@@ -5560,4 +5560,13 @@ button.close {
     right: 30px; }
 
 .balance-error {
-  min-height: 60vh; }
+  min-height: 45vh; }
+
+li.accordion-text {
+  margin: 15px 30px;
+  font-family: "helvetica-roman";
+  font-size: 12px;
+  color: #060606; }
+
+.accordion-content ul {
+  list-style-type: circle; }
