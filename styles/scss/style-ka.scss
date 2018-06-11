@@ -238,7 +238,7 @@ h5 {
         background-color: #FFF;
         position: fixed;
         z-index: 13;
-        right: -500px;
+        right: -600px;
         top: 0;
         transition: 1.2s;
         overflow: auto;
@@ -5257,4 +5257,13 @@ button.close {
       @include font-style($primary-font, 12px, #060606);
     }
   }
+}
+.fixed-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF;
+}
+.fixed-main{
+  height: 80vh;
 }
