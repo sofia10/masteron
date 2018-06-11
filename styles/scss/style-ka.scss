@@ -5264,4 +5264,13 @@ button.close {
 }
 .fixed-main{
   min-height: 70vh;
+  @media (max-height: 865px){
+    min-height: 65vh;
+  }
+  @media (max-height: 735px){
+    min-height: 60vh;
+  }
+  @media (max-height: 615px){
+    min-height: 55vh;
+  }
 }
