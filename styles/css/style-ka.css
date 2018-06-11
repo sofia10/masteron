@@ -5577,10 +5577,8 @@ button.close {
     color: #060606; }
 
 .fixed-footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: #FFF; }
 
 .fixed-main {
-  height: 80vh; }
+  min-height: 70vh; }
