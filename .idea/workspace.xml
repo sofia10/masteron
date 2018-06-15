@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46fe610b-607d-487e-b134-2c5430ef1259" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/styles/css/style-ka.css" afterPath="$PROJECT_DIR$/styles/css/style-ka.css" />
+      <change beforePath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" afterPath="$PROJECT_DIR$/styles/minCss/style-ka.min.css" />
       <change beforePath="$PROJECT_DIR$/styles/scss/style-ka.scss" afterPath="$PROJECT_DIR$/styles/scss/style-ka.scss" />
-      <change beforePath="$PROJECT_DIR$/user-profile3.html" afterPath="$PROJECT_DIR$/user-profile3.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +19,8 @@
       <file leaf-file-name="style-ka.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="5282" column="17" lean-forward="false" selection-start-line="5282" selection-start-column="17" selection-end-line="5282" selection-end-column="17" />
+            <state relative-caret-position="262">
+              <caret line="2260" column="53" lean-forward="true" selection-start-line="2260" selection-start-column="53" selection-end-line="2260" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -313,12 +315,12 @@
       <workItem from="1528371258483" duration="934000" />
       <workItem from="1528628308263" duration="1688000" />
       <workItem from="1528700646008" duration="4790000" />
-      <workItem from="1529046229374" duration="2746000" />
+      <workItem from="1529046229374" duration="3003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118730000" />
+    <option name="totallyTimeSpent" value="118987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -756,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/scss/style-ka.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="5282" column="17" lean-forward="false" selection-start-line="5282" selection-start-column="17" selection-end-line="5282" selection-end-column="17" />
+        <state relative-caret-position="262">
+          <caret line="2260" column="53" lean-forward="true" selection-start-line="2260" selection-start-column="53" selection-end-line="2260" selection-end-column="53" />
           <folding />
         </state>
       </provider>

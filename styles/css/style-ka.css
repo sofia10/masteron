@@ -1490,7 +1490,7 @@ h5 {
         font-size: 12px !important; } }
   .site__content .politics {
     margin-top: 30px;
-    padding-bottom: 50px; }
+    padding-bottom: 20px; }
     .site__content .politics h6 {
       font-family: "helvetica-bold";
       font-size: 16px;
@@ -2633,7 +2633,7 @@ h5 {
         margin-top: 0; } }
   .site__content .login-block {
     margin-top: 60px;
-    min-height: 350px; }
+    min-height: 320px; }
     .site__content .login-block .login-title {
       font-family: "helvetica-bold";
       font-size: 18px;
