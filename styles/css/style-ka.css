@@ -5596,6 +5596,9 @@ button.close {
 
 .modal-left {
   border-right: 1px solid #e2e2e2; }
+  @media (max-width: 991px) {
+    .modal-left {
+      border: none; } }
 
 .modal-left .pay, .modal-right .pay {
   width: 180px;

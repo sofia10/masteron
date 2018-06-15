@@ -5279,6 +5279,9 @@ button.close {
 }
 .modal-left{
   border-right: 1px solid #e2e2e2;
+  @media (max-width: 991px){
+    border: none;
+  }
 }
 .modal-left, .modal-right{
   .pay{
