@@ -1082,7 +1082,7 @@ h5 {
   }
   .politics {
     margin-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     h6 {
       @include font-style($bold-font, 16px, #060606);
       margin-bottom: 10px;
@@ -2256,7 +2256,7 @@ h5 {
   }
   .login-block {
     margin-top: 60px;
-    min-height: 400px;
+    min-height: 350px;
     .login-title {
       @include font-style($bold-font, 18px, #060606);
     }
