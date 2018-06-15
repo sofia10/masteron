@@ -1277,7 +1277,7 @@
                                     </div>
                                     გადატანა
                                 </a>
-                                <a href="#!" class="btn-block-item">
+                                <a href="#!" class="btn-block-item" data-toggle="modal" data-target=".modal-refresh">
                                     <img src="images/sync.svg" alt="">
                                     განახლება
                                 </a>
@@ -1339,6 +1339,52 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!--განახლების მოდალი-->
+                        <div class="modal fade modal-refresh" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <div class="modal-body">
+                                        <div class="modal-title d-flex align-items-center">
+                                            განახლება
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 modal-left d-flex align-items-center flex-column">
+                                                <p class="modal-text">
+                                                    <span>ავტომატური განახლება </span> -  ამ სერვისის შეძენის შემდეგ
+                                                    თქვენი განცხადება ავტომატურად განახლდება ყოველ 24 საათში
+                                                    ერთხელ თქვენს მიერ მითითებულ დროს.
+                                                </p>
+                                                <p class="modal-text">
+                                                    ამისათვის  გამოსულ ფანჯარაში აირჩიეთ ავტომატურად განახლების
+                                                    დღეების რაოდენობა და განახლების დრო - საათი. შემდეგ დააჭირეთ
+                                                    ღილაკს <span>„ავტ. განახლების შეძენა“. </span> ამით ავტომატური განახლების
+                                                    სერვისი შეძენილია, ხოლო ბალანსიდან ჩამოგეჭრებათ შესაბამისი თანხა.
+                                                </p>
+                                                <p class="modal-text"><span>ავტომატური განახლების ღირებულებაა დღეში 0.15 ლარი.</span></p>
+                                                <a href="#!" class="pay">ავტ. განახლების შეძენა</a>
+                                            </div>
+                                            <div class="col-md-6 modal-right d-flex align-items-center flex-column">
+                                                <p class="modal-text">
+                                                    <span>სტანდარტული განახლება </span> - გამოსულ ფანჯარაში დააჭირეთ
+                                                    ღილაკს „შეძენა“. ამით თქვენი განცხადება/ები განახლებულია,
+                                                    ხოლო ბალანსიდან ჩამოგეჭრებათ შესაბამისი თანხა.
+                                                </p>
+                                                <p class="modal-text"><span>სტანდარტული განახლების ღირებულებაა 0.10 ლარი.</span></p>
+                                                <a href="#!" class="pay">შეძენა</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
                         <div class="table-responsive-lg transaction-table ng-scope" ng-if="applications.length > 0">
                             <table class="table last-table" style="display: inline;" ng-style="{ display: !loading ? 'inline' : 'none' }">
                                 <thead>
@@ -1993,7 +2039,7 @@
                         </div>
                         გადატანა
                     </a>
-                    <a href="#!" class="btn-block-item">
+                    <a href="#!" class="btn-block-item"  data-toggle="modal1">
                         <img src="images/sync.svg" alt="">
                         განახლება
                     </a>

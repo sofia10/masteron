@@ -3026,6 +3026,8 @@ h5 {
         margin-top: 15px;
         text-align: center;
         color: #060606; }
+        .site__content .modal-content .modal-body .modal-text span {
+          font-family: "helvetica-bold"; }
       .site__content .modal-content .modal-body .time {
         margin-top: 20px; }
         .site__content .modal-content .modal-body .time span {
@@ -5591,3 +5593,20 @@ button.close {
   @media (max-height: 615px) {
     .fixed-main {
       min-height: 55vh; } }
+
+.modal-left {
+  border-right: 1px solid #e2e2e2; }
+
+.modal-left .pay, .modal-right .pay {
+  width: 180px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 12px 0 !important; }
