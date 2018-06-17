@@ -5613,3 +5613,11 @@ button.close {
   -webkit-justify-content: center;
   justify-content: center;
   padding: 12px 0 !important; }
+
+@media (max-width: 420px) {
+  .inner-icons.det-icons {
+    -webkit-box-pack: space-between;
+    -moz-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; } }

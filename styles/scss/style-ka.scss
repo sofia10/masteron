@@ -5291,3 +5291,8 @@ button.close {
     padding: 12px 0!important;
   }
 }
+.inner-icons.det-icons{
+  @media (max-width: 420px){
+    @include justify-content(space-between);
+  }
+}
