@@ -4641,7 +4641,7 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
   height: 39px;
   padding: 0 !important;
   span {
-    @include truncate(135px);
+    @include truncate(110px);
     display: block;
     text-align: left;
     padding-left: 10px;
@@ -5295,4 +5295,8 @@ button.close {
   @media (max-width: 420px){
     @include justify-content(space-between);
   }
+}
+.select-icon{
+  width: 15px;
+  margin-left: 8px;
 }
