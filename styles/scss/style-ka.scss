@@ -2645,6 +2645,9 @@ h5 {
           font-family: $bold-font;
         }
       }
+      .refresh-title{
+        font-family: $bold-font;
+      }
       .time {
         margin-top: 20px;
         span {
@@ -4641,6 +4644,7 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
   height: 39px;
   padding: 0 !important;
   span {
+    font-size: 11px;
     @include truncate(110px);
     display: block;
     text-align: left;
@@ -5284,11 +5288,15 @@ button.close {
   }
 }
 .modal-left, .modal-right{
+  position: relative;
+  padding-bottom: 70px;
   .pay{
     width: 180px;
     @include display-flex;
     @include justify-content(center);
     padding: 12px 0!important;
+    position: absolute;
+    bottom: 0px;
   }
 }
 .inner-icons.det-icons{

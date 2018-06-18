@@ -3028,6 +3028,8 @@ h5 {
         color: #060606; }
         .site__content .modal-content .modal-body .modal-text span {
           font-family: "helvetica-bold"; }
+      .site__content .modal-content .modal-body .refresh-title {
+        font-family: "helvetica-bold"; }
       .site__content .modal-content .modal-body .time {
         margin-top: 20px; }
         .site__content .modal-content .modal-body .time span {
@@ -5005,6 +5007,7 @@ body > header > div > div > div.sub-header > form > div:nth-child(4) > button {
   height: 39px;
   padding: 0 !important; }
   body > header > div > div > div.sub-header > form > div:nth-child(4) > button span {
+    font-size: 11px;
     max-width: 110px;
     white-space: nowrap;
     overflow: hidden;
@@ -5600,19 +5603,24 @@ button.close {
     .modal-left {
       border: none; } }
 
-.modal-left .pay, .modal-right .pay {
-  width: 180px;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  padding: 12px 0 !important; }
+.modal-left, .modal-right {
+  position: relative;
+  padding-bottom: 70px; }
+  .modal-left .pay, .modal-right .pay {
+    width: 180px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 12px 0 !important;
+    position: absolute;
+    bottom: 0px; }
 
 @media (max-width: 420px) {
   .inner-icons.det-icons {
