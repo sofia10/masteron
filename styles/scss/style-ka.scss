@@ -5290,6 +5290,9 @@ button.close {
 .modal-left, .modal-right{
   position: relative;
   padding-bottom: 70px;
+  ul{
+    margin-left: 20px;
+  }
   .pay{
     width: 180px;
     @include display-flex;
@@ -5307,4 +5310,15 @@ button.close {
 .select-icon{
   width: 15px;
   margin-left: 8px;
+}
+.subcat-title{
+  padding-left: 8px!important;
+  background-color: #f3f3f3!important;
+  .select-icon{
+    margin-right: 10px;
+  }
+  .text-subcat{
+    display: inline-block;
+    @include truncate(200px);
+  }
 }

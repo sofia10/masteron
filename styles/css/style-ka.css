@@ -5606,6 +5606,8 @@ button.close {
 .modal-left, .modal-right {
   position: relative;
   padding-bottom: 70px; }
+  .modal-left ul, .modal-right ul {
+    margin-left: 20px; }
   .modal-left .pay, .modal-right .pay {
     width: 180px;
     display: -webkit-box;
@@ -5633,3 +5635,15 @@ button.close {
 .select-icon {
   width: 15px;
   margin-left: 8px; }
+
+.subcat-title {
+  padding-left: 8px !important;
+  background-color: #f3f3f3 !important; }
+  .subcat-title .select-icon {
+    margin-right: 10px; }
+  .subcat-title .text-subcat {
+    display: inline-block;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }

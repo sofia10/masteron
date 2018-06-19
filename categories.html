@@ -1263,7 +1263,22 @@
             </div>
             <div class="politics row">
                 <div class="col-xl-3 col-lg-3 politics-menu cattegories-menu hidden-menu">
-                    <h6 class="title-cat">კატეგორიები</h6>
+                    <h6 class="title-cat filters-title">ქვეკატეგორიები</h6>
+                    <div class="vip-filter ng-scope" ng-if="filteredSubCategories.length > 0">
+                        <label class="subcat-title d-flex align-items-center filter-item ng-binding" ng-click="categoryClicked(selectedCategory)">
+                            <img alt="" class="select-icon" src="https://masteron.ge/files/icons/masteron.svg">
+                            <span class="text-subcat"> მშენებლობა - რემონტირემონტირემონტი (15) </span>
+                        </label>
+                        <!-- ngRepeat: i in filteredSubCategories --><label class="filter-item ng-binding ng-scope" ng-repeat="i in filteredSubCategories">არქიტექტურა და დიზაინი (12)
+                        <input type="checkbox" ng-model="search.subCategories[i.id]" ng-checked="search.subCategories[i.id]" class="ng-pristine ng-untouched ng-valid">
+                        <span class="checkmark"></span>
+                    </label><!-- end ngRepeat: i in filteredSubCategories --><label class="filter-item ng-binding ng-scope" ng-repeat="i in filteredSubCategories">აშენება და ლესვა (3)
+                        <input type="checkbox" ng-model="search.subCategories[i.id]" ng-checked="search.subCategories[i.id]" class="ng-pristine ng-untouched ng-valid">
+                        <span class="checkmark"></span>
+                    </label><!-- end ngRepeat: i in filteredSubCategories -->
+                    </div>
+
+                    <h6 class="title-cat filters-title">კატეგორიები</h6>
                     <div class="politics-menu__block hidden-menu d-flex flex-column">
                         <div class="politics-menu__link first header-menu-left cattegories">
                             <img src="images/paintbrush@2x.png" alt="">
