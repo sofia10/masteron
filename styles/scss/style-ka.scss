@@ -5290,9 +5290,6 @@ button.close {
 .modal-left, .modal-right{
   position: relative;
   padding-bottom: 70px;
-  ul{
-    margin-left: 20px;
-  }
   .pay{
     width: 180px;
     @include display-flex;
@@ -5300,6 +5297,11 @@ button.close {
     padding: 12px 0!important;
     position: absolute;
     bottom: 0px;
+  }
+}
+.modal-right{
+  ul{
+    margin-left: 20px;
   }
 }
 .inner-icons.det-icons{
