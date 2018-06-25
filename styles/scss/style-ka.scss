@@ -5332,3 +5332,21 @@ button.close {
    }
  }
 }
+#videoModal{
+  .close{
+    opacity: 1;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border: 1px solid #FFF;
+      @include border-radius(50%);
+    }
+    @media (max-width: 767px){
+      display: none;
+    }
+  }
+}

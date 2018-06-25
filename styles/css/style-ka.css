@@ -5652,3 +5652,21 @@ button.close {
 .item-details-slider .close span {
   right: -25px !important;
   color: #FFF; }
+
+#videoModal .close {
+  opacity: 1;
+  position: absolute;
+  right: 30px;
+  top: 20px; }
+  #videoModal .close span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FFF;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    border-radius: 50% !important; }
+  @media (max-width: 767px) {
+    #videoModal .close {
+      display: none; } }
