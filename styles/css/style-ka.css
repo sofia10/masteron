@@ -1660,7 +1660,7 @@ h5 {
           font-size: 18px;
           position: absolute;
           top: 15px;
-          left: 15px; } }
+          right: 15px; } }
     .site__content .politics .politics-menu .navigation-filter {
       right: 0;
       transition: 1.2s; }
@@ -5648,3 +5648,7 @@ button.close {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; }
+
+.item-details-slider .close span {
+  right: -25px !important;
+  color: #FFF; }

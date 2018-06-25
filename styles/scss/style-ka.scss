@@ -1261,7 +1261,7 @@ h5 {
             font-size: 18px;
             position: absolute;
             top: 15px;
-            left: 15px;
+            right: 15px;
           }
         }
       }
@@ -5323,4 +5323,12 @@ button.close {
     display: inline-block;
     @include truncate(200px);
   }
+}
+.item-details-slider{
+ .close{
+   span{
+     right: -25px!important;
+     color: #FFF;
+   }
+ }
 }
