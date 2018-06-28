@@ -13,6 +13,7 @@ $('.burger-bg').click(function (){
 $('.red-button').click(function(){
     $('.filters').removeClass('navigation-filter');
     $('.burger-bg').fadeOut();
+    $( "body" ).css( "overflow-y", "auto" );
 });
 
 $('.filters-btn').click(function (){
