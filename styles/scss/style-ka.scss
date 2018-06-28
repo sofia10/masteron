@@ -5355,11 +5355,17 @@ button.close {
   padding: 12px 22px;
   margin-top: 10px;
   @include border-radius(6px);
-  border: 1px solid #CCCCCC;
-  background-color: #CCCCCC;
-  @include font-style($bold-font,12px,#FFF);
+  border: 1px solid $yellow;
+  background-color: $yellow;
+  @include font-style($bold-font,12px,#000);
   &:hover{
+    border: 1px solid #e2e2e2;
     background-color: #FFF!important;
-    color: #888!important;
+    color: #000;
+  }
+}
+.filters-buttons{
+  input[type=submit], .clear-filter{
+    width: 48%;
   }
 }
