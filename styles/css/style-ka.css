@@ -1650,7 +1650,7 @@ h5 {
         position: fixed;
         top: 0;
         right: -120%;
-        width: 300px;
+        width: 320px;
         z-index: 3;
         padding: 20px 30px;
         transition: 1.2s; }
@@ -1764,7 +1764,7 @@ h5 {
     .site__content .politics .politics-menu input[type=submit] {
       cursor: pointer;
       background-color: #EC1C24;
-      padding: 13px 25px;
+      padding: 12px 22px;
       margin-top: 10px;
       border: 1px solid #EC1C24;
       -webkit-border-radius: 6px !important;
@@ -5670,3 +5670,20 @@ button.close {
   @media (max-width: 767px) {
     #videoModal .close {
       display: none; } }
+
+.clear-filter {
+  cursor: pointer;
+  padding: 12px 22px;
+  margin-top: 10px;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  -ms-border-radius: 6px !important;
+  border-radius: 6px !important;
+  border: 1px solid #CCCCCC;
+  background-color: #CCCCCC;
+  font-family: "helvetica-bold";
+  font-size: 12px;
+  color: #FFF; }
+  .clear-filter:hover {
+    background-color: #FFF !important;
+    color: #888 !important; }

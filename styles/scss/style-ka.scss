@@ -1251,7 +1251,7 @@ h5 {
           position: fixed;
           top: 0;
           right: -120%;
-          width: 300px;
+          width: 320px;
           z-index: 3;
           padding: 20px 30px;
           transition: 1.2s;
@@ -1360,7 +1360,7 @@ h5 {
       input[type=submit] {
         cursor: pointer;
         background-color: $red;
-        padding: 13px 25px;
+        padding: 12px 22px;
         margin-top: 10px;
         border: 1px solid $red;
         @include border-radius(6px);
@@ -5348,5 +5348,18 @@ button.close {
     @media (max-width: 767px){
       display: none;
     }
+  }
+}
+.clear-filter{
+  cursor: pointer;
+  padding: 12px 22px;
+  margin-top: 10px;
+  @include border-radius(6px);
+  border: 1px solid #CCCCCC;
+  background-color: #CCCCCC;
+  @include font-style($bold-font,12px,#FFF);
+  &:hover{
+    background-color: #FFF!important;
+    color: #888!important;
   }
 }
