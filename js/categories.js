@@ -15,6 +15,11 @@ $('.red-button').click(function(){
     $('.burger-bg').fadeOut();
     $( "body" ).css( "overflow-y", "auto" );
 });
+$('.clear-filter').click(function(){
+    $('.filters').removeClass('navigation-filter');
+    $('.burger-bg').fadeOut();
+    $( "body" ).css( "overflow-y", "auto" );
+});
 
 $('.filters-btn').click(function (){
     $( "body" ).css( "overflow-y", "hidden" );
