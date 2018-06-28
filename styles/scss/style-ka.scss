@@ -5358,6 +5358,9 @@ button.close {
   border: 1px solid $yellow;
   background-color: $yellow;
   @include font-style($bold-font,12px,#000);
+  @include display-flex;
+  @include align-items(center);
+  @include justify-content(center);
   &:hover{
     border: 1px solid #e2e2e2;
     background-color: #FFF!important;
