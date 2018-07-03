@@ -2002,6 +2002,8 @@ h5 {
                 height: 100%;
                 position: absolute;
                 top: 0;
+                @include border-radius(10px);
+                overflow: hidden;
               }
               .s-vip_catgr {
                 position: absolute !important;
