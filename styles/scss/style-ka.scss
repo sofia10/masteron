@@ -5307,7 +5307,7 @@ button.close {
   }
 }
 .inner-icons.det-icons{
-  @media (max-width: 420px){
+  @media (max-width: 767px){
     @include justify-content(space-between);
   }
 }

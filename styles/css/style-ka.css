@@ -5630,7 +5630,7 @@ button.close {
 .modal-right ul {
   margin-left: 20px; }
 
-@media (max-width: 420px) {
+@media (max-width: 767px) {
   .inner-icons.det-icons {
     -webkit-box-pack: space-between;
     -moz-box-pack: space-between;
