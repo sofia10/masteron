@@ -5377,12 +5377,17 @@ button.close {
 
 .search-list-item{
   .search-desc{
-    padding-bottom: 30px;
+    //padding-bottom: 30px;
   }
   .rating-block{
     @media (max-width: 575px){
-      position: absolute;
-      bottom: 0;
+      margin-left: 10px;
+      .rating-results{
+        margin-right: 10px;
+      }
+      .rating-txt{
+        font-size: 11px;
+      }
     }
   }
 }
@@ -5422,5 +5427,10 @@ button.close {
   .share-btn{
     position: absolute;
     right: 0;
+  }
+}
+.price-rate{
+  .rating-block{
+    margin-top: 0;
   }
 }

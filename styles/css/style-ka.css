@@ -5712,13 +5712,13 @@ button.close {
 .filters-buttons input[type=submit], .filters-buttons .clear-filter {
   width: 48%; }
 
-.search-list-item .search-desc {
-  padding-bottom: 30px; }
-
 @media (max-width: 575px) {
   .search-list-item .rating-block {
-    position: absolute;
-    bottom: 0; } }
+    margin-left: 10px; }
+    .search-list-item .rating-block .rating-results {
+      margin-right: 10px; }
+    .search-list-item .rating-block .rating-txt {
+      font-size: 11px; } }
 
 .rating-results {
   font-size: 0; }
@@ -5751,3 +5751,6 @@ button.close {
 .content-title .details-title .share-btn {
   position: absolute;
   right: 0; }
+
+.price-rate .rating-block {
+  margin-top: 0; }
