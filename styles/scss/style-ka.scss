@@ -5374,3 +5374,53 @@ button.close {
     width: 48%;
   }
 }
+
+.search-list-item{
+  .search-desc{
+    padding-bottom: 30px;
+  }
+  .rating-block{
+    @media (max-width: 575px){
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+.rating-results {
+  font-size: 0;
+  //padding-bottom: 16px;
+}
+.rating-results-content {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  background: url('../../images/new.png') 0 0 repeat-x;
+  width: 78px;
+  height: 18px;
+}
+.rating-results .rating-results-content span.rating-stars span {
+  background: url('../../images/new.png') 0 -18px repeat-x;
+  display: inline-block;
+  height: 18px;
+}
+
+.rating-block{
+  margin-top: 20px;
+  .rating-results{
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .rating-txt{
+    @include font-style($bold-font,10px,#060606);
+    span{
+      color: $red;
+    }
+  }
+}
+.content-title .details-title{
+  .share-btn{
+    position: absolute;
+    right: 0;
+  }
+}

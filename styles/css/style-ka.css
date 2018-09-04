@@ -5711,3 +5711,43 @@ button.close {
 
 .filters-buttons input[type=submit], .filters-buttons .clear-filter {
   width: 48%; }
+
+.search-list-item .search-desc {
+  padding-bottom: 30px; }
+
+@media (max-width: 575px) {
+  .search-list-item .rating-block {
+    position: absolute;
+    bottom: 0; } }
+
+.rating-results {
+  font-size: 0; }
+
+.rating-results-content {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  background: url("../../images/new.png") 0 0 repeat-x;
+  width: 78px;
+  height: 18px; }
+
+.rating-results .rating-results-content span.rating-stars span {
+  background: url("../../images/new.png") 0 -18px repeat-x;
+  display: inline-block;
+  height: 18px; }
+
+.rating-block {
+  margin-top: 20px; }
+  .rating-block .rating-results {
+    margin-left: 10px;
+    margin-right: 20px; }
+  .rating-block .rating-txt {
+    font-family: "helvetica-bold";
+    font-size: 10px;
+    color: #060606; }
+    .rating-block .rating-txt span {
+      color: #EC1C24; }
+
+.content-title .details-title .share-btn {
+  position: absolute;
+  right: 0; }
