@@ -1854,7 +1854,7 @@ h5 {
             }
             .item-price {
               @include font-style($bold-font, 14px, $red);
-              margin: 15px 0;
+              margin: 5px 0;
             }
             .search-list-desc {
               color: #555555;
@@ -1863,9 +1863,9 @@ h5 {
               line-height: 16px;
             }
             .search-list-info {
-              //position: absolute;
-              //width: 95%;
-              //bottom: 0;
+              position: absolute;
+              width: 95%;
+              bottom: 0;
               .search-list-info__item {
                 img {
                   width: 12px;
