@@ -2252,33 +2252,29 @@ h5 {
           max-height: 50px;
           overflow: hidden;
           line-height: 16px; }
-        .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
-          position: absolute;
-          width: 95%;
-          bottom: 0; }
-          .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item img {
-            width: 12px;
-            height: 12px; }
-          .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item i {
-            color: #B5B5B5; }
-          .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item .search-list-text {
-            color: #555555;
-            margin-left: 7px; }
-          @media (max-width: 480px) {
-            .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
-              flex-wrap: wrap; }
-              .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item {
-                padding: 5px 0;
-                width: 50%;
-                -webkit-box-pack: center;
-                -moz-box-pack: center;
-                -ms-flex-pack: center;
-                -webkit-justify-content: center;
-                justify-content: center; } }
-          @media (max-width: 767px) {
-            .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
-              position: relative;
-              margin-top: 10px; } }
+        .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item img {
+          width: 12px;
+          height: 12px; }
+        .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item i {
+          color: #B5B5B5; }
+        .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item .search-list-text {
+          color: #555555;
+          margin-left: 7px; }
+        @media (max-width: 480px) {
+          .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
+            flex-wrap: wrap; }
+            .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info .search-list-info__item {
+              padding: 5px 0;
+              width: 50%;
+              -webkit-box-pack: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center; } }
+        @media (max-width: 767px) {
+          .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc .search-list-info {
+            position: relative;
+            margin-top: 10px; } }
         @media (max-width: 480px) {
           .site__content .politics .politicts-content .search-list-block .search-list-item .search-desc {
             display: -webkit-box;
