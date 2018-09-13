@@ -5419,16 +5419,17 @@ button.close {
   .rating-txt{
     @include font-style($bold-font,10px,#060606);
     span{
+      margin-right: 3px;
       color: $red;
     }
   }
 }
-.content-title .details-title{
-  .share-btn{
-    position: absolute;
-    right: 0;
-  }
+
+.site__content .politics .politicts-content .content-title .share-btn{
+  position: absolute;
+  right: 0;
 }
+
 .price-rate{
   .rating-block{
     margin-top: 0;

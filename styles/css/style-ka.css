@@ -5746,9 +5746,10 @@ button.close {
     font-size: 10px;
     color: #060606; }
     .rating-block .rating-txt span {
+      margin-right: 3px;
       color: #EC1C24; }
 
-.content-title .details-title .share-btn {
+.site__content .politics .politicts-content .content-title .share-btn {
   position: absolute;
   right: 0; }
 
