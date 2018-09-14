@@ -1790,7 +1790,7 @@ h5 {
     .site__content .politics .cattegories-menu .cattegories {
       cursor: pointer;
       position: relative;
-      padding: 15px 20px !important; }
+      padding: 10px 20px !important; }
       .site__content .politics .cattegories-menu .cattegories img {
         width: 15px;
         margin-right: 10px; }
@@ -5755,3 +5755,15 @@ button.close {
 
 .price-rate .rating-block {
   margin-top: 0; }
+
+.details-rating-block .rating-results {
+  margin-top: 10px;
+  margin-left: 0; }
+  .details-rating-block .rating-results .rating-results-content {
+    background: url("../../images/new-lg.png") repeat-x;
+    width: 135px;
+    height: 30px; }
+  .details-rating-block .rating-results .rating-results-content span.rating-stars span {
+    background: url("../../images/new-lg.png") 0 -31px repeat-x;
+    display: inline-block;
+    height: 30px; }

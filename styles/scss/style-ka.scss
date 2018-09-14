@@ -1388,7 +1388,7 @@ h5 {
       .cattegories {
         cursor: pointer;
         position: relative;
-        padding: 15px 20px !important;
+        padding: 10px 20px !important;
         img {
           width: 15px;
           margin-right: 10px;
@@ -5433,5 +5433,21 @@ button.close {
 .price-rate{
   .rating-block{
     margin-top: 0;
+  }
+}
+.details-rating-block{
+  .rating-results{
+    margin-top: 10px;
+    margin-left: 0;
+    .rating-results-content{
+      background: url("../../images/new-lg.png") repeat-x;
+      width: 135px;
+      height: 30px;
+    }
+    .rating-results-content span.rating-stars span {
+      background: url('../../images/new-lg.png') 0 -31px repeat-x;
+      display: inline-block;
+      height: 30px;
+    }
   }
 }
