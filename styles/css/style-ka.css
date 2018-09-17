@@ -1821,7 +1821,8 @@ h5 {
           -webkit-border-radius: 10px !important;
           -moz-border-radius: 10px !important;
           -ms-border-radius: 10px !important;
-          border-radius: 10px !important; }
+          border-radius: 10px !important;
+          display: flex; }
           .site__content .politics .cattegories-menu .cattegories .dropdown-item_menu .dropdown-item_list .dropdown-item_link {
             float: left;
             width: 250px;

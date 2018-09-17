@@ -1417,6 +1417,7 @@ h5 {
             border: 2px solid #b5b5b5;
             @include border-shadow;
             @include border-radius(10px);
+            display: flex;
             .dropdown-item_link {
               float: left;
               width: 250px;
