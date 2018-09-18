@@ -5441,14 +5441,15 @@ button.close {
     margin-top: 10px;
     margin-left: 0;
     .rating-results-content{
+      overflow: hidden;
       background: url("../../images/new-lg.png") repeat-x;
-      width: 135px;
-      height: 30px;
+      width: 115px;
+      height: 24px;
     }
     .rating-results-content span.rating-stars span {
-      background: url('../../images/new-lg.png') 0 -31px repeat-x;
+      background: url('../../images/new-lg.png') 0 -25px repeat-x;
       display: inline-block;
-      height: 30px;
+      height: 24px;
     }
   }
 }

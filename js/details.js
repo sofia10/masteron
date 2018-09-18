@@ -96,7 +96,7 @@ $('#videoModal').on('hide.bs.modal', function(e) {
 $.fn.stars = function() {
     return this.each(function() {
         var val = parseFloat($(this).html());
-        var size = Math.max(0, (Math.min(5, val))) * 27;
+        var size = Math.max(0, (Math.min(5, val))) * 23;
         var $span = $('<span> </span>').width(size);
         $(this).empty().append($span);
     });
