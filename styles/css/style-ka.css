@@ -5769,3 +5769,6 @@ button.close {
     background: url("../../images/new-lg.png") 0 -25px repeat-x;
     display: inline-block;
     height: 24px; }
+
+.details-rating-block .rating-txt {
+  font-size: 12px; }
