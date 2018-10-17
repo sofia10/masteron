@@ -1083,7 +1083,7 @@ h5 {
   .politics {
     margin-top: 30px;
     padding-bottom: 20px;
-    h6 {
+    h6,h1 {
       @include font-style($bold-font, 16px, #060606);
       margin-bottom: 10px;
       @media (max-width: 480px) {
@@ -1684,7 +1684,7 @@ h5 {
       .content-title {
         flex-wrap: wrap;
         .content-title-link {
-          h6 {
+          h6,h1 {
             margin-bottom: 0;
           }
           &:hover {
@@ -5036,13 +5036,13 @@ a.user-btn.login-user i {
       display: none;
     }
     .content-title-link {
-      h6 {
+      h6,h1 {
         font-size: 14px;
       }
     }
     .content-title-link:nth-child(3) {
       margin-top: 10px;
-      h6 {
+      h6,h1 {
         font-size: 16px;
       }
     }
@@ -5456,3 +5456,16 @@ button.close {
     font-size: 12px;
   }
 }
+
+.page-title{
+  @include font-style($bold-font, 16px, #060606);
+  margin-bottom: 10px;
+  @media (max-width: 480px) {
+    font-size: 15px;
+  }
+}
+//.cattegories-title{
+//  font-family: helvetica-bold;
+//  font-size: 16px;
+//  color: #060606;
+//}
