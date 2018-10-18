@@ -1499,6 +1499,14 @@ h5 {
       @media (max-width: 480px) {
         .site__content .politics h6, .site__content .politics h1 {
           font-size: 15px; } }
+    .site__content .politics h2 {
+      font-family: "helvetica-bold";
+      font-size: 16px;
+      color: #060606;
+      margin-bottom: 10px; }
+      @media (max-width: 480px) {
+        .site__content .politics h2 {
+          font-size: 15px; } }
     .site__content .politics .politics-menu .politics-menu__block {
       border: 2px solid #B5B5B5;
       -webkit-border-radius: 10px !important;
@@ -2088,7 +2096,7 @@ h5 {
       -webkit-transform: rotate(0deg); }
     .site__content .politics .politicts-content .content-title {
       flex-wrap: wrap; }
-      .site__content .politics .politicts-content .content-title .content-title-link h6, .site__content .politics .politicts-content .content-title .content-title-link h1 {
+      .site__content .politics .politicts-content .content-title .content-title-link h6, .site__content .politics .politicts-content .content-title .content-title-link h1, .site__content .politics .politicts-content .content-title .content-title-link h2 {
         margin-bottom: 0; }
       .site__content .politics .politicts-content .content-title .content-title-link:hover h6 {
         opacity: 0.7; }
@@ -5405,11 +5413,11 @@ a.user-btn.login-user i {
     flex-direction: column !important; }
     .details-title > div i {
       display: none; }
-    .details-title > div .content-title-link h6, .details-title > div .content-title-link h1 {
+    .details-title > div .content-title-link h6, .details-title > div .content-title-link h1, .details-title > div .content-title-link h2 {
       font-size: 14px; }
     .details-title > div .content-title-link:nth-child(3) {
       margin-top: 10px; }
-      .details-title > div .content-title-link:nth-child(3) h6, .details-title > div .content-title-link:nth-child(3) h1 {
+      .details-title > div .content-title-link:nth-child(3) h6, .details-title > div .content-title-link:nth-child(3) h1, .details-title > div .content-title-link:nth-child(3) h2 {
         font-size: 16px; } }
 
 .header-search .flags .flags-l {
